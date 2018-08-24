@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Analytics", "Analytics\Analytics.pyproj", "{7772FFAC-24DF-41DF-A01A-B3E0A2027ED9}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Plotting", "Plotting\Plotting.pyproj", "{6E740615-0AC6-454C-852F-EFAF7323E344}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Testing", "Testing\Testing.pyproj", "{489E739D-BDA3-487A-BFD5-037C99635074}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Utilities", "Utilities\Utilities.pyproj", "{D4140672-089F-4506-B430-20BE00ACA796}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Graph_Routines", "Graph_Routines\Graph_Routines.pyproj", "{ECCBC1D4-4AA1-4F13-A17A-2B723B459CF4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Mashes", "Mashes\Mashes.pyproj", "{1E532D4C-7D2B-4E7D-8953-2C03282127D6}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NeuroCore", "NeuroCore\NeuroCore.pyproj", "{133287CA-22C7-414C-A999-C328C0E9702B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7772FFAC-24DF-41DF-A01A-B3E0A2027ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7772FFAC-24DF-41DF-A01A-B3E0A2027ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E740615-0AC6-454C-852F-EFAF7323E344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E740615-0AC6-454C-852F-EFAF7323E344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489E739D-BDA3-487A-BFD5-037C99635074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489E739D-BDA3-487A-BFD5-037C99635074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4140672-089F-4506-B430-20BE00ACA796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4140672-089F-4506-B430-20BE00ACA796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCBC1D4-4AA1-4F13-A17A-2B723B459CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCBC1D4-4AA1-4F13-A17A-2B723B459CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E532D4C-7D2B-4E7D-8953-2C03282127D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E532D4C-7D2B-4E7D-8953-2C03282127D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133287CA-22C7-414C-A999-C328C0E9702B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133287CA-22C7-414C-A999-C328C0E9702B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CD3699A-6EC4-40ED-AE61-14D34B208416}
+	EndGlobalSection
+EndGlobal

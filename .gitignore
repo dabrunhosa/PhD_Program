@@ -99,3 +99,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+/.vs/PhD_Programs/v15/ipch/AutoPCH
+/NeuroCore/StationaryWithFont.jpg
+/NeuroCore/StationaryNoFont.jpg
+/NeuroCore/approxResult.mp4
+/NeuroCore/analyResult.mp4
+/resphh2.m
+/hh2.m
+/hhpde

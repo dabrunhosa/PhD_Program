@@ -1,0 +1,90 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>7772ffac-24df-41df-a01a-b3e0a2027ed9</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Testing\transient.py</StartupFile>
+    <SearchPath>..\NeuroCore;..\Utilities;..\Plotting;..\..\PhD_Programs</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Analytics</Name>
+    <RootNamespace>Analytics</RootNamespace>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Analyser\Base.py" />
+    <Compile Include="Analyser\__init__.py" />
+    <Compile Include="Analytics.py" />
+    <Compile Include="Base.py" />
+    <Compile Include="FEniCS_Ex\IProblem.py" />
+    <Compile Include="FEniCS_Ex\Stationary.py" />
+    <Compile Include="FEniCS_Ex\Transient.py" />
+    <Compile Include="FEniCS_Ex\__init__.py" />
+    <Compile Include="Protocols\Base.py" />
+    <Compile Include="Protocols\BaseData.py" />
+    <Compile Include="Protocols\Conventions.py" />
+    <Compile Include="Protocols\__init__.py" />
+    <Compile Include="Solutions\ISolution.py" />
+    <Compile Include="Solutions\Stationary.py" />
+    <Compile Include="Solutions\Transient.py" />
+    <Compile Include="Solutions\__init__.py" />
+    <Compile Include="Testing\stationaryAnalyser.py" />
+    <Compile Include="Testing\stationaryNoFont.py" />
+    <Compile Include="Testing\stationaryWithFont.py" />
+    <Compile Include="Testing\transient.py" />
+    <Compile Include="Testing\__init__.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Analyser\" />
+    <Folder Include="FEniCS_Ex\" />
+    <Folder Include="Protocols\" />
+    <Folder Include="Solutions\" />
+    <Folder Include="Solutions\__pycache__\" />
+    <Folder Include="Testing\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Solutions\__pycache__\ISolution.cpython-36.pyc" />
+    <Content Include="Solutions\__pycache__\Stationary.cpython-36.pyc" />
+    <Content Include="Solutions\__pycache__\Transient.cpython-36.pyc" />
+    <Content Include="Solutions\__pycache__\__init__.cpython-36.pyc" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NeuroCore\NeuroCore.pyproj">
+      <Name>NeuroCore</Name>
+      <Project>{133287ca-22c7-414c-a999-c328c0e9702b}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Plotting\Plotting.pyproj">
+      <Name>Plotting</Name>
+      <Project>{6e740615-0ac6-454c-852f-efaf7323e344}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.pyproj">
+      <Name>Utilities</Name>
+      <Project>{d4140672-089f-4506-b430-20be00aca796}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

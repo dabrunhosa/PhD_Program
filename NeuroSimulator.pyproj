@@ -1,0 +1,80 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>68da0f19-dc7d-4026-9cd5-33eb79732e4c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Graph Routines\test.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>NeuroSimulator</Name>
+    <RootNamespace>NeuroSimulator</RootNamespace>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda27-64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Abstract_Regions.py" />
+    <Compile Include="Approximations.py" />
+    <Compile Include="CompMeshes.py" />
+    <Compile Include="Conditions.py" />
+    <Compile Include="Elements.py" />
+    <Compile Include="Equations.py" />
+    <Compile Include="Equation_Terms.py" />
+    <Compile Include="GeoMeshes.py" />
+    <Compile Include="Graph Routines\CA1_Whole_Mapping.py" />
+    <Compile Include="Graph Routines\drawIn3D.py" />
+    <Compile Include="Graph Routines\main.py" />
+    <Compile Include="Graph Routines\MultiSynapse_Program.py" />
+    <Compile Include="Graph Routines\NeuropilSplitter.py" />
+    <Compile Include="Graph Routines\Neuropil_Synapse.py" />
+    <Compile Include="Graph Routines\Neuropil_Util.py" />
+    <Compile Include="Graph Routines\same_file.py" />
+    <Compile Include="Graph Routines\test.py" />
+    <Compile Include="Graph Routines\tools.py" />
+    <Compile Include="Graph Routines\__init__.py" />
+    <Compile Include="Interface\module1.py" />
+    <Compile Include="Models.py" />
+    <Compile Include="NeuroSimulator.py" />
+    <Compile Include="Numerical_Integrations.py" />
+    <Compile Include="ODESolver.py" />
+    <Compile Include="Regions.py" />
+    <Compile Include="Segments.py" />
+    <Compile Include="Test_Code_Cable.py" />
+    <Compile Include="Test_Code_HH.py" />
+    <Compile Include="Test_Code_HH_bkp.py" />
+    <Compile Include="Utils.py" />
+    <Compile Include="Weight_Functions.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda27-64" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Graph Routines\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Graph Routines\all_process_connections.txt" />
+    <Content Include="Interface\pong.kv" />
+    <Content Include="neurosimulator.nja" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

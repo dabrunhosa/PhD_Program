@@ -1,0 +1,238 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>133287ca-22c7-414c-a999-c328c0e9702b</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Testing\HH.py</StartupFile>
+    <SearchPath>..\Utilities;..\Plotting;..\..\PhD_Programs;..\Analytics</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>NeuroCore</Name>
+    <RootNamespace>NeuroCore</RootNamespace>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Approximations\Space\FEM\Base.py" />
+    <Compile Include="Approximations\Space\FEM\Elements\IElement.py" />
+    <Compile Include="Approximations\Space\FEM\Elements\IElements.py" />
+    <Compile Include="Approximations\Space\FEM\Elements\__init__.py" />
+    <Compile Include="Approximations\Space\FEM\GalerkinApproximation.py" />
+    <Compile Include="Approximations\Space\FEM\Integration\Base.py" />
+    <Compile Include="Approximations\Space\FEM\Integration\Gaussian.py" />
+    <Compile Include="Approximations\Space\FEM\Integration\Trapezoidal.py" />
+    <Compile Include="Approximations\Space\FEM\Integration\__init__.py" />
+    <Compile Include="Approximations\Space\FEM\Weight_Function\Base.py" />
+    <Compile Include="Approximations\Space\FEM\Weight_Function\Lagrange.py" />
+    <Compile Include="Approximations\Space\FEM\Weight_Function\LinearLagrange.py" />
+    <Compile Include="Approximations\Space\FEM\Weight_Function\__init__.py" />
+    <Compile Include="Approximations\Space\FEM\__init__.py" />
+    <Compile Include="Approximations\Space\IApproximation.py" />
+    <Compile Include="Approximations\Space\__init__.py" />
+    <Compile Include="Approximations\Time\BackwardEuler.py" />
+    <Compile Include="Approximations\Time\Base.py" />
+    <Compile Include="Approximations\Time\CoupledHH.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Approximations\Time\__init__.py" />
+    <Compile Include="Approximations\__init__.py" />
+    <Compile Include="Equations\Coefficient\Base.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Equations\Coefficient\Conventions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Equations\Coefficient\Discrete.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Equations\Coefficient\NonLinear.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Equations\Coefficient\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Equations\Component\Base.py" />
+    <Compile Include="Equations\Component\FEM\Base.py" />
+    <Compile Include="Equations\Component\FEM\Galerkin\Diffusion.py" />
+    <Compile Include="Equations\Component\FEM\Galerkin\Discrete.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Equations\Component\FEM\Galerkin\Font.py" />
+    <Compile Include="Equations\Component\FEM\Galerkin\Previous.py" />
+    <Compile Include="Equations\Component\FEM\Galerkin\Reaction.py" />
+    <Compile Include="Equations\Component\FEM\Galerkin\__init__.py" />
+    <Compile Include="Equations\Component\FEM\__init__.py" />
+    <Compile Include="Equations\Component\__init__.py" />
+    <Compile Include="Equations\Composite\Base.py" />
+    <Compile Include="Equations\Composite\FEM.py" />
+    <Compile Include="Equations\Composite\__init__.py" />
+    <Compile Include="Equations\Conventions.py" />
+    <Compile Include="Equations\IEquation.py" />
+    <Compile Include="Equations\__init__.py" />
+    <Compile Include="Models\Base.py" />
+    <Compile Include="Models\CableModel.py" />
+    <Compile Include="Models\Conditions\Base.py" />
+    <Compile Include="Models\Conditions\BCs.py" />
+    <Compile Include="Models\Conditions\Conventions.py" />
+    <Compile Include="Models\Conditions\Dirichlets.py" />
+    <Compile Include="Models\Conditions\Neumanns.py" />
+    <Compile Include="Models\Conditions\__init__.py" />
+    <Compile Include="Models\Conventions.py" />
+    <Compile Include="Models\HHModel.py" />
+    <Compile Include="Models\__init__.py" />
+    <Compile Include="Neuron\INeuron.py" />
+    <Compile Include="Neuron\NetXNeuron.py" />
+    <Compile Include="Neuron\Segment\Base.py" />
+    <Compile Include="Neuron\Segment\__init__.py" />
+    <Compile Include="Neuron\__init__.py" />
+    <Compile Include="Simulation\Data\FEMData.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Simulation\DomainDecomposition.py" />
+    <Compile Include="Simulation\ICore.py" />
+    <Compile Include="Simulation\Data\IData.py" />
+    <Compile Include="Simulation\__init__.py" />
+    <Compile Include="Testing\HH.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Testing\stationaryNoFont.py" />
+    <Compile Include="Testing\stationaryWithFont.py" />
+    <Compile Include="Testing\transient.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Approximations\" />
+    <Folder Include="Approximations\Space\" />
+    <Folder Include="Approximations\Space\FEM\" />
+    <Folder Include="Approximations\Space\FEM\Elements\" />
+    <Folder Include="Approximations\Space\FEM\Elements\__pycache__\" />
+    <Folder Include="Approximations\Space\FEM\Integration\" />
+    <Folder Include="Approximations\Space\FEM\Integration\__pycache__\" />
+    <Folder Include="Approximations\Space\FEM\Weight_Function\" />
+    <Folder Include="Approximations\Space\FEM\Weight_Function\__pycache__\" />
+    <Folder Include="Approximations\Space\FEM\__pycache__\" />
+    <Folder Include="Approximations\Space\__pycache__\" />
+    <Folder Include="Approximations\Time\" />
+    <Folder Include="Approximations\Time\__pycache__\" />
+    <Folder Include="Approximations\__pycache__\" />
+    <Folder Include="Equations\" />
+    <Folder Include="Equations\Component\" />
+    <Folder Include="Equations\Component\FEM\" />
+    <Folder Include="Equations\Component\FEM\Galerkin\" />
+    <Folder Include="Equations\Component\FEM\Galerkin\__pycache__\" />
+    <Folder Include="Equations\Component\FEM\__pycache__\" />
+    <Folder Include="Equations\Component\__pycache__\" />
+    <Folder Include="Equations\Composite\" />
+    <Folder Include="Equations\Composite\__pycache__\" />
+    <Folder Include="Equations\Coefficient\" />
+    <Folder Include="Equations\__pycache__\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\Conditions\" />
+    <Folder Include="Models\Conditions\__pycache__\" />
+    <Folder Include="Models\__pycache__\" />
+    <Folder Include="Neuron\" />
+    <Folder Include="Neuron\Segment\" />
+    <Folder Include="Neuron\Segment\__pycache__\" />
+    <Folder Include="Neuron\__pycache__\" />
+    <Folder Include="Simulation\Data\" />
+    <Folder Include="Testing\" />
+    <Folder Include="Simulation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Approximations\Space\FEM\Elements\__pycache__\IElement.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\Elements\__pycache__\IElements.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\Elements\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\Integration\__pycache__\Base.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\Integration\__pycache__\Gaussian.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\Integration\__pycache__\IIntegration.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\Integration\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\Weight_Function\__pycache__\Base.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\Weight_Function\__pycache__\IWeight_Function.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\Weight_Function\__pycache__\Lagrange.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\Weight_Function\__pycache__\LinearLagrange.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\Weight_Function\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\__pycache__\Base.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\__pycache__\FEM_Approximation.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\__pycache__\GalerkinApproximation.cpython-36.pyc" />
+    <Content Include="Approximations\Space\FEM\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Approximations\Space\__pycache__\IApproximation.cpython-36.pyc" />
+    <Content Include="Approximations\Space\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Approximations\Time\__pycache__\BackwardEuler.cpython-36.pyc" />
+    <Content Include="Approximations\Time\__pycache__\Base.cpython-36.pyc" />
+    <Content Include="Approximations\Time\__pycache__\IApproximation.cpython-36.pyc" />
+    <Content Include="Approximations\Time\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Approximations\__init__.pyc" />
+    <Content Include="Approximations\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Equations\Component\FEM\Galerkin\__pycache__\Diffusion.cpython-36.pyc" />
+    <Content Include="Equations\Component\FEM\Galerkin\__pycache__\Font.cpython-36.pyc" />
+    <Content Include="Equations\Component\FEM\Galerkin\__pycache__\Previous.cpython-36.pyc" />
+    <Content Include="Equations\Component\FEM\Galerkin\__pycache__\Reaction.cpython-36.pyc" />
+    <Content Include="Equations\Component\FEM\Galerkin\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Equations\Component\FEM\__pycache__\Base.cpython-36.pyc" />
+    <Content Include="Equations\Component\FEM\__pycache__\FEM.cpython-36.pyc" />
+    <Content Include="Equations\Component\FEM\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Equations\Component\__pycache__\Base.cpython-36.pyc" />
+    <Content Include="Equations\Component\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Equations\Composite\__pycache__\Base.cpython-36.pyc" />
+    <Content Include="Equations\Composite\__pycache__\FEM.cpython-36.pyc" />
+    <Content Include="Equations\Composite\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Equations\__pycache__\Conventions.cpython-36.pyc" />
+    <Content Include="Equations\__pycache__\IEquation.cpython-36.pyc" />
+    <Content Include="Equations\__pycache__\PDE.cpython-36.pyc" />
+    <Content Include="Equations\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Models\Conditions\__pycache__\Base.cpython-36.pyc" />
+    <Content Include="Models\Conditions\__pycache__\BCs.cpython-36.pyc" />
+    <Content Include="Models\Conditions\__pycache__\Conventions.cpython-36.pyc" />
+    <Content Include="Models\Conditions\__pycache__\Dirichlets.cpython-36.pyc" />
+    <Content Include="Models\Conditions\__pycache__\Neumanns.cpython-36.pyc" />
+    <Content Include="Models\Conditions\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Models\__pycache__\Base.cpython-36.pyc" />
+    <Content Include="Models\__pycache__\CableModel.cpython-36.pyc" />
+    <Content Include="Models\__pycache__\Conditions.cpython-36.pyc" />
+    <Content Include="Models\__pycache__\Conventions.cpython-36.pyc" />
+    <Content Include="Models\__pycache__\IModel.cpython-36.pyc" />
+    <Content Include="Models\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Neuron\Segment\__pycache__\Base.cpython-36.pyc" />
+    <Content Include="Neuron\Segment\__pycache__\ISegment.cpython-36.pyc" />
+    <Content Include="Neuron\Segment\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="Neuron\__pycache__\INeuron.cpython-36.pyc" />
+    <Content Include="Neuron\__pycache__\NetXNeuron.cpython-36.pyc" />
+    <Content Include="Neuron\__pycache__\__init__.cpython-36.pyc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Analytics\Analytics.pyproj">
+      <Name>Analytics</Name>
+      <Project>{7772ffac-24df-41df-a01a-b3e0a2027ed9}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Plotting\Plotting.pyproj">
+      <Name>Plotting</Name>
+      <Project>{6e740615-0ac6-454c-852f-efaf7323e344}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.pyproj">
+      <Name>Utilities</Name>
+      <Project>{d4140672-089f-4506-b430-20be00aca796}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
