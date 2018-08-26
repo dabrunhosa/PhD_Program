@@ -7,10 +7,6 @@ class PlotingParameters(Parameters):
         return "color"
 
     @property
-    def ListPlots(self):
-        return "listPlots"
-
-    @property
     def IterablePlots(self):
         return "iterablePlots"
 

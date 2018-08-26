@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54e9792-6185-43ce-9388-5eaf56315bfd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Conventions/Plotting/IDataPlotsParameters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plotting/IDataPlots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.png" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conventions/Plotting/PlotingParameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Conventions/Plotting/PlotingParameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conventions/Plotting/SimulationPlotingParameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Conventions/Plotting/SimulationPlotingParameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plotting/IDataPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/IDataPlot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plotting/IPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/IPlot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,10 +21,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1535277165509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_Programs$stationaryWithFont.coverage" NAME="stationaryWithFont Coverage Results" MODIFIED="1532093065892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_Programs$WithoutDomainDecomposition.coverage" NAME="WithoutDomainDecomposition Coverage Results" MODIFIED="1531477788840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain" />
     <SUITE FILE_PATH="coverage/PhD_Programs$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1535125011494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_Programs$Base.coverage" NAME="Base Coverage Results" MODIFIED="1532521708858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuroCore/Models" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryWithFont.coverage" NAME="stationaryWithFont Coverage Results" MODIFIED="1535277424389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_Programs$transient.coverage" NAME="transient Coverage Results" MODIFIED="1534019134177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
   </component>
   <component name="CoverageViewManager">
@@ -89,38 +101,63 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="433858293">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="png" value="1" />
+          <entry key="py" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="Python" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="221" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="221" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py">
+        <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
-              <folding>
-                <element signature="e#592#603#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Plotting/IDataPlot.py">
+        <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-301">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="307">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Plotting/Simulation.py">
+        <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="e#324#340#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="256">
+              <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -189,12 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Lagrange.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/GalerkinApproximation.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/IApproximation.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Approximations/Time/Base.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Approximations/Time/Base.py" />
         <option value="$PROJECT_DIR$/Conventions/NeuroCore/Approximations/Time/BackwardEulerParameters.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Approximations/Time/BackwardEuler.py" />
@@ -236,10 +267,16 @@
         <option value="$PROJECT_DIR$/Conventions/NeuroCore/Models/GeneralModel.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py" />
         <option value="$PROJECT_DIR$/Utilities/Handler.py" />
-        <option value="$PROJECT_DIR$/Plotting/IDataPlot.py" />
-        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" />
         <option value="$PROJECT_DIR$/Plotting/Simulation.py" />
+        <option value="$PROJECT_DIR$/Conventions/Plotting/SimulationPlotingParameters.py" />
+        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" />
+        <option value="$PROJECT_DIR$/Conventions/Plotting/PlotingParameters.py" />
+        <option value="$PROJECT_DIR$/Plotting/IDataPlot.py" />
+        <option value="$PROJECT_DIR$/Conventions/Plotting/IDataPlotsParameters.py" />
+        <option value="$PROJECT_DIR$/Plotting/IDataPlots.py" />
         <option value="$PROJECT_DIR$/Plotting/IPlot.py" />
+        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py" />
       </list>
     </option>
   </component>
@@ -277,95 +314,76 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
               <item name="Analytics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
               <item name="Analytics" type="462c0819:PsiDirectoryNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
               <item name="Analytics" type="462c0819:PsiDirectoryNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
               <item name="Validations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
               <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
-              <item name="Approximations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
               <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
               <item name="Approximations" type="462c0819:PsiDirectoryNode" />
-              <item name="Space" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
               <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
               <item name="Approximations" type="462c0819:PsiDirectoryNode" />
               <item name="Space" type="462c0819:PsiDirectoryNode" />
-              <item name="FEM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
               <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
               <item name="Approximations" type="462c0819:PsiDirectoryNode" />
               <item name="Space" type="462c0819:PsiDirectoryNode" />
               <item name="FEM" type="462c0819:PsiDirectoryNode" />
-              <item name="Elements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
               <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Approximations" type="462c0819:PsiDirectoryNode" />
+              <item name="Space" type="462c0819:PsiDirectoryNode" />
+              <item name="FEM" type="462c0819:PsiDirectoryNode" />
+              <item name="Integration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
-              <item name="Neuron" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
-              <item name="Neuron" type="462c0819:PsiDirectoryNode" />
-              <item name="Segment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_Programs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
               <item name="Plotting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,19 +396,19 @@
     <option name="myUseBundledCoveragePy" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\Plotting" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Plotting" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Neuron\Segment" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Models\Conditions" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\Analytics\FEniCS" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Equation" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\NeuroCore\Models" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Approximations\Space\FEM\Integration" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Approximations\Space\FEM\Elements" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\Plotting" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Neuron\Segment" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Models\Conditions" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\Analytics\FEniCS" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Equation\Components\FEM\Galerkin" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Equation\Components\FEM" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,7 +423,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.stationaryNoFont">
+  <component name="RunManager" selected="Python.stationaryWithFont">
     <configuration name="Base" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PhD_Programs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -525,10 +543,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stationaryWithFont" />
         <item itemvalue="Python.stationaryNoFont" />
         <item itemvalue="Python.transient" />
         <item itemvalue="Python.Base" />
-        <item itemvalue="Python.stationaryWithFont" />
         <item itemvalue="Python.WithoutDomainDecomposition" />
       </list>
     </recent_temporary>
@@ -559,13 +577,13 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25503355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25838926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4986577" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49395972" weight="0.32765958" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49530202" visible="true" weight="0.40425533" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49395972" visible="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49530202" weight="0.40425533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
@@ -594,18 +612,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Plotting/Simulation.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py</url>
-          <line>102</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -642,35 +648,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/StationaryBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-373" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/StationaryBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/ISolution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="37" selection-start-line="37" selection-end-line="39" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conventions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -731,13 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Models/Base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -761,13 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="889">
           <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -894,61 +857,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Plotting/SimulationPlotingParameters.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Plotting/BasicPlottingColors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Plotting/IPlotingParameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
           <caret line="79" column="69" selection-start-line="79" selection-start-column="69" selection-end-line="79" selection-end-column="69" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1705537861/964032970/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Plotting/PlotingParameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/BaseOption.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#86#125#0" expanded="true" />
-            <marker date="1535056353429" expanded="true" signature="1855:1937" ph="..." />
           </folding>
         </state>
       </provider>
@@ -966,44 +880,141 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1705537861/964032970/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conventions/Parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conventions/Plotting/SimulationPlotingParameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conventions/Plotting/BasicPlottingColors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conventions/Plotting/IDataPlotParameters.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plotting/IDataPlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conventions/Plotting/PlotingParameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conventions/Plotting/IDataPlotsParameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/BaseOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#86#125#0" expanded="true" />
+            <marker date="1535056353429" expanded="true" signature="1855:1937" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plotting/IDataPlots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1668">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plotting/Simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1158">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#324#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conventions/Plotting/IPlotingParameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Plotting/IPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1297">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="277">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="e#83#113#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Utilities/DataEntry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="209">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="307">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
           <folding>
             <element signature="e#592#603#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Plotting/IDataPlot.py">
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="17">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Plotting/Simulation.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#324#340#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="307">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
         </state>
       </provider>
     </entry>

@@ -100,5 +100,5 @@ analyPlot = IDataPlot(**{plotConstants().Name: analytical.name,
                          plotConstants().Results: analyticalResult,
                          plotConstants().Color: colorConstants().Black})
 
-plotting = Simulation(**{plotConstants().ListPlots: [analyPlot, approxPlot]})
+plotting = Simulation(**{plotConstants().Plots: [analyPlot, approxPlot]})
 plotting.save("stationaryNoFont.png")

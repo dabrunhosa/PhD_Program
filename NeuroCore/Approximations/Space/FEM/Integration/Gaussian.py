@@ -76,7 +76,7 @@ class Gaussian(IIntegration):
         #        print("intPoints:",self.intPoints)
 
         for integral_point, weight in zip(self.intPoints[0], self.intPoints[-1]):
-            print("Integral Point:", integral_point)
+            # print("Integral Point:", integral_point)
             integral_value += weight * arguments[constants().Function](integral_point)
 
         #        print("Total Integral Value:",integral_value)

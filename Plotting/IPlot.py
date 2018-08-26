@@ -8,7 +8,8 @@ Created on September 6, 2017
 from abc import abstractmethod
 from Utilities.BaseOption import IHaveOption
 from Utilities.DataEntry import Options
-from Plotting.IDataPlot import IDataPlot, IDataPlots, IDataPlotError
+from Plotting.IDataPlot import IDataPlot, IDataPlotError
+from Plotting.IDataPlots import IDataPlots
 from numpy import arange
 import itertools
 from Conventions.Plotting.IPlotingParameters import IPlotingParameters as constants
@@ -25,7 +26,7 @@ class IPlot(IHaveOption):
 
         # Define the default options
         default_options = Options(**{constants().Name: Names().IPlot,
-                                     constants().Plots: None,
+                                     constants().Plots: IDataPlots(),
                                      constants().Xlim: (-1.5, 1.5),
                                      constants().Ylim: (-1.5, 1.5),
                                      constants().Length: None,
@@ -44,7 +45,7 @@ class IPlot(IHaveOption):
 
     def __setattr__(self, attributeName, value):
 
-        if attributeName == constants().Plots and value is not None:
+        if attributeName == constants().Plots:
             if isinstance(value, IDataPlot):
                 if self.plots is None:
                     self.__dict__[constants().Plots] = [value]
@@ -63,7 +64,7 @@ class IPlot(IHaveOption):
                                                                               + value.steps.time, value.steps.times))
 
             elif isinstance(value, IDataPlots):
-                if self.plots is None:
+                if value.isEmpty():
                     self.__dict__[constants().Plots] = value
                 else:
                     self.plots.extend(value)
