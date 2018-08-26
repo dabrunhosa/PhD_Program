@@ -1,5 +1,6 @@
 from Conventions.NeuroCore.Approximations.Space.FEM.Elements.IElementParameters import IElementParameters
 
+
 class IElementsParameters(IElementParameters):
 
     @property

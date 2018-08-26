@@ -1,5 +1,6 @@
 from Conventions.Parameters import Parameters
 
+
 class IElementParameters(Parameters):
 
     @property
@@ -37,3 +38,11 @@ class IElementParameters(Parameters):
     @property
     def Previous(self):
         return "previous"
+
+    @property
+    def Column(self):
+        return "column"
+
+    @property
+    def Line(self):
+        return "line"

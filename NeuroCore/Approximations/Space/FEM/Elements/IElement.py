@@ -83,7 +83,7 @@ class IElement(ISolvable):
 
             paramters[Components().Time] = self.extraData[constants().Previous]
             paramters[constants().Column] = i
-            paramters[constants().Column().Line] = i
+            paramters[constants().Line] = i
 
             for j in range(self.numLocalNodes):
                 self.matrix[i, j] = self.numIntegration.solve(
