@@ -5,7 +5,6 @@ Created on Tue Nov  7 09:38:34 2017
 @author: Daniel Abrunhosa
 """
 
-
 '''
 This is the solution for the following problem:
     Problem being solved is: [0,X]
@@ -23,57 +22,58 @@ This is the solution for the following problem:
 ###           Packages               ###
 ######################################## 
 
-from NeuroCore.Neuron.Segment.Base import ISegment
-from NeuroCore.Models.Base import GeneralModel
-from NeuroCore.Models.Conventions import Domains,Steps
+import time
+
+import numpy
+
+from Analytics.Solutions.Validations.Stationary import ValidationWithF
 from NeuroCore.Approximations.Space.FEM.GalerkinApproximation import GalerkinApproximation
 from NeuroCore.Models.Conditions.BCs import BoundaryConditions
 from NeuroCore.Models.Conditions.Neumanns import SealedEnd
-from Analytics.Solutions.Validations.Stationary import ValidationWithF
-from Plotting.IDataPlot import IDataPlot, IDataPlots
+from NeuroCore.Models.Conventions import Domains, Steps
+from NeuroCore.Models.GeneralModel import GeneralModel
+from NeuroCore.Neuron.Segment.Base import ISegment
+from Plotting.IDataPlot import IDataPlot
+from Plotting.IDataPlots import IDataPlots
 from Plotting.Simulation import Simulation
-
-import numpy
-import time
 
 ########################################
 ###      Simulation Variable         ###
 ######################################## 
 
-simDomain = Domains(space=[0,12])
+simDomain = Domains(space=[0, 12])
 simSteps = Steps(space=0.01)
 
 diffusionValue = 100
 reactionValue = 10
 
-boundaryConditions = BoundaryConditions(SealedEnd(),  SealedEnd())
+boundaryConditions = BoundaryConditions(SealedEnd(), SealedEnd())
 
-sElements = numpy.arange(0, simDomain.space[-1] + simSteps.space,\
-                                simSteps.space)
+sElements = numpy.arange(0, simDomain.space[-1] + simSteps.space, \
+                         simSteps.space)
 
 ########################################
 ###      Setting the Simulation      ###
 ######################################## 
 
-analytical = ValidationWithF(domain=simDomain,steps=simSteps,\
-                             BCs=boundaryConditions,\
-                             diffusionValue=diffusionValue,\
+analytical = ValidationWithF(domain=simDomain, steps=simSteps, \
+                             BCs=boundaryConditions, \
+                             diffusionValue=diffusionValue, \
                              reactionValue=reactionValue)
 
 font = analytical.createFont()
 
-
 # import inspect
 # print(inspect.getsource(font))
 
-#font = f
+# font = f
 
-simModel = GeneralModel(iApproximation=GalerkinApproximation(),\
+simModel = GeneralModel(iApproximation=GalerkinApproximation(), \
                         BCs=boundaryConditions,
-                      font=font,coeff_dx2=-diffusionValue,\
-                      coeff_v=reactionValue)
+                        font=font, coeff_dx2=-diffusionValue, \
+                        coeff_v=reactionValue)
 
-segment0 = ISegment('Axon0',boundaryConditions,simDomain,simSteps,simModel)
+segment0 = ISegment('Axon0', boundaryConditions, simDomain, simSteps, simModel)
 
 ########################################
 ###      Running the Simulation      ###
@@ -87,8 +87,7 @@ result = segment0.solve()
 approxPlot = IDataPlot(name=simModel.name, domain=simDomain, steps=simSteps, results=result, color="b")
 analyPlot = IDataPlot(name=analytical.name, domain=simDomain, steps=simSteps, results=analyticalResult, color="k")
 
-plots = IDataPlots(listPlots=[analyPlot,approxPlot])
+plots = IDataPlots(listPlots=[analyPlot, approxPlot])
 
 plotting = Simulation(plots=plots)
 plotting.save("stationaryWithFont.png")
-    

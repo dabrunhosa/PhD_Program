@@ -1,6 +1,6 @@
-from Conventions.Plotting.PlotingParameters import PlotingParameters
+from Conventions.Plotting.IPlotingParameters import IPlotingParameters
 
-class SimulationPlotingParameters(PlotingParameters):
+class SimulationPlotingParameters(IPlotingParameters):
 
     @property
     def Marker(self):
