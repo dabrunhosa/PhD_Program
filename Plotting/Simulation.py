@@ -22,6 +22,8 @@ import os
 import matplotlib
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
+from matplotlib.animation import FFMpegWriter
+# plt.rcParams['animation.ffmpeg_path'] = '/usr/local/bin/ffmpeg'
 
 matplotlib.use("Agg")
 
@@ -29,6 +31,7 @@ from Plotting.IPlot import IPlot
 from Utilities.DataEntry import Options
 from Conventions.Plotting.SimulationPlotingParameters import SimulationPlotingParameters as constants
 from Conventions.Classes import Names
+import numpy as np
 
 
 class Simulation(IPlot):
@@ -78,6 +81,28 @@ class Simulation(IPlot):
               + pathLocation)
 
     def __transientSave(self, pathLocation):
+
+        # # Fixing random state for reproducibility
+        # np.random.seed(19680801)
+        #
+        # metadata = dict(title='Movie Test', artist='Matplotlib',
+        #                 comment='Movie support!')
+        # writer = FFMpegWriter(fps=15, metadata=metadata)
+        #
+        # fig = plt.figure()
+        # l, = plt.plot([], [], 'k-o')
+        #
+        # plt.xlim(-5, 5)
+        # plt.ylim(-5, 5)
+        #
+        # x0, y0 = 0, 0
+        #
+        # with writer.saving(fig, "writer_test.mp4", 100):
+        #     for i in range(100):
+        #         x0 += 0.1 * np.random.randn()
+        #         y0 += 0.1 * np.random.randn()
+        #         l.set_data(x0, y0)
+        #         writer.grab_frame()
 
         infoLog = {}
 
@@ -132,7 +157,7 @@ class Simulation(IPlot):
             ax.set_title(title)
             return tuple(lines) + (time_text,)
 
-        Writer = animation.writers['ffmpeg']
+        Writer = animation.writers["ffmpeg"]
         writer = Writer(fps=10, metadata=dict(artist='NeuroSimu'), bitrate=18000)
 
         plt.xlabel('x')
@@ -141,6 +166,15 @@ class Simulation(IPlot):
         line_ani = animation.FuncAnimation(figure, update_line, len(self.tElements), init_func=init,
                                            fargs=(infoLog, lines), interval=5000, blit=True)
 
-        line_ani.save(pathLocation, writer=writer)
+        line_ani.save(pathLocation)
+
+        # metadata = dict(title='Transient Example', artist='NeuroSimu',
+        #                 comment='Validation movie')
+        # writer = FFMpegWriter(fps=15, metadata=metadata)
+        #
+        # with writer.saving(figure, pathLocation, len(self.tElements)):
+        #     # for t in range(len(self.tElements)):
+        #     #     update_line(t, results, lines)
+        #         writer.grab_frame()
         print("Video saved successfully. Video saved in:" + os.path.dirname(os.path.abspath(pathLocation)) + "\\"
               + pathLocation)
