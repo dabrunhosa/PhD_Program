@@ -61,7 +61,9 @@ class IHaveOption(object):
     ########################################
 
     def checkExistance(self, attributeName):
-        return attributeName in self.__dict__[Variables().Class_Attributes]
+
+        for attribute in attributeName:
+            return attributeName in self.__dict__[Variables().Class_Attributes]
 
     def __setattr__(self, attributeName, value):
 

@@ -10,3 +10,7 @@ class BaseParameters(Parameters):
     @property
     def IModel(self):
         return "iModel"
+
+    @property
+    def SegmentName(self):
+        return "segmentName"

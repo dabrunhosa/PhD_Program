@@ -26,7 +26,6 @@ from NeuroCore.Models.Conditions.BCs import BoundaryConditions
 from NeuroCore.Models.Conditions.Dirichlets import KilledEnd
 from NeuroCore.Models.Conventions import Domains, Steps
 from NeuroCore.Models.GeneralModel import GeneralModel
-
 ########################################
 ###           Packages               ###
 ########################################
@@ -39,7 +38,7 @@ from Plotting.Simulation import Simulation
 ######################################## 
 
 simDomain = Domains(space=[0, 1], time=[0, 10])
-simSteps = Steps(space=0.1, time=0.1)
+simSteps = Steps(space=0.01, time=0.1)
 
 diffusionValue = 1
 reactionValue = 1
@@ -47,17 +46,14 @@ kValue = 1
 
 boundaryConditions = BoundaryConditions(KilledEnd(), KilledEnd())
 
-sElements = arange(0, simDomain.space[-1] + simSteps.space, \
-                   simSteps.space)
+sElements = arange(0, simDomain.space[-1] + simSteps.space, simSteps.space)
 
 ########################################
 ###      Setting the Simulation      ###
 ######################################## 
 
 
-analytical = ValidationWithF(domain=simDomain, steps=simSteps, \
-                             BCs=boundaryConditions, \
-                             kValue=kValue)
+analytical = ValidationWithF(domain=simDomain, steps=simSteps, BCs=boundaryConditions, kValue=kValue)
 
 font = analytical.createFont()
 

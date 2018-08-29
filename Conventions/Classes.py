@@ -12,6 +12,10 @@ class Names(object):
         return "Default"
 
     @property
+    def ISegment(self):
+        return "ISegment"
+
+    @property
     def Function(self):
         return "Function"
 
