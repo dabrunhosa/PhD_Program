@@ -78,7 +78,7 @@ class IHaveOption(object):
 
         return True
 
-    def checkVariableType(self):
+    def RaiseOnUnexpectedType(self):
         for attribute in self.__dict__[Variables().Class_Attributes]:
             if not isinstance(self.__dict__[attribute], self.__dict__[Variables().ExpectedTypes][attribute]):
                 error_message = "The attribute:", attribute, " from the class:", self.name, \
