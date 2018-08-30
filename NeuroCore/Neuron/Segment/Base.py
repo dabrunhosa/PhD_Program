@@ -41,18 +41,21 @@ class ISegment(ISolvable):
     def __setattr__(self, attributeName, value):
         super(ISegment, self).__setattr__(attributeName, value)
 
-        if (attributeName == constants().Domain or attributeName == constants().LocalConditions or
-            attributeName == constants().Steps or attributeName == constants().IModel) and value is not None:
+        if not self.checkDefaultValues([constants().Domain, constants().LocalConditions,
+                                        constants().Steps, constants().IModel]):
 
-            if isinstance(value, list):
-                for model in value:
-                    model.domain = self.domain
-                    model.BCs = self.localConditions
-                    model.steps = self.steps
+            for model in value:
+                model.domain = self.domain
+                model.BCs = self.localConditions
+                model.steps = self.steps
 
     ########################################
     ###       Public Functions           ###
     ######################################## 
 
     def solve(self, **arguments):
-        return self.iModel.solve(**arguments)
+        results = []
+        for model in self.iModel:
+            results.append(model.solve(**arguments))
+
+        return results

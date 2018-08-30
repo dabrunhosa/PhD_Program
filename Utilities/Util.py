@@ -1,3 +1,0 @@
-
-
-def checkVariableType(classToBeChecked):

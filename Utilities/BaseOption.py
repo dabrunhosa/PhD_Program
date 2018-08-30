@@ -42,6 +42,12 @@ class IHaveOption(object):
         # All the attributes allowed to be access.
         self.__dict__[Variables().Class_Attributes] = whole_options.names
 
+        # All the attributes and expected types
+        self.__dict__[Variables().ExpectedTypes] = kw[Variables().ExpectedTypes]
+
+        # All the attributes and default values
+        self.__dict__[Variables().DefaultValues] = kw[Variables().DefaultValues]
+
         # print("\n\nBase Option Kw Options:", kw)
         # print("Base Option Whole Options:", self.__dict__)
 
@@ -57,13 +63,50 @@ class IHaveOption(object):
         return "1.0"
 
     ########################################
-    ###       Private Functions          ###
+    ###       Public Functions           ###
     ########################################
 
-    def checkExistance(self, attributeName):
+    def checkExistance(self, attributeNames):
 
-        for attribute in attributeName:
-            return attributeName in self.__dict__[Variables().Class_Attributes]
+        if isinstance(attributeNames, list):
+            for attribute in attributeNames:
+                if attribute not in self.__dict__[Variables().Class_Attributes]:
+                    return False
+        else:
+            if attributeNames not in self.__dict__[Variables().Class_Attributes]:
+                return False
+
+        return True
+
+    def checkVariableType(self):
+        for attribute in self.__dict__[Variables().Class_Attributes]:
+            if not isinstance(self.__dict__[attribute], self.__dict__[Variables().ExpectedTypes][attribute]):
+                error_message = "The attribute:", attribute, " from the class:", self.name, \
+                                " is not of the correct type. The type should be:", \
+                                self.__dict__[Variables().ExpectedTypes][attribute]
+
+                raise AttributeError(error_message)
+
+    def checkDefaultValues(self,nameVariablesToCheck):
+
+        if isinstance(nameVariablesToCheck, list):
+            for variableName in nameVariablesToCheck:
+                if type(self.__dict__[variableName]) is self.__dict__[Variables().DefaultValues][variableName]:
+                    return True
+                    pass
+
+        else:
+            if type(self.__dict__[nameVariablesToCheck]) is  \
+                    self.__dict__[Variables().DefaultValues][nameVariablesToCheck]:
+                return True
+
+        return False
+
+
+
+    ########################################
+    ###       Private Functions          ###
+    ########################################
 
     def __setattr__(self, attributeName, value):
 
@@ -81,7 +124,8 @@ class IHaveOption(object):
 
     def __getattr__(self, attributeName):
 
-        if attributeName in self.__dict__[Variables().Class_Attributes]:
+        if attributeName is Variables().ExpectedTypes or \
+                attributeName in self.__dict__[Variables().Class_Attributes]:
             value = None
             try:
                 value = self.__dict__[attributeName]

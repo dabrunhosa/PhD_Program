@@ -86,7 +86,7 @@ analytical = ValidationZeroF(**{analyticConstants().Domain: simDomain,
 analyticalResult = analytical.solve()
 
 t_start = time.clock()
-result = segment0.solve()
+result = segment0.solve()[-1]
 
 approxPlot = IDataPlot(**{plotConstants().Name: simModel.name,
                           plotConstants().Domain: simDomain,
