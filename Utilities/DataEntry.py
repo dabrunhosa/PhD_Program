@@ -8,7 +8,7 @@ Created on August 24, 2017
 from Conventions.Variables import Variables
 import sys
     
-class Options(object): 
+class Options(dict):
     """A form to more elegantly allow for default parameters
     to be set by the user. It also let's these parameters be
     changed when used in different context."""
@@ -25,13 +25,14 @@ class Options(object):
         s.__dict__.update(other.__dict__) 
         
         return s
-    
+
+    def __getitem__(self, item):
+        return self.__dict__[item]
+
     def __getattr__(self,attributeName):
-        
+
         if attributeName == Variables().Names:
             return self.__dict__.keys()
-        elif attributeName == Variables().Values:
-            return self.__dict__.values()
         else:
             error_message = "The attribute name: "+attributeName+ \
                             " is not an allowed attribute to get."

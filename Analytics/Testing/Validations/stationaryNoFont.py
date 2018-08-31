@@ -34,6 +34,7 @@ from Conventions.Analytics.Solutions.Validations.Stationary import StationaryPar
 from Conventions.NeuroCore.Models.GeneralModel import GeneralModelParameters as modelConstants
 from Conventions.Plotting.BasicPlottingColors import BasicPlottingColors as colorConstants
 from Conventions.Plotting.SimulationPlotingParameters import SimulationPlotingParameters as plotConstants
+from Conventions.NeuroCore.Neuron.Segment.Base import BaseParameters as segmentConstants
 from NeuroCore.Approximations.Space.FEM.GalerkinApproximation import GalerkinApproximation
 from NeuroCore.Models.Conditions.BCs import BoundaryConditions
 from NeuroCore.Models.Conditions.Neumanns import Neumann
@@ -69,7 +70,11 @@ simModel = GeneralModel(**{modelConstants().IApproximation: GalerkinApproximatio
                            modelConstants().CoeffDx2: -diffusionValue,
                            modelConstants().CoeffV: reactionValue})
 
-segment0 = ISegment('Axon0', boundaryConditions, simDomain, simSteps, simModel)
+segment0 = ISegment(**{segmentConstants().Name:'Axon0',
+                       segmentConstants().LocalConditions:boundaryConditions,
+                       segmentConstants().Domain:simDomain,
+                       segmentConstants().Steps:simSteps,
+                       segmentConstants().IModel:simModel})
 
 ########################################
 ###      Running the Simulation      ###

@@ -5,13 +5,13 @@ Created on Mon Sep 25 05:34:15 2017
 @author: daniel
 """
 
+import sys
 from abc import ABCMeta, abstractmethod
 
-from Utilities.DataEntry import Options, Options_User
-from Conventions.Variables import Variables
-from Conventions.Parameters import Parameters
 from Conventions.Classes import Names
-import sys
+from Conventions.Parameters import Parameters
+from Conventions.Variables import Variables
+from Utilities.DataEntry import Options, Options_User
 
 
 class IHaveOption(object):
@@ -43,10 +43,10 @@ class IHaveOption(object):
         self.__dict__[Variables().Class_Attributes] = whole_options.names
 
         # All the attributes and expected types
-        self.__dict__[Variables().ExpectedTypes] = kw[Variables().ExpectedTypes]
+        self.__dict__[Variables().ExpectedTypes] = self.__createExpectedTypes(whole_options)
 
         # All the attributes and default values
-        self.__dict__[Variables().DefaultValues] = kw[Variables().DefaultValues]
+        self.__dict__[Variables().DefaultValues] = whole_options
 
         # print("\n\nBase Option Kw Options:", kw)
         # print("Base Option Whole Options:", self.__dict__)
@@ -87,7 +87,7 @@ class IHaveOption(object):
 
                 raise AttributeError(error_message)
 
-    def checkDefaultValues(self,nameVariablesToCheck):
+    def checkDefaultValues(self, nameVariablesToCheck):
 
         if isinstance(nameVariablesToCheck, list):
             for variableName in nameVariablesToCheck:
@@ -96,17 +96,23 @@ class IHaveOption(object):
                     pass
 
         else:
-            if type(self.__dict__[nameVariablesToCheck]) is  \
+            if type(self.__dict__[nameVariablesToCheck]) is \
                     self.__dict__[Variables().DefaultValues][nameVariablesToCheck]:
                 return True
 
         return False
 
-
-
     ########################################
     ###       Private Functions          ###
     ########################################
+
+    def __createExpectedTypes(self, wholeOptions):
+        expectTypeDict = {}
+
+        for attribute, value in wholeOptions.items():
+            expectTypeDict[attribute] = type(value)
+
+        return expectTypeDict
 
     def __setattr__(self, attributeName, value):
 
@@ -131,7 +137,7 @@ class IHaveOption(object):
                 value = self.__dict__[attributeName]
             except KeyError:
                 e = sys.exc_info()
-                print(self,self.__dict__,attributeName)
+                print(self, self.__dict__, attributeName)
                 raise Exception(e)
             except Exception as e:
                 print(e)

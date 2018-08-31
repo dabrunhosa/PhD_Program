@@ -19,3 +19,7 @@ class Variables(object):
     @property
     def Values(self):
         return "values"
+
+    @property
+    def Items(self):
+        return "items"
