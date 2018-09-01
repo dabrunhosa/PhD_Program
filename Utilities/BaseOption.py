@@ -109,8 +109,9 @@ class IHaveOption(object):
     def __createExpectedTypes(self, wholeOptions):
         expectTypeDict = {}
 
-        for attribute, value in wholeOptions.items():
-            expectTypeDict[attribute] = type(value)
+        for item in wholeOptions:
+            print(item)
+            # expectTypeDict[attribute] = type(value)
 
         return expectTypeDict
 
