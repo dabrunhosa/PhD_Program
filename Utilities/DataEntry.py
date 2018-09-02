@@ -27,10 +27,7 @@ class Options(dict):
         return s
     
     def __iter__(self):
-        return self.__dict__.
-
-    def __next__(self):  # Python 3: def __next__(self)
-        return next(self.__dict__)
+        return self.__dict__
 
     def __getitem__(self, item):
         return self.__dict__[item]
