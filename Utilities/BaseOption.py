@@ -70,10 +70,10 @@ class IHaveOption(object):
 
         if isinstance(attributeNames, list):
             for attribute in attributeNames:
-                if attribute not in self.__dict__[Variables().Class_Attributes]:
+                if attribute not in self.__dict__:
                     return False
         else:
-            if attributeNames not in self.__dict__[Variables().Class_Attributes]:
+            if attributeNames not in self.__dict__:
                 return False
 
         return True
@@ -91,13 +91,12 @@ class IHaveOption(object):
 
         if isinstance(nameVariablesToCheck, list):
             for variableName in nameVariablesToCheck:
-                if type(self.__dict__[variableName]) is self.__dict__[Variables().DefaultValues][variableName]:
+                if self.__dict__[variableName] is  self.__dict__[Variables().DefaultValues][variableName]:
                     return True
                     pass
 
         else:
-            if type(self.__dict__[nameVariablesToCheck]) is \
-                    self.__dict__[Variables().DefaultValues][nameVariablesToCheck]:
+            if self.__dict__[nameVariablesToCheck] is self.__dict__[Variables().DefaultValues][nameVariablesToCheck]:
                 return True
 
         return False
@@ -130,8 +129,7 @@ class IHaveOption(object):
 
     def __getattr__(self, attributeName):
 
-        if attributeName is Variables().ExpectedTypes or \
-                attributeName in self.__dict__[Variables().Class_Attributes]:
+        if attributeName is Variables().ExpectedTypes or attributeName in self.__dict__[Variables().Class_Attributes]:
             value = None
             try:
                 value = self.__dict__[attributeName]

@@ -13,6 +13,7 @@ from scipy.sparse import lil_matrix
 
 from Conventions.Classes import Names
 from Conventions.NeuroCore.Approximations.Space.FEM.Elements.IElementsParameters import IElementsParameters as constants
+from Conventions.NeuroCore.Models.
 from NeuroCore.Approximations.Space.FEM.Elements.IElement import IElement
 from Utilities.BaseOption import ISolvable
 # -*- coding: utf-8 -*- This program will define a generalized form of segment
@@ -66,8 +67,8 @@ class IElements(ISolvable):
                 self.checkExistance(constants().Steps)
                 self.checkExistance(constants().Domain)
 
-                if self.bilinear is not None and self.linear is not None and self.steps is not None \
-                        and self.domain is not None:
+                if self.checkDefaultValues([constants().Bilinear,constants.Linear,
+                                            constants().Steps,constants().Domain]):
                     self.__prepareData()
 
             except AttributeError:
@@ -75,18 +76,18 @@ class IElements(ISolvable):
                 print(e)
                 raise Exception(e)
 
-        if attributeName == constants().Linear and value is not None:
-            if len(self.elements) != 0 and len(self.previous) != 0:
+        if self.checkDefaultValues(constants().Linear):
+            if self.checkDefaultValues([constants().Elements,constants().Previous]):
                 pos = 0
-                for element in self.elements:
+                for element in getattr(self,constants().Elements):
                     element.linear = value
-                    element.extraData[constants().Previous] = self.previous[pos:pos + 2]
+                    element.extraData[constants().Previous] = getattr(self,constants().Previous)[pos:pos + 2]
                     pos += 1
 
     def __prepareData(self):
 
         try:
-            size = self.domain.space[-1] - self.domain.space[0]
+            size = getattr(getattr(self, constants().Domain),constants().Space.domain.space[-1] - self.domain.space[0]
 
             self.num_elements = (int)(size / self.steps.space)
             self.matrix = lil_matrix((self.num_elements + 1, self.num_elements + 1), dtype=cfloat)

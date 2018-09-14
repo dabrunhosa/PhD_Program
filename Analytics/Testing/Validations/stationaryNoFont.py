@@ -80,8 +80,7 @@ segment0 = ISegment(**{segmentConstants().Name:'Axon0',
 ###      Running the Simulation      ###
 ######################################## 
 
-sElements = numpy.arange(0, simDomain.space[-1] + simSteps.space, \
-                         simSteps.space)
+sElements = numpy.arange(0, simDomain.space[-1] + simSteps.space, simSteps.space)
 
 analytical = ValidationZeroF(**{analyticConstants().Domain: simDomain,
                                 analyticConstants().Steps: simSteps,
