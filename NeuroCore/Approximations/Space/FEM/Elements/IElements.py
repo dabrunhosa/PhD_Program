@@ -13,7 +13,7 @@ from scipy.sparse import lil_matrix
 
 from Conventions.Classes import Names
 from Conventions.NeuroCore.Approximations.Space.FEM.Elements.IElementsParameters import IElementsParameters as constants
-from Conventions.NeuroCore.Models.
+from Conventions.NeuroCore.Models.Conventions import ConventionsParameters as conventionsConstants
 from NeuroCore.Approximations.Space.FEM.Elements.IElement import IElement
 from Utilities.BaseOption import ISolvable
 # -*- coding: utf-8 -*- This program will define a generalized form of segment
@@ -57,37 +57,32 @@ class IElements(ISolvable):
     def __setattr__(self, attributeName, value):
         super(IElements, self).__setattr__(attributeName, value)
 
-        if (attributeName == constants().Bilinear or attributeName == constants().Linear or
-            attributeName == constants().Steps or attributeName == constants().Domain) \
-                and value is not None:
+        if self.checkExistance([constants().Bilinear,constants().Linear,constants().Steps,constants().Domain]):
+            if (attributeName in [constants().Bilinear,constants().Linear,constants().Steps,constants().Domain]
+                    and value is not None):
 
-            try:
-                self.checkExistance(constants().Bilinear)
-                self.checkExistance(constants().Linear)
-                self.checkExistance(constants().Steps)
-                self.checkExistance(constants().Domain)
+                try:
+                    if not self.checkDefaultValues([constants().Bilinear,constants().Linear,
+                                                constants().Steps,constants().Domain]):
+                        self.__prepareData()
 
-                if self.checkDefaultValues([constants().Bilinear,constants.Linear,
-                                            constants().Steps,constants().Domain]):
-                    self.__prepareData()
+                except AttributeError:
+                    e = sys.exc_info()
+                    print(e)
+                    raise Exception(e)
 
-            except AttributeError:
-                e = sys.exc_info()
-                print(e)
-                raise Exception(e)
-
-        if self.checkDefaultValues(constants().Linear):
-            if self.checkDefaultValues([constants().Elements,constants().Previous]):
+            if not self.checkDefaultValues([constants().Linear, constants().Elements, constants().Previous]):
                 pos = 0
-                for element in getattr(self,constants().Elements):
+                for element in getattr(self, constants().Elements):
                     element.linear = value
-                    element.extraData[constants().Previous] = getattr(self,constants().Previous)[pos:pos + 2]
+                    element.extraData[constants().Previous] = getattr(self, constants().Previous)[pos:pos + 2]
                     pos += 1
 
     def __prepareData(self):
 
         try:
-            size = getattr(getattr(self, constants().Domain),constants().Space.domain.space[-1] - self.domain.space[0]
+            size = getattr(getattr(self, constants().Domain),conventionsConstants().Space)[-1] - \
+                   getattr(getattr(self, constants().Domain),conventionsConstants().Space)[0]
 
             self.num_elements = (int)(size / self.steps.space)
             self.matrix = lil_matrix((self.num_elements + 1, self.num_elements + 1), dtype=cfloat)

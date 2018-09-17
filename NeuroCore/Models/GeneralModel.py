@@ -68,7 +68,7 @@ class GeneralModel(IModel):
             reactionCoeff = self.coeffs[Components().Reaction]
             fontCoeff = self.coeffs[Components().Font]
 
-            if self.timeApproximation is not None:
+            if not self.checkDefaultValues(constants().TimeApproximation):
                 diffusionCoeff = self.timeApproximation.modifyCoeff(Components().Diffusion, diffusionCoeff)
                 reactionCoeff = self.timeApproximation.modifyCoeff(Components().Reaction, reactionCoeff)
                 fontCoeff = self.timeApproximation.modifyCoeff(Components().Font, fontCoeff)
@@ -84,7 +84,7 @@ class GeneralModel(IModel):
 
             rightEquation.addEquation(self.iApproximation.create_font(fontCoeff))
 
-            if self.timeApproximation is not None:
+            if not self.checkDefaultValues(constants().TimeApproximation):
                 rightEquation.addEquation(self.iApproximation.create_previous(self.timeApproximation.coeffT))
 
             # print("Right Start")

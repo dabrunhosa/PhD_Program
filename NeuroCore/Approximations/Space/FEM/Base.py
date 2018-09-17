@@ -101,9 +101,6 @@ class FEM_Approximation(IApproximation, ABC):
     def create_composed(self, **arguments):
         return IFEM(**arguments)
 
-    # def create_discrete(self,component):
-    #    return Discrete(component)
-
     def solve(self, **arguments):
         [self.inMatrix, self.inFont] = self.iElements.solve(**arguments)
 

@@ -48,8 +48,8 @@ from Plotting.Simulation import Simulation
 ###      Simulation Variable         ###
 ######################################## 
 
-simDomain = Domains(space=[0, 1])
-simSteps = Steps(space=0.01)
+simDomain = Domains(space=[0,1])
+simSteps = Steps(space=0.1)
 
 
 ########################################

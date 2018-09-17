@@ -53,8 +53,7 @@ class IModel(ISolvable):
 
         if attributeName == constants().CurrentTime and value is not None:
             self.iApproximation.currentTime = self.currentTime
-
-        if attributeName == constants().CoeffT and value is not None:
+        elif attributeName == constants().CoeffT and value is not None:
             try:
                 self.checkExistance(constants().TimeApproximation)
                 self.timeApproximation.coeffT = value
@@ -64,32 +63,32 @@ class IModel(ISolvable):
                                 " for the software to use the coeff_t."
                 raise AttributeError(error_message)
 
-        if attributeName == constants().InitialCondition and value is not None:
+        elif attributeName == constants().InitialCondition and value is not None:
             self.iApproximation.results.append(self.initialCondition)
             self.results.append(self.initialCondition)
             # self.iApproximation.timeModifiers = self.timeApproximation.
 
-        if attributeName == constants().BCs and value is not None:
+        elif attributeName == constants().BCs and value is not None:
             self.iApproximation.BCs = self.BCs
 
-        if (attributeName == constants().Coeffs or attributeName == constants().Domain or
-            attributeName == constants().Steps) and value is not None:
+        elif (attributeName in [constants().Coeffs,constants().Domain,constants().Steps]) and value is not None:
 
             try:
+                if self.checkExistance([constants().Domain,constants().Coeffs,
+                                        constants().Steps,constants().Font,constants().Coeffs]):
 
-                if self.checkExistance(constants().Domain) and self.domain is not None \
-                        and self.checkExistance(constants().Coeffs) and self.coeffs is not None \
-                        and self.checkExistance(constants().Steps) and self.steps is not None:
+                    self.iApproximation.domain = getattr(self,constants().Domain)
+                    self.iApproximation.font = getattr(self,constants().Font)
+                    self.iApproximation.coeffs = getattr(self,constants().Coeffs)
 
-                    if self.timeApproximation is not None:
-                        self.timeApproximation.step = self.steps.time
+                    if not self.checkDefaultValues(constants().Steps):
+                        self.iApproximation.steps = self.steps
 
-                    self.iApproximation.domain = self.domain
-                    self.iApproximation.steps = self.steps
-                    self.iApproximation.font = self.font
-                    self.iApproximation.coeffs = self.coeffs
-                    self.createEquations()
-                    self.iApproximation.equation = self.equation
+                        if not self.checkDefaultValues(constants().TimeApproximation):
+                            self.timeApproximation.step = self.steps.time
+
+                        self.createEquations()
+                        self.iApproximation.equation = self.equation
 
             except:
                 e = sys.exc_info()

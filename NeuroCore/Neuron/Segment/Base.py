@@ -46,13 +46,14 @@ class ISegment(ISolvable):
             if not self.checkDefaultValues([constants().Domain, constants().LocalConditions,
                                             constants().Steps, constants().IModel]):
 
-                if isinstance(value,IModel):
+                if isinstance(value,list):
+                    for model in value:
+                        model.domain = self.domain
+                        model.steps = self.steps
+                        model.BCs = self.localConditions
+                elif isinstance(value,IModel):
                     value = [value]
                     setattr(self,constants().IModel,value)
-
-                for model in value:
-                    model.domain = self.domain
-                    model.BCs = self.localConditions
 
     ########################################
     ###       Public Functions           ###

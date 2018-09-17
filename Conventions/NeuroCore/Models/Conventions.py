@@ -3,5 +3,9 @@ from Conventions.Parameters import Parameters
 class ConventionsParameters(Parameters):
 
     @property
-    def CurrentTime(self):
-        return "currentTime"
+    def Space(self):
+        return "space"
+
+    @property
+    def Time(self):
+        return "time"
