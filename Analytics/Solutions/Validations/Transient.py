@@ -6,6 +6,8 @@ Created on September 1, 2017
 '''
 from Analytics.Solutions.TransientBase import TransientBase
 from Utilities.DataEntry import Options
+from Conventions.Analytics.Solutions.Validations.Transient import TransientParameters as constants
+from Conventions.Classes import Names, Descriptions
 from cmath import exp,sin,pi
 import numpy
 
@@ -29,17 +31,9 @@ class ValidationWithF(TransientBase):
     def __init__(self,options=Options(), **kw):
         
         # Define the default options
-        default_options = Options(name = "Cable Model With Font",
-                                  kValue = 1,
-                                  description = "This is the solution for the \
-                                                  following problem:\
-                                                  Problem being solved is: [0,X]X[0,T]\
-                                                  1/k*du/dt - d2u/dx2 + u = f \
-                                                  f = 4*pi2*(e^(-kt))*sin(2*pi*x)\
-                                                  BC: u(0,t) = u(1,t) = 0 \
-                                                  Initial Conditions:\
-                                                  u(x,0) = sin(2*pi*x)\
-                                                  Solution: u = (e^(-kt))*sin(2*pi*x)")
+        default_options = Options(**{constants().Name:  Names().ValidationWithF,
+                                     constants().KValue: 1,
+                                     constants().Description: Descriptions().TransientValidationWithF})
         
         # Merge the default options and the user generated options
         whole_options = default_options << options

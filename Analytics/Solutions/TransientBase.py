@@ -7,6 +7,8 @@ Created on September 1, 2017
 from abc import ABC
 
 from Analytics.Solutions.ISolution import ISolution
+from Conventions.Analytics.Solutions.Validations.Transient import TransientParameters as constants
+from Conventions.Classes import Names, Descriptions
 from Utilities.DataEntry import Options
 
 
@@ -19,11 +21,11 @@ class TransientBase(ISolution, ABC):
     def __init__(self, options=Options(), **kw):
 
         # Define the default options
-        default_options = Options(name="Transient Base Class",
-                                  description="A Base Class for Transient Solutions",
-                                  sElements=None,
-                                  BCs=None,
-                                  solution=[])
+        default_options = Options(**{constants().Name: Names().TransientBaseClass,
+                                     constants().SElements: None,
+                                     constants().BCs: None,
+                                     constants().Solution: [],
+                                     constants().Description: Descriptions().TransientBaseClass})
 
         # Merge the default options and the user generated options
         whole_options = default_options << options

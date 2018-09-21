@@ -80,6 +80,10 @@ class Names(object):
         return "Stationary Base Class"
 
     @property
+    def TransientBaseClass(self):
+        return "Transient Base Class"
+
+    @property
     def ValidationZeroF(self):
         return "CableModel with F = 0"
 
@@ -215,18 +219,34 @@ class Descriptions(object):
         return "A Base Class for Stationary Solutions"
 
     @property
+    def TransientBaseClass(self):
+        return "A Base Class for Transient Solutions"
+
+    @property
     def ValidationZeroF(self):
         return "This is the solution for the following problem:\
-                                  Problem being solved is: [0,X] \
-                                  -epsilon*d2u/dx2 + theta*u = 0 \
-                                  BC:\
-                                  du/dx(0) = u0 \
-                                  du/dx(1) = u1\
-                                  Solution:\
-                                  u = alpha*sinh(lambda*x) + beta*cosh(lambda*x)\
-                                  alpha = u0/lambda\
-                                  beta = u1 - u0*cosh(lambda)/lambda*sinh(lambda)\
-                                  lambda = sqrt(theta)/sqrt(epsilon)"
+                Problem being solved is: [0,X] \
+                -epsilon*d2u/dx2 + theta*u = 0 \
+                BC:\
+                du/dx(0) = u0 \
+                du/dx(1) = u1\
+                Solution:\
+                u = alpha*sinh(lambda*x) + beta*cosh(lambda*x)\
+                alpha = u0/lambda\
+                beta = u1 - u0*cosh(lambda)/lambda*sinh(lambda)\
+                lambda = sqrt(theta)/sqrt(epsilon)"
+
+    @property
+    def TransientValidationWithF(self):
+        return "This is the solution for the \
+                following problem:\
+                Problem being solved is: [0,X]X[0,T]\
+                1/k*du/dt - d2u/dx2 + u = f \
+                f = 4*pi2*(e^(-kt))*sin(2*pi*x)\
+                BC: u(0,t) = u(1,t) = 0 \
+                Initial Conditions:\
+                u(x,0) = sin(2*pi*x)\
+                Solution: u = (e^(-kt))*sin(2*pi*x)"
 
     @property
     def ValidationWithF(self):

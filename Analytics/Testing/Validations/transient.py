@@ -21,6 +21,11 @@ from numpy import arange
 
 from Analytics.Solutions.Validations.Transient import ValidationWithF
 from NeuroCore.Approximations.Space.FEM.GalerkinApproximation import GalerkinApproximation
+from Conventions.Analytics.Solutions.Validations.Transient import TransientParameters as analyticConstants
+from Conventions.NeuroCore.Models.GeneralModel import GeneralModelParameters as modelConstants
+from Conventions.Plotting.BasicPlottingColors import BasicPlottingColors as colorConstants
+from Conventions.Plotting.SimulationPlotingParameters import SimulationPlotingParameters as plotConstants
+from Conventions.NeuroCore.Neuron.Segment.Base import BaseParameters as segmentConstants
 from NeuroCore.Approximations.Time.BackwardEuler import BackwardEuler
 from NeuroCore.Models.Conditions.BCs import BoundaryConditions
 from NeuroCore.Models.Conditions.Dirichlets import KilledEnd
@@ -52,8 +57,9 @@ sElements = arange(0, simDomain.space[-1] + simSteps.space, simSteps.space)
 ###      Setting the Simulation      ###
 ######################################## 
 
-
-analytical = ValidationWithF(domain=simDomain, steps=simSteps, BCs=boundaryConditions, kValue=kValue)
+analytical = ValidationWithF(**{analyticConstants().Domain: simDomain,
+                                analyticConstants().Steps: simSteps,
+                                analyticConstants().KValue: kValue})
 
 font = analytical.createFont()
 
@@ -64,11 +70,19 @@ V_0 = []
 for x in sElements:
     V_0.append(initialCondition(x))
 
-simModel = GeneralModel(iApproximation=GalerkinApproximation(), timeApproximation=BackwardEuler(),
-                        initialCondition=V_0, font=font, coeff_dx2=-diffusionValue, coeff_v=reactionValue,
-                        coeff_t=1 / kValue)
+simModel = GeneralModel(**{modelConstants().IApproximation: GalerkinApproximation(),
+                           modelConstants().TimeApproximation: BackwardEuler(),
+                           modelConstants().InitialCondition:V_0,
+                           modelConstants().Font: font,
+                           modelConstants().CoeffDx2: -diffusionValue,
+                           modelConstants().CoeffV: reactionValue,
+                           modelConstants().CoeffT: 1/kValue})
 
-segment0 = ISegment('Axon0', boundaryConditions, simDomain, simSteps, simModel)
+segment0 = ISegment(**{segmentConstants().Name:'Axon0',
+                       segmentConstants().LocalConditions:boundaryConditions,
+                       segmentConstants().Domain:simDomain,
+                       segmentConstants().Steps:simSteps,
+                       segmentConstants().IModel:simModel})
 
 ########################################
 ###      Running the Simulation      ###
@@ -83,13 +97,17 @@ timeElements = arange(simSteps.time, simDomain.time[-1] + simSteps.time, simStep
 for t in timeElements:
     result.append(segment0.solve(currentTime=t))
 
-approxPlot = IDataPlot(name=simModel.name + " - Approximation", domain=simDomain, steps=simSteps, results=result,
-                       color="b")
-analyPlot = IDataPlot(name=analytical.name + " - Analytical", domain=simDomain, steps=simSteps,
-                      results=analyticalResult, color="k")
+approxPlot = IDataPlot(**{plotConstants().Name: simModel.name + " - Approximation",
+                          plotConstants().Domain: simDomain,
+                          plotConstants().Steps: simSteps,
+                          plotConstants().Results: result,
+                          plotConstants().Color: colorConstants().Blue})
 
-plotting = Simulation(plots=[analyPlot, approxPlot])
+analyPlot = IDataPlot(**{plotConstants().Name: analytical.name + " - Analytical",
+                         plotConstants().Domain: simDomain,
+                         plotConstants().Steps: simSteps,
+                         plotConstants().Results: analyticalResult,
+                         plotConstants().Color: colorConstants().Black})
+
+plotting = Simulation(**{plotConstants().Plots: [analyPlot, approxPlot]})
 plotting.save("transientResult.mp4")
-
-# plotting = Simulation(plots=approxPlot)
-# plotting.save("approxResult.mp4")

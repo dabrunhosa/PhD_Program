@@ -28,6 +28,11 @@ import numpy
 
 from Analytics.Solutions.Validations.Stationary import ValidationWithF
 from NeuroCore.Approximations.Space.FEM.GalerkinApproximation import GalerkinApproximation
+from Conventions.Analytics.Solutions.Validations.Stationary import StationaryParameters as analyticConstants
+from Conventions.NeuroCore.Models.GeneralModel import GeneralModelParameters as modelConstants
+from Conventions.Plotting.BasicPlottingColors import BasicPlottingColors as colorConstants
+from Conventions.Plotting.SimulationPlotingParameters import SimulationPlotingParameters as plotConstants
+from Conventions.NeuroCore.Neuron.Segment.Base import BaseParameters as segmentConstants
 from NeuroCore.Models.Conditions.BCs import BoundaryConditions
 from NeuroCore.Models.Conditions.Neumanns import SealedEnd
 from NeuroCore.Models.Conventions import Domains, Steps
@@ -54,26 +59,27 @@ sElements = numpy.arange(0, simDomain.space[-1] + simSteps.space, \
 
 ########################################
 ###      Setting the Simulation      ###
-######################################## 
+########################################
 
-analytical = ValidationWithF(domain=simDomain, steps=simSteps, \
-                             BCs=boundaryConditions, \
-                             diffusionValue=diffusionValue, \
-                             reactionValue=reactionValue)
+analytical = ValidationWithF(**{analyticConstants().Domain: simDomain,
+                                analyticConstants().Steps: simSteps,
+                                analyticConstants().BCs: boundaryConditions,
+                                analyticConstants().DiffusionValue: diffusionValue, \
+                                analyticConstants().ReactionValue: reactionValue})
 
 font = analytical.createFont()
 
-# import inspect
-# print(inspect.getsource(font))
+simModel = GeneralModel(**{modelConstants().IApproximation: GalerkinApproximation(),
+                           modelConstants().Font: font,
+                           modelConstants().CoeffDx2: -diffusionValue,
+                           modelConstants().CoeffV: reactionValue})
 
-# font = f
+segment0 = ISegment(**{segmentConstants().Name:'Axon0',
+                       segmentConstants().LocalConditions:boundaryConditions,
+                       segmentConstants().Domain:simDomain,
+                       segmentConstants().Steps:simSteps,
+                       segmentConstants().IModel:simModel})
 
-simModel = GeneralModel(iApproximation=GalerkinApproximation(), \
-                        BCs=boundaryConditions,
-                        font=font, coeff_dx2=-diffusionValue, \
-                        coeff_v=reactionValue)
-
-segment0 = ISegment('Axon0', boundaryConditions, simDomain, simSteps, simModel)
 
 ########################################
 ###      Running the Simulation      ###
@@ -82,12 +88,19 @@ segment0 = ISegment('Axon0', boundaryConditions, simDomain, simSteps, simModel)
 analyticalResult = analytical.solve()
 
 t_start = time.clock()
-result = segment0.solve()
+result = segment0.solve()[-1]
 
-approxPlot = IDataPlot(name=simModel.name, domain=simDomain, steps=simSteps, results=result, color="b")
-analyPlot = IDataPlot(name=analytical.name, domain=simDomain, steps=simSteps, results=analyticalResult, color="k")
+approxPlot = IDataPlot(**{plotConstants().Name: simModel.name,
+                          plotConstants().Domain: simDomain,
+                          plotConstants().Steps: simSteps,
+                          plotConstants().Results: result,
+                          plotConstants().Color: colorConstants().Blue})
 
-plots = IDataPlots(listPlots=[analyPlot, approxPlot])
+analyPlot = IDataPlot(**{plotConstants().Name: analytical.name,
+                         plotConstants().Domain: simDomain,
+                         plotConstants().Steps: simSteps,
+                         plotConstants().Results: analyticalResult,
+                         plotConstants().Color: colorConstants().Black})
 
-plotting = Simulation(plots=plots)
+plotting = Simulation(**{plotConstants().Plots: [analyPlot, approxPlot]})
 plotting.save("stationaryWithFont.png")
