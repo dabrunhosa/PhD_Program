@@ -28,19 +28,20 @@ class CoupledHHApprox(IApproximation, ABC):
     ###           Constructor            ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         '''A class initializer.'''
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().CoupledHHAproximations,
+        inDefaultOptions =Options(**{constants().Name: Names().CoupledHHAproximations,
                                    constants().M: [],
                                    constants().N: [],
                                    constants().H: []})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        .
+				 defaultOptions = inDefaultOptions << defaultOptions
 
-        super(CoupledHHApprox, self).__init__(whole_options, **kw)
+        super(CoupledHHApprox, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions          ###

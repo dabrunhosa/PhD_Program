@@ -19,17 +19,18 @@ class BoundaryConditions(IHaveOption):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, inStart, inEnd, options=Options(), **kw):
+    def __init__(self, inStart, inEnd, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().BoundaryCondition,
+        inDefaultOptions =Options(**{constants().Name: Names().BoundaryCondition,
                                    constants().InStart: inStart,
                                    constants().InEnd: inEnd})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(BoundaryConditions, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(BoundaryConditions, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
         ########################################
 

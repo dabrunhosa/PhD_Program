@@ -24,18 +24,19 @@ class Previous(IFEM, ABC):
     # def __new__(cls, *args, **kwargs):
     #     pass
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         '''Class initializer. Use it's Base Class initializer
         and adds the weight function to be used. '''
 
         # Define the default options
-        default_options = Options(**{constants().Name: Components().Time,
+        inDefaultOptions =Options(**{constants().Name: Components().Time,
                                    constants().Previous: None})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(Previous, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(Previous, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions          ###

@@ -2,13 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54e9792-6185-43ce-9388-5eaf56315bfd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Conventions/Analytics/Solutions/Validations/Transient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conventions/Analytics/Solutions/Base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Analyser/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Analyser/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/ErrorNorm/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/ErrorNorm/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/FEniCS_Ex/IProblem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/FEniCS_Ex/IProblem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/FEniCS_Ex/Stationary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/FEniCS_Ex/Stationary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/FEniCS_Ex/Transient.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/FEniCS_Ex/Transient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Protocols/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Protocols/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Protocols/BaseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Protocols/BaseData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/CableModel/activeCableModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/CableModel/activeCableModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/CableModel/passiveCableModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/CableModel/passiveCableModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/ISolution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/ISolution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/StationaryBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/StationaryBase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytics/Solutions/TransientBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/TransientBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/Stationary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/Stationary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/Transient.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/Transient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/StationaryBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/StationaryBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/TransientBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/TransientBase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/transient.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/transient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conventions/Analytics/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Conventions/Analytics/Base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Conventions/Classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Conventions/Classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/GalerkinApproximation.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/GalerkinApproximation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Trapezoidal.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Trapezoidal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Lagrange.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Lagrange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/IApproximation.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/IApproximation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Time/BackwardEuler.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Time/BackwardEuler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Time/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Time/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Time/CoupledHH.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Time/CoupledHH.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Coefficient/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Coefficient/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Coefficient/Discrete.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Coefficient/Discrete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Diffusion.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Diffusion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Discrete.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Discrete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Font.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Font.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Reaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Reaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/IEquation.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/IEquation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/CableModel/Passive/Stationary.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/CableModel/Passive/Stationary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/CableModel/Passive/Transient.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/CableModel/Passive/Transient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Conditions/BCs.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Conditions/BCs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Dirichlets.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Dirichlets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Neumanns.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Neumanns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Conventions.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Conventions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/HHModel/HHModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/HHModel/HHModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Simulation/Data/FEMData.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Simulation/Data/FEMData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Simulation/Data/IData.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Simulation/Data/IData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroSimulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroSimulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plotting/IDataPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/IDataPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plotting/IDataPlots.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/IDataPlots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plotting/IPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/IPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plotting/Simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/Simulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/BaseOption.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/BaseOption.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/DataEntry.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/DataEntry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/Handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/Handler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +90,7 @@
     <SUITE FILE_PATH="coverage/PhD_Programs$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1535125011494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_Programs$Base.coverage" NAME="Base Coverage Results" MODIFIED="1532521708858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuroCore/Models" />
     <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryWithFont.coverage" NAME="stationaryWithFont Coverage Results" MODIFIED="1537491675460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
-    <SUITE FILE_PATH="coverage/PhD_GitHub$transient.coverage" NAME="transient Coverage Results" MODIFIED="1537540155381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$transient.coverage" NAME="transient Coverage Results" MODIFIED="1537737764139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_Programs$transient.coverage" NAME="transient Coverage Results" MODIFIED="1534019134177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
   </component>
   <component name="CoverageViewManager">
@@ -111,6 +177,7 @@
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="1" />
@@ -118,29 +185,29 @@
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="png" value="7" />
-          <entry key="py" value="152" />
+          <entry key="py" value="282" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="7" />
-          <entry key="Python" value="152" />
+          <entry key="Python" value="282" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3985" />
+          <entry key="py" value="5555" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3985" />
+          <entry key="Python" value="5555" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -186,24 +253,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py">
+        <entry file="file://$PROJECT_DIR$/Utilities/BaseOption.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="92" selection-start-line="92" selection-end-line="104" selection-end-column="73" />
+            <state relative-caret-position="-17">
+              <caret line="137" selection-start-line="137" selection-end-line="137" />
               <folding>
-                <element signature="e#489#500#0" expanded="true" />
+                <element signature="e#86#96#0" expanded="true" />
+                <marker date="1537731605813" expanded="true" signature="1801:1806" ph="..." />
+                <marker date="1537731605813" expanded="true" signature="3520:3526" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/transient.py">
+        <entry file="file://$PROJECT_DIR$/Analytics/Solutions/ISolution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+            <state relative-caret-position="289">
+              <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
               <folding>
-                <element signature="e#313#337#0" expanded="true" />
+                <element signature="e#83#119#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,35 +281,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="153">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Base.py">
+        <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Approximations/Space/FEM/Base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py">
+        <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            <state relative-caret-position="357">
+              <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Lagrange.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="181">
+              <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="50" />
               <folding>
                 <element signature="e#86#96#0" expanded="true" />
               </folding>
@@ -259,23 +346,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Previous</find>
-      <find>Components</find>
-      <find>Sides.</find>
-      <find>Components.</find>
-      <find>Y</find>
-      <find>line</find>
-      <find>&quot;</find>
-      <find>Options</find>
-      <find>Utils</find>
-      <find>plots</find>
-      <find>{constants()</find>
-      <find>({constants()</find>
-      <find>createI</find>
-      <find>createIni</find>
-      <find>cat</find>
-      <find>except</find>
-      <find>Raise</find>
       <find>print(e)</find>
       <find>Error(e)</find>
       <find>getattr</find>
@@ -289,6 +359,23 @@
       <find>Domain</find>
       <find>create</find>
       <find>linear</find>
+      <find>.__init__</find>
+      <find>__init__(whole_options, **kw)</find>
+      <find>__init__(whole_options,**kw)</find>
+      <find>iter__</find>
+      <find>default_options = Options</find>
+      <find>. whole_options =</find>
+      <find>self.defineDefaultValues\Ddefault_options\D</find>
+      <find>whole_options = default_options &lt;&lt; options</find>
+      <find>whole_options = default_options &lt;&lt; options</find>
+      <find>def __init__(self, options=Options(), **kw):</find>
+      <find>def __init__(self, options=Options(), defaultOptions = Options() **kw):</find>
+      <find>default_options =</find>
+      <find>whole_options \= default_options \&lt;\&lt; options</find>
+      <find>self.defineDefaultValues\Ddefault_options\D</find>
+      <find>\.\n        defaultOptions \= inDefaultOptions \&lt;\&lt; defaultOptions</find>
+      <find>__init__(options=whole_options, **kw)</find>
+      <find>,options=Options(), **kw):</find>
     </findStrings>
     <replaceStrings>
       <replace>Components()</replace>
@@ -304,9 +391,27 @@
       <replace>Exception(e)</replace>
       <replace>self.</replace>
       <replace>self.checkExistance(</replace>
+      <replace>__init__(options=whole_options, **kw)</replace>
+      <replace>default_options = Options</replace>
+      <replace>self.defineDefault whole_options = default_options &lt;&lt; options</replace>
+      <replace>self.defineDefaultValues(default_options) whole_options = default_options &lt;&lt; options</replace>
+      <replace>self.defineDefaultValues(default_options) \n</replace>
+      <replace>\twhole_options = default_options &lt;&lt; options</replace>
+      <replace>\t\twhole_options = default_options &lt;&lt; options</replace>
+      <replace>\t\t\ \whole_options = default_options &lt;&lt; options</replace>
+      <replace>def __init__(self, options=Options(), defaultOptions = Options() **kw):</replace>
+      <replace>def __init__(self, options=Options(), defaultOptions = Options(), **kw):</replace>
+      <replace>inDefaultOptions =</replace>
+      <replace>defaultOptions \= inDefaultOptions \&lt;\&lt; defaultOptions</replace>
+      <replace>\.</replace>
+      <replace>\n        defaultOptions \= inDefaultOptions \&lt;\&lt; defaultOptions</replace>
+      <replace>__init__(options=options, de **kw)</replace>
+      <replace>__init__(options=options, defaultOptions = defaultOptions, **kw)</replace>
+      <replace>,options=Options(), defaultOptions = Options(), **kw):</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\NeuroCore</dir>
+      <dir>D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -315,57 +420,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Font.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Equation/Components/FEM/Base.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Reaction.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Equation/Composite/Base.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Equation/Composite/FEM.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py" />
-        <option value="$PROJECT_DIR$/Analytics/Base.py" />
-        <option value="$PROJECT_DIR$/Conventions/Analytics/Base.py" />
-        <option value="$PROJECT_DIR$/Conventions/Analytics/FEniCS/Base.py" />
-        <option value="$PROJECT_DIR$/Analytics/FEniCS_Ex/IProblem.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Models/Conditions/BCs.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Models/Conditions/Base.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Models/Conditions/BCs.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Models/Conditions/Dirichlets.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Models/Conditions/CurrentInjection.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Models/Conditions/Neumanns.py" />
-        <option value="$PROJECT_DIR$/Analytics/Solutions/ISolution.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Equation/IEquation.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Models/GeneralModel.py" />
-        <option value="$PROJECT_DIR$/Utilities/Handler.py" />
-        <option value="$PROJECT_DIR$/Conventions/Plotting/SimulationPlotingParameters.py" />
-        <option value="$PROJECT_DIR$/Conventions/Plotting/PlotingParameters.py" />
-        <option value="$PROJECT_DIR$/Plotting/IDataPlot.py" />
-        <option value="$PROJECT_DIR$/Conventions/Plotting/IDataPlotsParameters.py" />
-        <option value="$PROJECT_DIR$/Plotting/IDataPlots.py" />
-        <option value="$PROJECT_DIR$/Plotting/IPlot.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Approximations/Space/FEM/Elements/IElementParameters.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Approximations/Space/FEM/Elements/IElementsParameters.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py" />
-        <option value="$PROJECT_DIR$/Plotting/Simulation.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Neuron/Segment/Base.py" />
-        <option value="$PROJECT_DIR$/Utilities/Util.py" />
         <option value="$PROJECT_DIR$/Conventions/Variables.py" />
-        <option value="$PROJECT_DIR$/Utilities/DataEntry.py" />
-        <option value="$PROJECT_DIR$/Utilities/BaseOption.py" />
         <option value="$PROJECT_DIR$/Conventions/NeuroCore/Models/Conventions.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Models/Base.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py" />
         <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" />
         <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" />
         <option value="$PROJECT_DIR$/Conventions/Analytics/Solutions/Validations/Transient.py" />
+        <option value="$PROJECT_DIR$/Utilities/DataEntry.py" />
+        <option value="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/StationaryBase.py" />
         <option value="$PROJECT_DIR$/Analytics/Solutions/Validations/Transient.py" />
-        <option value="$PROJECT_DIR$/Conventions/Classes.py" />
         <option value="$PROJECT_DIR$/Analytics/Solutions/TransientBase.py" />
-        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/transient.py" />
+        <option value="$PROJECT_DIR$/Analytics/Base.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/GalerkinApproximation.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Base.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Lagrange.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/IApproximation.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Equations/IEquation.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Diffusion.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Base.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/Base.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Font.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Reaction.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Time/BackwardEuler.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Time/Base.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Models/Conditions/Dirichlets.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Models/Base.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py" />
+        <option value="$PROJECT_DIR$/Plotting/IDataPlot.py" />
+        <option value="$PROJECT_DIR$/Plotting/Simulation.py" />
+        <option value="$PROJECT_DIR$/Plotting/IPlot.py" />
+        <option value="$PROJECT_DIR$/Plotting/IDataPlots.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py" />
+        <option value="$PROJECT_DIR$/Utilities/Handler.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Models/Conditions/Base.py" />
+        <option value="$PROJECT_DIR$/Analytics/FEniCS_Ex/Stationary.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Models/Conditions/BCs.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Models/Conventions.py" />
+        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/transient.py" />
+        <option value="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py" />
+        <option value="$PROJECT_DIR$/Utilities/BaseOption.py" />
+        <option value="$PROJECT_DIR$/Conventions/Analytics/Solutions/Base.py" />
+        <option value="$PROJECT_DIR$/Conventions/Analytics/Base.py" />
+        <option value="$PROJECT_DIR$/Conventions/Classes.py" />
+        <option value="$PROJECT_DIR$/Analytics/Solutions/ISolution.py" />
       </list>
     </option>
   </component>
@@ -382,9 +487,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+    <option name="x" value="1396" />
+    <option name="y" value="100" />
     <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -411,6 +517,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -426,28 +533,20 @@
             <path>
               <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="Conventions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="Conventions" type="462c0819:PsiDirectoryNode" />
+              <item name="Analytics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="Conventions" type="462c0819:PsiDirectoryNode" />
               <item name="Analytics" type="462c0819:PsiDirectoryNode" />
               <item name="Solutions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="Analytics" type="462c0819:PsiDirectoryNode" />
-              <item name="Solutions" type="462c0819:PsiDirectoryNode" />
-              <item name="Validations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="Analytics" type="462c0819:PsiDirectoryNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="Analytics" type="462c0819:PsiDirectoryNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="Validations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
@@ -484,11 +583,21 @@
               <item name="FEM" type="462c0819:PsiDirectoryNode" />
               <item name="Elements" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -515,19 +624,19 @@
     <option name="mySupportGeventDebugging" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\Analytics\Solutions\Validations" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\NeuroCore\Models" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\Plotting" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Plotting" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Neuron\Segment" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Equation" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\NeuroCore\Models" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Approximations\Space\FEM\Integration" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Approximations\Space\FEM\Elements" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\Plotting" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\Analytics\Solutions" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\Analytics\Solutions\Validations" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\NeuroCore\Models" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\Plotting" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Plotting" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -696,20 +805,20 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22550336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4986577" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49395972" weight="0.32624114" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49530202" weight="0.30496454" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597314" visible="true" weight="0.30496454" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49463087" weight="0.32624114" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402683" side_tool="true" weight="0.30496454" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4986577" weight="0.32907802" />
       <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.49932885" weight="0.32907802" />
@@ -738,14 +847,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py</url>
-          <line>122</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py</url>
-          <line>80</line>
-          <option name="timeStamp" value="8" />
+          <line>33</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -809,158 +928,263 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Plotting/IPlot.py">
+    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/Transient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="170">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="e#83#142#0" expanded="true" />
+            <marker date="1537711322289" expanded="true" signature="1558:1576" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/TransientBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="e#82#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/GalerkinApproximation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="312">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Approximations/Space/FEM/Elements/IElementsParameters.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/IApproximation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-end-line="12" />
+        <state relative-caret-position="306">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Approximations/Space/FEM/Elements/IElementParameters.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="21" selection-end-line="47" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1705537861/872697134/matplotlib/animation.py" />
-    <entry file="file://$PROJECT_DIR$/Plotting/Simulation.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+        <state relative-caret-position="155">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/Handler.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/IEquation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="155">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/Util.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/191559120/964032970/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Simulation/ICore.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Diffusion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="155">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Variables.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="147">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1705537861/964032970/codecs.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        <state relative-caret-position="155">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Neuron/Segment/Base.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Font.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="155">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Reaction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Time/BackwardEuler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Time/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conditions/Dirichlets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Plotting/IDataPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="255">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plotting/Simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plotting/IPlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Plotting/IDataPlots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="113" column="4" lean-forward="true" selection-start-line="113" selection-start-column="4" selection-end-line="118" selection-end-column="39" />
+        <state relative-caret-position="147">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Models/Base.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Models/Conventions.py">
+    <entry file="file://$PROJECT_DIR$/Utilities/Handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conventions.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conditions/Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="187">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Models/GeneralModel.py">
+    <entry file="file://$PROJECT_DIR$/Analytics/FEniCS_Ex/Stationary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="274">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Equation/IEquation.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conditions/BCs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="104">
+          <caret line="21" column="85" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conventions/Parameters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/BaseOption.py">
+    <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Models/Conventions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroSimulator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        <state>
           <folding>
-            <element signature="e#86#96#0" expanded="true" />
-            <marker date="1536936482240" expanded="true" signature="3584:3590" ph="..." />
+            <element signature="e#292#327#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/DataEntry.py">
+    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/CableModel/passiveCableModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="-2929" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="121" column="28" lean-forward="true" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="92" column="25" lean-forward="true" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="29" />
+        <state relative-caret-position="300">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/transient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
           <folding>
-            <element signature="e#592#603#0" expanded="true" />
+            <element signature="e#313#337#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -968,183 +1192,122 @@
     <entry file="file://$PROJECT_DIR$/Conventions/Analytics/Solutions/StationaryBase.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Analytics/Solutions/Validations/Transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Analytics/Solutions/Validations/Stationary.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/FEniCS_Ex/Transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/FEniCS_Ex/Stationary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/FEniCS_Ex/IProblem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Classes.py">
+    <entry file="file://$PROJECT_DIR$/Conventions/Analytics/Base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+          <caret column="45" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conventions/Analytics/Solutions/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conventions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
-            <marker date="1537532684772" expanded="true" signature="4591:4999" ph="..." />
+            <element signature="e#96#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/TransientBase.py">
+    <entry file="file://$PROJECT_DIR$/Analytics/Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+        <state relative-caret-position="17">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="e#82#101#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/Transient.py">
+    <entry file="file://$PROJECT_DIR$/Conventions/Classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="153">
+          <caret line="191" column="26" selection-start-line="191" selection-start-column="26" selection-end-line="191" selection-end-column="26" />
           <folding>
-            <marker date="1537530373354" expanded="true" signature="1484:1502" ph="..." />
+            <marker date="1537735659379" expanded="true" signature="416:421" ph="..." />
+            <marker date="1537735659379" expanded="true" signature="3975:4019" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py">
+    <entry file="file://$PROJECT_DIR$/Utilities/DataEntry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#86#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/Stationary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="92" selection-start-line="92" selection-end-line="104" selection-end-column="73" />
-          <folding>
-            <element signature="e#489#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Conventions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/IApproximation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/GalerkinApproximation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
-          <folding>
-            <element signature="e#313#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="431">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="181">
+          <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="50" />
           <folding>
             <element signature="e#86#96#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/ISolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+          <folding>
+            <element signature="e#83#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Approximations/Space/FEM/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Lagrange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/BaseOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+          <folding>
+            <element signature="e#86#96#0" expanded="true" />
+            <marker date="1537731605813" expanded="true" signature="1801:1806" ph="..." />
+            <marker date="1537731605813" expanded="true" signature="3520:3526" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
         </state>
       </provider>
     </entry>

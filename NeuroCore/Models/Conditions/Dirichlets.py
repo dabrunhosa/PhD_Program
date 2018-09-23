@@ -17,16 +17,17 @@ class Dirichlet(ICondition):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         # Define the default options
-        default_options = Options(**{constants().Name: Names().Dirichlet,
+        inDefaultOptions =Options(**{constants().Name: Names().Dirichlet,
                                    constants().BcValue: 1.0,
                                    constants().BcType: constants().Dirichlet})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(Dirichlet, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(Dirichlet, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
 
 '''
@@ -43,13 +44,14 @@ class VoltageClamp(Dirichlet):
 
     def __init__(self, bcValue, options=Options(), **kw):
         # Define the default options
-        default_options = Options(**{constants().Name: Names().VoltageClamp,
+        inDefaultOptions =Options(**{constants().Name: Names().VoltageClamp,
                                    constants().BcValue: bcValue})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(VoltageClamp, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(VoltageClamp, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
 
 class KilledEnd(Dirichlet):
@@ -58,16 +60,17 @@ class KilledEnd(Dirichlet):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().KilledEnd,
+        inDefaultOptions =Options(**{constants().Name: Names().KilledEnd,
                                    constants().BcValue: 0.0})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(KilledEnd, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(KilledEnd, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions          ###

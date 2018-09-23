@@ -21,16 +21,17 @@ class Neumann(ICondition):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         # Define the default options
-        default_options = Options(**{constants().Name: Names().Neumann,
+        inDefaultOptions =Options(**{constants().Name: Names().Neumann,
                                    constants().BcValue: 1.0,
                                    constants().BcType: constants().Neumann})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        .
+				 defaultOptions = inDefaultOptions << defaultOptions
 
-        super(Neumann, self).__init__(whole_options, **kw)
+        super(Neumann, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
 
 class SealedEnd(Neumann):
@@ -39,16 +40,17 @@ class SealedEnd(Neumann):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().SealedEnd,
+        inDefaultOptions =Options(**{constants().Name: Names().SealedEnd,
                                    constants().BcValue: 0.0})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        .
+				 defaultOptions = inDefaultOptions << defaultOptions
 
-        super(SealedEnd, self).__init__(whole_options, **kw)
+        super(SealedEnd, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
         ########################################
 
@@ -72,19 +74,20 @@ class CurrentInjection(Neumann):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options({currentConstanst().Name: Names().CurrentInjection,
+        inDefaultOptions =Options({currentConstanst().Name: Names().CurrentInjection,
                                    currentConstanst().Diameter: None,
                                    currentConstanst().ResistanceL: None,
                                    currentConstanst().Current: None,
                                    currentConstanst().BcValue: 1.0})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        .
+				 defaultOptions = inDefaultOptions << defaultOptions
 
-        super(CurrentInjection, self).__init__(whole_options, **kw)
+        super(CurrentInjection, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
         ########################################
 

@@ -28,10 +28,10 @@ class FEM_Approximation(IApproximation, ABC):
     ###           Constructor            ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().FEM,
+        inDefaultOptions =Options(**{constants().Name: Names().FEM,
                                      constants().ReferenceElement: True,
                                      constants().Modifiers: {},
                                      constants().WeightFunction: Linear_Lagrange(),
@@ -39,9 +39,9 @@ class FEM_Approximation(IApproximation, ABC):
                                      constants().IElements: None})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
 
-        super(FEM_Approximation, self).__init__(whole_options, **kw)
+        super(FEM_Approximation, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
         self.iElements = IElements(numLocalNodes=self.weightFunction.numLocalNodes, \
                                    numIntegration=self.numIntegration)
 

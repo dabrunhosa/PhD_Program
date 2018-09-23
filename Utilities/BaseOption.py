@@ -7,9 +7,6 @@ Created on Mon Sep 25 05:34:15 2017
 
 import sys
 from abc import ABCMeta, abstractmethod
-
-from Conventions.Classes import Names
-from Conventions.Parameters import Parameters
 from Conventions.Variables import Variables
 from Utilities.DataEntry import Options, Options_User
 
@@ -26,33 +23,27 @@ class IHaveOption(object):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions=Options(), **kw):
 
         # Class to threat the Option Class 
         class_option = Options_User()
 
         self.__dict__[Variables().Class_Attributes] = []
 
-        # Define the default options
-        default_options = Options(**{Parameters().Name: Names().Default})
-
-        # Merge the default options and the user generated options
-        whole_options = default_options << options
-
         # All the attributes allowed to be access.
-        self.__dict__[Variables().Class_Attributes] = whole_options.names
+        self.__dict__[Variables().Class_Attributes] = defaultOptions.names
 
         # All the attributes and expected types
-        self.__dict__[Variables().ExpectedTypes] = self.__createExpectedTypes(whole_options)
+        self.__dict__[Variables().ExpectedTypes] = self.__createExpectedTypes(defaultOptions)
 
         # All the attributes and default values
-        self.__dict__[Variables().DefaultValues] = whole_options
+        self.__dict__[Variables().DefaultValues] = self.__createDefaultValues(defaultOptions)
 
         # print("\n\nBase Option Kw Options:", kw)
         # print("Base Option Whole Options:", self.__dict__)
 
         # Initialize the options and the extra arguments
-        class_option.init_options(self, whole_options, kw)
+        class_option.init_options(self, options, kw)
 
     ########################################
     ###       Class Functions            ###
@@ -91,7 +82,7 @@ class IHaveOption(object):
 
         if isinstance(nameVariablesToCheck, list):
             for variableName in nameVariablesToCheck:
-                if self.__dict__[variableName] is  self.__dict__[Variables().DefaultValues][variableName]:
+                if self.__dict__[variableName] ==  self.__dict__[Variables().DefaultValues][variableName]:
                     return True
                     pass
 
@@ -105,10 +96,18 @@ class IHaveOption(object):
     ###       Private Functions          ###
     ########################################
 
+    def __createDefaultValues(self, wholeOptions):
+        defaultValues = {}
+
+        for attribute, value in wholeOptions:
+            defaultValues[attribute] = value
+
+        return defaultValues
+
     def __createExpectedTypes(self, wholeOptions):
         expectTypeDict = {}
 
-        for attribute, value in wholeOptions.items():
+        for attribute, value in wholeOptions:
             expectTypeDict[attribute] = type(value)
 
         return expectTypeDict

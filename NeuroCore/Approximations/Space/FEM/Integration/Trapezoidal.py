@@ -20,15 +20,16 @@ class Trapezoidal(IIntegration):
     ###           Constructor            ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         # Define the default options
-        default_options = Options(**{constants().Name: Names().Trapezoidal,
+        inDefaultOptions =Options(**{constants().Name: Names().Trapezoidal,
                                      constants().NumPoints: 2})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        .
+				 defaultOptions = inDefaultOptions << defaultOptions
 
-        super(Trapezoidal, self).__init__(whole_options, **kw)
+        super(Trapezoidal, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Abstract Functions         ###

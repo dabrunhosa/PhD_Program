@@ -23,17 +23,18 @@ class Linear_Lagrange(Lagrange):
     anymore. Note that is easy to flip the switch back. 
     '''
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         # Define the default options
-        default_options = Options(**{constants().NumLocalNodes: 2,
+        inDefaultOptions =Options(**{constants().NumLocalNodes: 2,
                                      constants().Degree: 1,
                                      constants().DiffWeightFunction: [],
                                      constants().WeightFunction: []})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(Linear_Lagrange, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(Linear_Lagrange, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Public Functions           ###

@@ -45,14 +45,15 @@ class NeuroSimulator(BaseOption):
     ###          Constructor             ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw):
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
         
          # Define the default options
-        default_options = Options(name = "Default",
+        inDefaultOptions =Options(name = "Default",
                                   neuron = NetX_Neuron())
         
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        .
+				 defaultOptions = inDefaultOptions << defaultOptions
         
         # Initialize the options and the extra arguments
         self.class_option.init_options(self,whole_options,kw)

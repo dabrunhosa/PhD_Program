@@ -12,6 +12,22 @@ class Names(object):
         return "Default"
 
     @property
+    def Domain(self):
+        return "domain"
+
+    @property
+    def Steps(self):
+        return "steps"
+
+    @property
+    def Space(self):
+        return "space"
+
+    @property
+    def Time(self):
+        return "time"
+
+    @property
     def ISegment(self):
         return "ISegment"
 
@@ -171,6 +187,9 @@ class Names(object):
     def CurrentInjection(self):
         return "Current Injection"
 
+    @property
+    def ISolution(self):
+        return "ISolution"
 
 class Sides(object):
     @property
@@ -205,6 +224,10 @@ class Components(object):
 
 
 class Descriptions(object):
+
+    @property
+    def ISolution(self):
+        return "A Solution Interface"
 
     @property
     def IAnalysis(self):

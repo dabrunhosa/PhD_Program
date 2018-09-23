@@ -23,14 +23,15 @@ class GalerkinApproximation(FEM_Approximation):
     ###           Constructor            ###
     ########################################  
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         # Define the default options
-        default_options = Options(**{constants().Name: Names().ClassicGalerkin})
+        inDefaultOptions =Options(**{constants().Name: Names().ClassicGalerkin})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(GalerkinApproximation, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(GalerkinApproximation, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Public Functions           ###

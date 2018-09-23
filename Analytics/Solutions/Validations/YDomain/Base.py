@@ -32,10 +32,10 @@ class YDomain(ISolution, ABC):
     ###       Constructor                ###
     ########################################
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(name="Y Domain Base Solution",
+        inDefaultOptions =Options(name="Y Domain Base Solution",
                                   numSegments=None,
                                   bifurcationPoints=None,sElementsE=None,sElementsLw=None,sElementsUp=None,
                                   domainDef=["domainE","domainLw","domainUp"],
@@ -43,9 +43,10 @@ class YDomain(ISolution, ABC):
                                   description="This is a base solution for the Y Domain Problem)")
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        .
+				 defaultOptions = inDefaultOptions << defaultOptions
 
-        super(YDomain, self).__init__(whole_options, **kw)
+        super(YDomain, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions          ###

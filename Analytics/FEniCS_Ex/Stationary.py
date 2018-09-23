@@ -32,10 +32,10 @@ class CableModelWithF(IProblem):
     ###       Constructor                ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw):
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
         
         # Define the default options
-        default_options = Options(name = "Cable Model With Font",
+        inDefaultOptions =Options(name = "Cable Model With Font",
                                   description = "This is the solution for the \
                                                   following problem:\
                                                   Problem being solved is: [0,X]\
@@ -45,9 +45,9 @@ class CableModelWithF(IProblem):
                                                   Solution: u = sin(2*pi*x)")
         
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
         
-        super(CableModelWithF,self).__init__(whole_options,**kw) 
+        super(CableModelWithF,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
     
     
     ########################################
@@ -102,10 +102,10 @@ class CableModel(IProblem):
     ###       Constructor                ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw):
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
         
         # Define the default options
-        default_options = Options(name = "Cable Model",
+        inDefaultOptions =Options(name = "Cable Model",
                                   description = "This is the solution for the following problem:\
                                   Problem being solved is: [0,X] \
                                   - epsilon*d2u/dx2 + u = 0 \
@@ -119,9 +119,9 @@ class CableModel(IProblem):
                                   lambda = 1/sqrt(epsilon)")
         
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
         
-        super(CableModel,self).__init__(whole_options,**kw) 
+        super(CableModel,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
     
     ########################################
     ###      Public Functions            ###

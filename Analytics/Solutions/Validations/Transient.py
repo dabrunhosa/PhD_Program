@@ -28,17 +28,18 @@ class ValidationWithF(TransientBase):
     ###       Constructor                ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw):
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
         
         # Define the default options
-        default_options = Options(**{constants().Name:  Names().ValidationWithF,
+        inDefaultOptions =Options(**{constants().Name:  Names().ValidationWithF,
                                      constants().KValue: 1,
                                      constants().Description: Descriptions().TransientValidationWithF})
         
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+
+        defaultOptions = inDefaultOptions << defaultOptions
         
-        super(ValidationWithF,self).__init__(whole_options,**kw)
+        super(ValidationWithF,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Public Functions           ###

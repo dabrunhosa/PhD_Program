@@ -18,19 +18,20 @@ class TransientBase(ISolution, ABC):
     ###       Constructor                ###
     ########################################
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().TransientBaseClass,
+        inDefaultOptions =Options(**{constants().Name: Names().TransientBaseClass,
                                      constants().SElements: None,
                                      constants().BCs: None,
                                      constants().Solution: [],
                                      constants().Description: Descriptions().TransientBaseClass})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(TransientBase, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(TransientBase, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Public Functions           ###

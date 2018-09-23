@@ -19,9 +19,9 @@ class IDataPlots(IHaveOption):
     ###       Constructor                ###
     ########################################
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         # Define the default options
-        default_options = Options(**{constants().Name: Names().IDataPlots,
+        inDefaultOptions =Options(**{constants().Name: Names().IDataPlots,
                                      constants().ListPlots: None,
                                      constants().IterablePlots: None,
                                      constants().Length: None,
@@ -29,9 +29,10 @@ class IDataPlots(IHaveOption):
                                      constants().Transient: False})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(IDataPlots, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(IDataPlots, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###        Public Functions         ###

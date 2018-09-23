@@ -29,10 +29,10 @@ class IElements(ISolvable):
     ###           Constructor            ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().FEMElements,
+        inDefaultOptions = Options(**{constants().Name: Names().FEMElements,
                                      constants().NumElements: None,
                                      constants().Domain: None,
                                      constants().Steps: None,
@@ -46,9 +46,9 @@ class IElements(ISolvable):
                                      constants().Elements: []})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
 
-        super(IElements, self).__init__(whole_options, **kw)
+        super(IElements, self).__init__(options=options, defaultOptions=defaultOptions, **kw)
 
     ########################################
     ###       Private Functions         ###
@@ -71,12 +71,14 @@ class IElements(ISolvable):
                     print(e)
                     raise Exception(e)
 
-            if not self.checkDefaultValues([constants().Linear, constants().Elements, constants().Previous]):
-                pos = 0
-                for element in getattr(self, constants().Elements):
-                    element.linear = value
-                    element.extraData[constants().Previous] = getattr(self, constants().Previous)[pos:pos + 2]
-                    pos += 1
+            if attributeName == constants().Linear and value is not None:
+                if not self.checkDefaultValues([constants().Elements,constants().Previous]):
+                # if len(self.elements) != 0 and len(self.previous) != 0:
+                    pos = 0
+                    for element in getattr(self, constants().Elements):
+                        element.linear = value
+                        element.extraData[constants().Previous] = getattr(self, constants().Previous)[pos:pos + 2]
+                        pos += 1
 
     def __prepareData(self):
 

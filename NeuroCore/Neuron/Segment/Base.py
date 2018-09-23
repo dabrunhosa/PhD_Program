@@ -20,9 +20,9 @@ class ISegment(ISolvable):
     ###           Constructor            ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         # Define the default options
-        default_options = Options(**{constants().Domain: None,
+        inDefaultOptions =Options(**{constants().Domain: None,
                                      constants().Steps: None,
                                      constants().Name: Names().ISegment,
                                      constants().SegmentName: None,
@@ -30,9 +30,10 @@ class ISegment(ISolvable):
                                      constants().IModel: []})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(ISegment, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(ISegment, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions          ###

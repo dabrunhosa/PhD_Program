@@ -18,15 +18,16 @@ class IAnalysis(ISolvable, ABC):
     ###       Constructor                ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         # Define the default options
-        default_options = Options(**{constants().Name: Names().IAnalysis,
+        inDefaultOptions =Options(**{constants().Name: Names().IAnalysis,
                                    constants().Description: Descriptions().IAnalysis,
                                    constants().Solution: None,
                                    constants().Domain: None,
                                    constants().Steps: None})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(IAnalysis, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(IAnalysis, self).__init__(options=options, defaultOptions = defaultOptions, **kw)

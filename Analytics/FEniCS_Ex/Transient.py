@@ -25,7 +25,7 @@ class CableModelWithF():
     #def __init__(self,options=Options(), **kw):
         
     #    # Define the default options
-    #    default_options = Options(name = "Cable Model With Font",
+    #    inDefaultOptions =Options(name = "Cable Model With Font",
     #                              description = "This is the solution for the \
     #                                              following problem:\
     #                                              Problem being solved is: [0,X]X[0,T]\
@@ -37,9 +37,9 @@ class CableModelWithF():
     #                                              Solution: u = (e^(-kt))*sin(2*pi*x)")
         
     #    # Merge the default options and the user generated options
-    #    whole_options = default_options << options
+    #    defaultOptions = inDefaultOptions << defaultOptions
         
-    #    super(CableModelWithF,self).__init__(whole_options,**kw) 
+    #    super(CableModelWithF,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
     
     ########################################
     ###      Public Functions            ###

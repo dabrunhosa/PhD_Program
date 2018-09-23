@@ -19,17 +19,18 @@ class Function(IHaveOption):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, userFunction, options=Options(), **kw):
+    def __init__(self, userFunction, options=Options(), defaultOptions = Options, **kw):
 
         # Define the default options
-        default_options = Options(**{UtilitiesParameters().Name: Names().Function,
+        inDefaultOptions =Options(**{UtilitiesParameters().Name: Names().Function,
                                    UtilitiesParameters().InFunction: self.__fixFunction(userFunction),
                                    UtilitiesParameters().InConstant: 1.0})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(Function, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(Function, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions          ###

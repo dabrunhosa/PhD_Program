@@ -26,6 +26,7 @@ from Conventions.NeuroCore.Models.GeneralModel import GeneralModelParameters as 
 from Conventions.Plotting.BasicPlottingColors import BasicPlottingColors as colorConstants
 from Conventions.Plotting.SimulationPlotingParameters import SimulationPlotingParameters as plotConstants
 from Conventions.NeuroCore.Neuron.Segment.Base import BaseParameters as segmentConstants
+from Conventions.NeuroCore.Models.Conventions import ConventionsParameters as conventionsConstants
 from NeuroCore.Approximations.Time.BackwardEuler import BackwardEuler
 from NeuroCore.Models.Conditions.BCs import BoundaryConditions
 from NeuroCore.Models.Conditions.Dirichlets import KilledEnd
@@ -42,8 +43,10 @@ from Plotting.Simulation import Simulation
 ###      Simulation Variable         ###
 ######################################## 
 
-simDomain = Domains(space=[0, 1], time=[0, 10])
-simSteps = Steps(space=0.01, time=0.1)
+simDomain = Domains(**{conventionsConstants().Space: [0, 1],
+                       conventionsConstants().Time: [0, 10]})
+simSteps = Steps(**{conventionsConstants().Space: 0.01,
+                    conventionsConstants().Time: 0.1})
 
 diffusionValue = 1
 reactionValue = 1

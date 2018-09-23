@@ -25,17 +25,18 @@ class Lagrange(IWeightFunction):
     anymore. Note that is easy to flip the switch back. 
     '''
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         # Define the default options
-        default_options = Options(**{constants().NumLocalNodes: None,
+        inDefaultOptions =Options(**{constants().NumLocalNodes: None,
                                      constants().Degree: None,
                                      constants().DiffWeightFunction: [],
                                      constants().WeightFunction: []})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(Lagrange, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(Lagrange, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
         self._create_weight_functions()
 

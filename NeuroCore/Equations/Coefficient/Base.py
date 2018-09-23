@@ -22,15 +22,16 @@ class ICoefficient(IEquation, ABC):
     def __init__(self, userCoeff, options=Options(), **kw):
 
         # Define the default options
-        default_options = Options(name="Coefficient",
+        inDefaultOptions =Options(name="Coefficient",
                                   customFunctions={},
                                   coeffType=self.__identifyType(userCoeff),
                                   value=userCoeff)
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        .
+				 defaultOptions = inDefaultOptions << defaultOptions
 
-        super(ICoefficient, self).__init__(whole_options, **kw)
+        super(ICoefficient, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions          ###

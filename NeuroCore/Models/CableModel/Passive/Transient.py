@@ -17,7 +17,7 @@ class CableModel(IModel):
     ###           Constructor            ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw):
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
 
         #Other Example would be:
         # Ek = -77,
@@ -25,7 +25,7 @@ class CableModel(IModel):
         # ELeaky = -54.4,
         
         # Define the default options
-        default_options = Options(name = "Cable Model",
+        inDefaultOptions =Options(name = "Cable Model",
                                   results = [],
                                   gk = 36, 
                                   gNa = 120,
@@ -39,12 +39,12 @@ class CableModel(IModel):
                                   coeff_font = None)
         
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
         
         #print("CableModel Kw Options:",kw)
         #print("\nCableModel Whole Options:",whole_options.__dict__)
         
-        super(CableModel,self).__init__(whole_options,**kw)
+        super(CableModel,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
         
     ######################################## 
     ###       Private Functions          ###

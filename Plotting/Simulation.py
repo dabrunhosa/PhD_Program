@@ -40,17 +40,18 @@ class Simulation(IPlot):
     ###       Constructor                ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().SimuPlots,
+        inDefaultOptions =Options(**{constants().Name: Names().SimuPlots,
                                      constants().Marker: itertools.cycle((',', '+', '.', 'o', '*', 'v', '>', '<')),
                                      constants().Linestyles: itertools.cycle(('--', '-', '-.', ':'))})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(Simulation, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(Simulation, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###        Public Functions          ###

@@ -35,10 +35,10 @@ Problem being solved is: [0,1]X[0,T]
     ###       Constructor                ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw):
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
         
         # Define the default options
-        default_options = Options(name = "Passive Cable Model Example for 2 Branches",
+        inDefaultOptions =Options(name = "Passive Cable Model Example for 2 Branches",
                                   kValue = 1,
                                   description = "This is the solution for the \
                                                   following problem:\
@@ -55,9 +55,9 @@ Problem being solved is: [0,1]X[0,T]
                                   D=None)
         
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
         
-        super(CableModelTwoBranches,self).__init__(whole_options,**kw)
+        super(CableModelTwoBranches,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Public Functions           ###
@@ -119,10 +119,10 @@ class CableModelWithSoma(ISolution):
      ###       Constructor                ###
      ########################################
 
-     def __init__(self, options=Options(), **kw):
+     def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
          # Define the default options
-         default_options = Options(name="Passive Cable Model",
+         inDefaultOptions =Options(name="Passive Cable Model",
                                    kValue=1,
                                    description="This is the solution for the \
                                                   following problem:\
@@ -140,9 +140,10 @@ class CableModelWithSoma(ISolution):
                                    D=None)
 
          # Merge the default options and the user generated options
-         whole_options = default_options << options
+         .
+				 defaultOptions = inDefaultOptions << defaultOptions
 
-         super(CableModelWithSoma, self).__init__(whole_options, **kw)
+         super(CableModelWithSoma, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
      ########################################
      ###       Public Functions           ###

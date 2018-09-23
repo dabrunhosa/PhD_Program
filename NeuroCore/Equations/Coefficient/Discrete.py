@@ -17,16 +17,16 @@ class Discrete(ICoefficient, ABC):
     ###          Constructor             ###
     ######################################## 
     
-    def __init__(self,userCoeff,options=Options(), **kw):
+    def __init__(self,userCoeff,options=Options(), defaultOptions = Options(), **kw):
         
          # Define the default options
-        default_options = Options(name = "Discrete",
+        inDefaultOptions =Options(name = "Discrete",
                                   positionCalculations = {})
         
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
         
-        super(Discrete,self).__init__(whole_options,**kw)
+        super(Discrete,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
     
     ########################################
     ###       Private Functions          ###
@@ -42,16 +42,16 @@ class HH(ICoefficient, ABC):
     ###          Constructor             ###
     ######################################## 
     
-    def __init__(self,userCoeff,options=Options(), **kw):
+    def __init__(self,userCoeff,options=Options(), defaultOptions = Options(), **kw):
         
          # Define the default options
-        default_options = Options(name = "Discrete",
+        inDefaultOptions =Options(name = "Discrete",
                                   positionCalculations = {})
         
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
         
-        super(HH,self).__init__(whole_options,**kw)
+        super(HH,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
     
     ########################################
     ###       Private Functions          ###

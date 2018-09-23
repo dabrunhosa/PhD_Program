@@ -15,10 +15,10 @@ class INeuron(IHaveOption):
     ###          Constructor             ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw):
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
         
          # Define the default options
-        self.default_options = Options(name = "Neuron")
+        self.inDefaultOptions =Options(name = "Neuron")
         
         # Merge the default options and the user generated options
         whole_options = self.default_options << options

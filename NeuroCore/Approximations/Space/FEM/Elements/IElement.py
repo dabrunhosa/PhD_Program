@@ -23,10 +23,10 @@ class IElement(ISolvable):
 
     # def __new__(cls, *args, **kwargs):
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().FEMElement,
+        inDefaultOptions =Options(**{constants().Name: Names().FEMElement,
                                      constants().Domain: None,
                                      constants().NumLocalNodes: None,
                                      constants().NumIntegration: None,
@@ -38,9 +38,10 @@ class IElement(ISolvable):
                                      constants().Linear: None})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(IElement, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(IElement, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
         self.__prepareData()
 

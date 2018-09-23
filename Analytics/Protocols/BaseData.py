@@ -15,7 +15,7 @@ class IDataAnalysed(IHaveOption):
     ###       Constructor                ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw): 
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
         
         self.__dict__['allowedAttributes'] = [DataAnalysed().Diffusion,\
                                                        DataAnalysed().Reaction,\
@@ -24,7 +24,7 @@ class IDataAnalysed(IHaveOption):
                                                        DataAnalysed().timeSteps]
         
          # Define the default options
-        default_options = Options(name = "IDataAnalysed",
+        inDefaultOptions =Options(name = "IDataAnalysed",
                                   diffusion = None,
                                   reaction = None,
                                   time = None,
@@ -35,9 +35,9 @@ class IDataAnalysed(IHaveOption):
                                   analysedAttributes = [])
         
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
         
-        super(IDataAnalysed,self).__init__(whole_options,**kw) 
+        super(IDataAnalysed,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
         
 #        self.__dict__["class_attributes"].extend(self.__dict__['allowedAttributes'])
         

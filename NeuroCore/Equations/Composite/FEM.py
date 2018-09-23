@@ -21,7 +21,7 @@ class IFEM(IComposite, ABC):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         '''The initializer for the class receives a list
         of terms that the composed term is going to
         be based in.
@@ -30,16 +30,17 @@ class IFEM(IComposite, ABC):
         Composed_Term(diffusion = Galerking_Diffusion,...)'''
 
         # Define the default options
-        default_options = Options(**{constants().Name: "FEM Composite",
+        inDefaultOptions =Options(**{constants().Name: "FEM Composite",
                                    constants().Line: 0.0,
                                    constants().Column: 0.0,
                                    constants().Previous: None,
                                    constants().Domain: None})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(IFEM, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(IFEM, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
         ########################################
 

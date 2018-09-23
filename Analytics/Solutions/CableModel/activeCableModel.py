@@ -27,10 +27,10 @@ class CableModel(ISolution):
     ###       Constructor                ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw):
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
         
         # Define the default options
-        default_options = Options(name = "Cable Model With Font",
+        inDefaultOptions =Options(name = "Cable Model With Font",
                                   kValue = 1,
                                   description = "This is the solution for the \
                                                   following problem:\
@@ -43,9 +43,9 @@ class CableModel(ISolution):
                                                   Solution: u = (e^(-kt))*sin(2*pi*x)")
         
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
         
-        super(ValidationWithF,self).__init__(whole_options,**kw)
+        super(ValidationWithF,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Public Functions           ###

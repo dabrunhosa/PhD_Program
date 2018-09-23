@@ -21,19 +21,20 @@ class IProblem(IAnalysis, ABC):
     ###       Constructor                ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().IProblem,
+        inDefaultOptions =Options(**{constants().Name: Names().IProblem,
                                    constants().Description: Descriptions().IProblem,
                                    constants().SpatialSteps: None,
                                    constants().Mesh: None,
                                    constants().BCs: None})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        .
+				 defaultOptions = inDefaultOptions << defaultOptions
 
-        super(IProblem, self).__init__(whole_options, **kw)
+        super(IProblem, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
         ########################################
 

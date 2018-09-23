@@ -20,10 +20,10 @@ class NetXNeuron(INeuron):
     ###          Constructor             ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw):
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
         
          # Define the default options
-        self.default_options = Options(name = "NetX_Neuron",
+        self.inDefaultOptions =Options(name = "NetX_Neuron",
                                        mesh = nx.DiGraph(),
                                        node_count = 0,
                                        segment_nodes = {},

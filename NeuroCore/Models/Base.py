@@ -20,10 +20,10 @@ class IModel(ISolvable):
     ###           Constructor            ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().IModel,
+        inDefaultOptions =Options(**{constants().Name: Names().IModel,
                                      constants().Domain: None,
                                      constants().Steps: None,
                                      constants().CurrentTime: None,
@@ -37,12 +37,13 @@ class IModel(ISolvable):
                                      constants().Equation: {}})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+
+        defaultOptions = inDefaultOptions << defaultOptions
 
         # print("IModel Kw Options:",kw)
         # print("\nIModel Whole Options:",whole_options.__dict__)
 
-        super(IModel, self).__init__(whole_options, **kw)
+        super(IModel, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions          ###

@@ -21,12 +21,13 @@ class IIntegration(ISolvable, ABC):
     ###           Constructor            ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         # Define the default options
-        default_options = Options(**{constants().Name: Names().GenericIntegration,
+        inDefaultOptions =Options(**{constants().Name: Names().GenericIntegration,
                                      constants().Domain: [-1, 1]})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(IIntegration, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(IIntegration, self).__init__(options=options, defaultOptions = defaultOptions, **kw)

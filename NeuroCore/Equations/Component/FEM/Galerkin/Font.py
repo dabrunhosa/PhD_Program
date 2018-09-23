@@ -20,18 +20,19 @@ class Font(IFEM, ABC):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         '''Class initializer. Use it's Base Class initializer
         and adds the weight function to be used. '''
 
         # Define the default options
-        default_options = Options(**{constants().Name: Components().Font,
+        inDefaultOptions =Options(**{constants().Name: Components().Font,
                                    constants().Font: None})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(Font, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(Font, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions          ###

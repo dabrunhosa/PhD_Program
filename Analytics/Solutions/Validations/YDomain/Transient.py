@@ -34,10 +34,10 @@ class JemmyEx1(YDomainTransientBase):
     ###       Constructor                ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw):
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
         
         # Define the default options
-        default_options = Options(name="Jemmy's Example 1",
+        inDefaultOptions =Options(name="Jemmy's Example 1",
                                   numSegments=3,
                                   bifurcationPoints=1,
                                   domainE=Domains(space=[0, 1],time=[0,1]),
@@ -59,9 +59,9 @@ class JemmyEx1(YDomainTransientBase):
                                                   Solution: u = (e^(-(1 + pi^2)*t)*cos(pi*x)")
         
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
         
-        super(JemmyEx1,self).__init__(whole_options,**kw)
+        super(JemmyEx1,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Public Functions           ###
@@ -99,10 +99,10 @@ class JemmyEx2(YDomainTransientBase):
     ###       Constructor                ###
     ########################################
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(name="Jemmy's Example 2",
+        inDefaultOptions =Options(name="Jemmy's Example 2",
                                   numSegments=3,
                                   bifurcationPoints=1,
                                   segmentsDomain=[Domains(space=[0, pi/2],time=[0,1]), Domains(space=[pi/2, pi],time=[0,1]),
@@ -120,9 +120,9 @@ class JemmyEx2(YDomainTransientBase):
                                                   Solution: u = (e^-t)*sin(x)")
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
 
-        super(JemmyEx2, self).__init__(whole_options, **kw)
+        super(JemmyEx2, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Public Functions           ###

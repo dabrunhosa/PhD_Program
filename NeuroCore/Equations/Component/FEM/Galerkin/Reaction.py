@@ -19,17 +19,18 @@ class Reaction(IFEM, ABC):
     ###          Constructor             ###
     ######################################## 
     
-    def __init__(self,options=Options(), **kw):
+    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
         '''Class initializer. Use it's Base Class initializer
         and adds the weight function to be used. '''
         
         # Define the default options
-        default_options = Options(**{constants().Name:Components().Reaction})
+        inDefaultOptions =Options(**{constants().Name:Components().Reaction})
                                      
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+
+        defaultOptions = inDefaultOptions << defaultOptions
         
-        super(Reaction,self).__init__(whole_options,**kw)
+        super(Reaction,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
         
     ########################################
     ###       Private Functions          ###

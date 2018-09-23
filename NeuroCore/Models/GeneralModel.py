@@ -14,10 +14,10 @@ class GeneralModel(IModel):
     ###           Constructor            ###
     ########################################
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().GeneralModel,
+        inDefaultOptions =Options(**{constants().Name: Names().GeneralModel,
                                      constants().Results: [],
                                      constants().CoeffT: None,
                                      constants().CoeffDx2: None,
@@ -25,12 +25,13 @@ class GeneralModel(IModel):
                                      constants().CoeffFont: None})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+
+        defaultOptions = inDefaultOptions << defaultOptions
 
         # print("\n\nGeneral Model Kw Options:",kw)
         # print("General Whole Options:",whole_options.__dict__)
 
-        super(GeneralModel, self).__init__(whole_options, **kw)
+        super(GeneralModel, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions          ###

@@ -30,10 +30,10 @@ class YDomainStationaryBase(StationaryBase, YDomain, ABC):
     ###       Constructor                ###
     ########################################
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(name="Y Domain for Stationary Solution",
+        inDefaultOptions =Options(name="Y Domain for Stationary Solution",
                                   numSegments=None,bifurcationPoints=None,
                                   sElementsE=None,sElementsLw=None,sElementsUp=None,
                                   domainDef=["domainE","domainLw","domainUp"],
@@ -41,6 +41,7 @@ class YDomainStationaryBase(StationaryBase, YDomain, ABC):
                                   description="This is a base solution for the Y Domain Problem)")
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(YDomainStationaryBase, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(YDomainStationaryBase, self).__init__(options=options, defaultOptions = defaultOptions, **kw)

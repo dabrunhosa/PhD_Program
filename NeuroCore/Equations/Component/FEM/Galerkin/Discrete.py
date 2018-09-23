@@ -23,19 +23,19 @@ class NonLinear(IFEM, ABC):
     ###          Constructor             ###
     ######################################## 
     
-    def __init__(self,component,options=Options(), **kw):
+    def __init__(self,component,options=Options(), defaultOptions = Options(), **kw):
         '''Class initializer. Use it's Base Class initializer
         and adds the weight function to be used. '''
         
         # Define the default options
-        default_options = Options(name = "NonLinear" + component.name,
+        inDefaultOptions =Options(name = "NonLinear" + component.name,
                                   inComponent = component,
                                   discreteElements = {})
                                      
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        defaultOptions = inDefaultOptions << defaultOptions
         
-        super(Discrete,self).__init__(whole_options,**kw)
+        super(Discrete,self).__init__(options=options, defaultOptions = defaultOptions, **kw)
         
     ########################################
     ###       Private Functions          ###

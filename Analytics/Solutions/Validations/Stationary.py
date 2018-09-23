@@ -35,18 +35,19 @@ class ValidationZeroF(StationaryBase, ABC):
     ###       Constructor                ###
     ########################################
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name:Names().ValidationZeroF,
+        inDefaultOptions =Options(**{constants().Name:Names().ValidationZeroF,
                                   constants().DiffusionValue:1,
                                   constants().ReactionValue:1,
                                   constants().Description:Descriptions().ValidationZeroF})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        .
+				 defaultOptions = inDefaultOptions << defaultOptions
 
-        super(ValidationZeroF, self).__init__(whole_options, **kw)
+        super(ValidationZeroF, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions         ###
@@ -110,18 +111,19 @@ class ValidationWithF(StationaryBase, ABC):
     ###       Constructor                ###
     ########################################
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
-        default_options = Options(**{constants().Name:Names().ValidationWithF,
+        inDefaultOptions =Options(**{constants().Name:Names().ValidationWithF,
                                   constants().DiffusionValue:1,
                                   constants().ReactionValue:1,
                                   constants().Description:Descriptions().ValidationWithF})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
+        .
+				 defaultOptions = inDefaultOptions << defaultOptions
 
-        super(ValidationWithF, self).__init__(whole_options, **kw)
+        super(ValidationWithF, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
     ########################################
     ###       Private Functions         ###

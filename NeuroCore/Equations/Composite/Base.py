@@ -22,7 +22,7 @@ class IComposite(IEquation):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, options=Options(), **kw):
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
         '''The initializer for the class receives a list
         of terms that the composed term is going to
         be based in.
@@ -31,14 +31,15 @@ class IComposite(IEquation):
         Composed_Term(diffusion = Galerking_Diffusion,...)'''
 
         # Define the default options
-        default_options = Options(**{constants().Name: Names().Composite,
+        inDefaultOptions =Options(**{constants().Name: Names().Composite,
                                    constants().Domain: None,
                                    constants().Equation: {}})
 
         # Merge the default options and the user generated options
-        whole_options = default_options << options
 
-        super(IComposite, self).__init__(whole_options, **kw)
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(IComposite, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
         ########################################
 
