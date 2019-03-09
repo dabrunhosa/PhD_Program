@@ -25,7 +25,7 @@ Problem being solved is: [0,1]U[1,2]U[1,3] X [0,1]
 ###           Packages               ###
 ######################################## 
 from NeuroCore.Neuron.Segment.Base import ISegment
-from NeuroCore.Models.Base import  GeneralModel
+from NeuroCore.Models.GeneralModel import GeneralModel
 from NeuroCore.Models.Conventions import Domains,Steps
 from NeuroCore.Approximations.Space.FEM.GalerkinApproximation import GalerkinApproximation
 from NeuroCore.Approximations.Time.BackwardEuler import BackwardEuler

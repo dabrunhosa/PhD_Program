@@ -117,10 +117,6 @@ class IElement(ISolvable):
         return [self.matrix, self.font]
 
     def solve(self, **arguments):
-
-        #        print(self.bilinear)
-        #        print(self.linear)
-
         if len(self.extraData[constants().Previous]) != 0:
             if self.coupledApprox is not None:
                 return self.coupledSolve(**arguments)

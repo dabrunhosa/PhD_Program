@@ -44,8 +44,7 @@ class ValidationZeroF(StationaryBase, ABC):
                                   constants().Description:Descriptions().ValidationZeroF})
 
         # Merge the default options and the user generated options
-        .
-				 defaultOptions = inDefaultOptions << defaultOptions
+        defaultOptions = inDefaultOptions << defaultOptions
 
         super(ValidationZeroF, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
@@ -120,8 +119,7 @@ class ValidationWithF(StationaryBase, ABC):
                                   constants().Description:Descriptions().ValidationWithF})
 
         # Merge the default options and the user generated options
-        .
-				 defaultOptions = inDefaultOptions << defaultOptions
+        defaultOptions = inDefaultOptions << defaultOptions
 
         super(ValidationWithF, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 

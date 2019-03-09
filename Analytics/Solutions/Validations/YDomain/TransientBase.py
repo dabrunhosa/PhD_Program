@@ -41,7 +41,6 @@ class YDomainTransientBase(TransientBase, YDomain, ABC):
                                   description="This is a base solution for the Y Domain Problem)")
 
         # Merge the default options and the user generated options
-        .
-				 defaultOptions = inDefaultOptions << defaultOptions
+        sdefaultOptions = inDefaultOptions << defaultOptions
 
         super(YDomainTransientBase, self).__init__(options=options, defaultOptions = defaultOptions, **kw)

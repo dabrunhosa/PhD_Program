@@ -1,77 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" line="12" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a54e9792-6185-43ce-9388-5eaf56315bfd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Conventions/Analytics/Solutions/Base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PhD_Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PhD_Programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Analyser/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Analyser/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/ErrorNorm/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/ErrorNorm/Base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytics/FEniCS_Ex/IProblem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/FEniCS_Ex/IProblem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/FEniCS_Ex/Stationary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/FEniCS_Ex/Stationary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytics/FEniCS_Ex/Transient.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/FEniCS_Ex/Transient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Protocols/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Protocols/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Protocols/BaseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Protocols/BaseData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/CableModel/activeCableModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/CableModel/activeCableModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/CableModel/passiveCableModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/CableModel/passiveCableModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/ISolution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/ISolution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytics/Solutions/StationaryBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/StationaryBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/TransientBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/TransientBase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/Stationary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/Stationary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/Transient.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/Transient.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/StationaryBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/StationaryBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/TransientBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/TransientBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/WithoutDomainDecomposition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/WithoutDomainDecomposition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/leftDomain.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/lowerDomain.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/upperDomain.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/transient.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/transient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conventions/Analytics/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Conventions/Analytics/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conventions/Classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Conventions/Classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/GalerkinApproximation.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/GalerkinApproximation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Trapezoidal.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Trapezoidal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Lagrange.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Lagrange.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Space/IApproximation.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Space/IApproximation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Time/BackwardEuler.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Time/BackwardEuler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Time/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Time/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Approximations/Time/CoupledHH.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Approximations/Time/CoupledHH.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Coefficient/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Coefficient/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Coefficient/Discrete.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Coefficient/Discrete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Diffusion.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Diffusion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Discrete.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Discrete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Font.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Font.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Reaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Reaction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Equations/IEquation.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Equations/IEquation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/CableModel/Passive/Stationary.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/CableModel/Passive/Stationary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/CableModel/Passive/Transient.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/CableModel/Passive/Transient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Conditions/BCs.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Conditions/BCs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Dirichlets.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Dirichlets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Neumanns.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Conditions/Neumanns.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NeuroCore/Models/Conventions.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/Conventions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Models/HHModel/HHModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Models/HHModel/HHModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Simulation/Data/FEMData.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Simulation/Data/FEMData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Simulation/Data/IData.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Simulation/Data/IData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroSimulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroSimulator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plotting/IDataPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/IDataPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plotting/IDataPlots.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/IDataPlots.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plotting/IPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/IPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plotting/Simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Plotting/Simulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utilities/BaseOption.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/BaseOption.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utilities/DataEntry.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/DataEntry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utilities/Handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/Handler.py" afterDir="false" />
@@ -83,18 +42,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1537217368748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1550510936683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_Programs$stationaryWithFont.coverage" NAME="stationaryWithFont Coverage Results" MODIFIED="1532093065892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/Phd_Project$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1535834323033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$WithoutDomainDecomposition.coverage" NAME="WithoutDomainDecomposition Coverage Results" MODIFIED="1550510621441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$Base.coverage" NAME="Base Coverage Results" MODIFIED="1540136863885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuroCore/Models" />
     <SUITE FILE_PATH="coverage/PhD_Programs$WithoutDomainDecomposition.coverage" NAME="WithoutDomainDecomposition Coverage Results" MODIFIED="1531477788840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain" />
     <SUITE FILE_PATH="coverage/PhD_Programs$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1535125011494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_Programs$Base.coverage" NAME="Base Coverage Results" MODIFIED="1532521708858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuroCore/Models" />
-    <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryWithFont.coverage" NAME="stationaryWithFont Coverage Results" MODIFIED="1537491675460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
-    <SUITE FILE_PATH="coverage/PhD_GitHub$transient.coverage" NAME="transient Coverage Results" MODIFIED="1537737764139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryWithFont.coverage" NAME="stationaryWithFont Coverage Results" MODIFIED="1540155156325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$transient.coverage" NAME="transient Coverage Results" MODIFIED="1542300952609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_Programs$transient.coverage" NAME="transient Coverage Results" MODIFIED="1534019134177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="287" />
+    <option name="myElementSize" value="355" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -168,46 +129,67 @@
     <session id="433858293">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.25" value="4" />
+          <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.31" value="4" />
+          <entry key="project.open.time.32" value="2" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.34" value="2" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="png" value="7" />
-          <entry key="py" value="282" />
+          <entry key="JavaScript-modules-diagram/D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore" value="1" />
+          <entry key="JavaScript-modules-diagram/D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore;D:/Projetos/03_Thesis_Programs/PhD_GitHub/Utilities;" value="2" />
+          <entry key="Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub" value="2" />
+          <entry key="Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Analytics" value="1" />
+          <entry key="Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Conventions" value="2" />
+          <entry key="Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore" value="2" />
+          <entry key="htm" value="1" />
+          <entry key="png" value="20" />
+          <entry key="py" value="463" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="7" />
-          <entry key="Python" value="282" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="20" />
+          <entry key="Python" value="460" />
+          <entry key="Scratch" value="1" />
+          <entry key="UML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5555" />
+          <entry key="py" value="7215" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5555" />
+          <entry key="Python" value="6877" />
+          <entry key="Scratch" value="338" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -250,87 +232,16 @@
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PhD_GitHub" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utilities/BaseOption.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
-              <folding>
-                <element signature="e#86#96#0" expanded="true" />
-                <marker date="1537731605813" expanded="true" signature="1801:1806" ph="..." />
-                <marker date="1537731605813" expanded="true" signature="3520:3526" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Analytics/Solutions/ISolution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-              <folding>
-                <element signature="e#83#119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Approximations/Space/FEM/Base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Lagrange.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py">
+        <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="50" />
-              <folding>
-                <element signature="e#86#96#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -357,7 +268,6 @@
       <find>.domain</find>
       <find>self.</find>
       <find>Domain</find>
-      <find>create</find>
       <find>linear</find>
       <find>.__init__</find>
       <find>__init__(whole_options, **kw)</find>
@@ -367,18 +277,18 @@
       <find>. whole_options =</find>
       <find>self.defineDefaultValues\Ddefault_options\D</find>
       <find>whole_options = default_options &lt;&lt; options</find>
-      <find>whole_options = default_options &lt;&lt; options</find>
       <find>def __init__(self, options=Options(), **kw):</find>
       <find>def __init__(self, options=Options(), defaultOptions = Options() **kw):</find>
       <find>default_options =</find>
       <find>whole_options \= default_options \&lt;\&lt; options</find>
-      <find>self.defineDefaultValues\Ddefault_options\D</find>
       <find>\.\n        defaultOptions \= inDefaultOptions \&lt;\&lt; defaultOptions</find>
       <find>__init__(options=whole_options, **kw)</find>
       <find>,options=Options(), **kw):</find>
+      <find>defaultOptions = Options</find>
+      <find>create</find>
+      <find>font</find>
     </findStrings>
     <replaceStrings>
-      <replace>Components()</replace>
       <replace>Components</replace>
       <replace>Sides</replace>
       <replace>Sides().</replace>
@@ -408,6 +318,7 @@
       <replace>__init__(options=options, de **kw)</replace>
       <replace>__init__(options=options, defaultOptions = defaultOptions, **kw)</replace>
       <replace>,options=Options(), defaultOptions = Options(), **kw):</replace>
+      <replace />
     </replaceStrings>
     <dirStrings>
       <dir>D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\NeuroCore</dir>
@@ -420,57 +331,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Conventions/Variables.py" />
-        <option value="$PROJECT_DIR$/Conventions/NeuroCore/Models/Conventions.py" />
-        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" />
-        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" />
-        <option value="$PROJECT_DIR$/Conventions/Analytics/Solutions/Validations/Transient.py" />
-        <option value="$PROJECT_DIR$/Utilities/DataEntry.py" />
-        <option value="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/StationaryBase.py" />
-        <option value="$PROJECT_DIR$/Analytics/Solutions/Validations/Transient.py" />
-        <option value="$PROJECT_DIR$/Analytics/Solutions/TransientBase.py" />
-        <option value="$PROJECT_DIR$/Analytics/Base.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/GalerkinApproximation.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Base.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Lagrange.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/IApproximation.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Equations/IEquation.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Diffusion.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Base.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/Base.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Font.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Reaction.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Approximations/Time/BackwardEuler.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Approximations/Time/Base.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Models/Conditions/Dirichlets.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Models/Base.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py" />
         <option value="$PROJECT_DIR$/Plotting/IDataPlot.py" />
         <option value="$PROJECT_DIR$/Plotting/Simulation.py" />
         <option value="$PROJECT_DIR$/Plotting/IPlot.py" />
         <option value="$PROJECT_DIR$/Plotting/IDataPlots.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py" />
         <option value="$PROJECT_DIR$/Utilities/Handler.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Models/Conditions/Base.py" />
         <option value="$PROJECT_DIR$/Analytics/FEniCS_Ex/Stationary.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Models/Conditions/BCs.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Models/Conventions.py" />
-        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/transient.py" />
         <option value="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py" />
-        <option value="$PROJECT_DIR$/Utilities/BaseOption.py" />
         <option value="$PROJECT_DIR$/Conventions/Analytics/Solutions/Base.py" />
         <option value="$PROJECT_DIR$/Conventions/Analytics/Base.py" />
         <option value="$PROJECT_DIR$/Conventions/Classes.py" />
         <option value="$PROJECT_DIR$/Analytics/Solutions/ISolution.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Models/Conventions.py" />
+        <option value="$PROJECT_DIR$/Utilities/DataEntry.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Models/Conditions/Neumanns.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Trapezoidal.py" />
+        <option value="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Base.py" />
+        <option value="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/TransientBase.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py" />
+        <option value="$PROJECT_DIR$/Analytics/Solutions/Validations/Stationary.py" />
+        <option value="$PROJECT_DIR$/Analytics/Solutions/StationaryBase.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py" />
+        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/transient.py" />
+        <option value="$PROJECT_DIR$/Utilities/BaseOption.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py" />
+        <option value="$PROJECT_DIR$/NeuroSimulator.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Models/Base.py" />
+        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/WithoutDomainDecomposition.py" />
+        <option value="$PROJECT_DIR$/Analytics/FEniCS_Ex/IProblem.py" />
+        <option value="$PROJECT_DIR$/Analytics/FEniCS_Ex/Transient.py" />
+        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" />
       </list>
     </option>
   </component>
@@ -487,10 +398,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1396" />
-    <option name="y" value="100" />
-    <option name="width" value="980" />
-    <option name="height" value="1030" />
+    <option name="x" value="225" />
+    <option name="y" value="-30" />
+    <option name="width" value="1380" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -517,7 +428,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -533,79 +443,30 @@
             <path>
               <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="Conventions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="Conventions" type="462c0819:PsiDirectoryNode" />
               <item name="Analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="Conventions" type="462c0819:PsiDirectoryNode" />
               <item name="Analytics" type="462c0819:PsiDirectoryNode" />
-              <item name="Solutions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
-              <item name="Approximations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
-              <item name="Approximations" type="462c0819:PsiDirectoryNode" />
-              <item name="Space" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
-              <item name="Approximations" type="462c0819:PsiDirectoryNode" />
-              <item name="Space" type="462c0819:PsiDirectoryNode" />
-              <item name="FEM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
-              <item name="Approximations" type="462c0819:PsiDirectoryNode" />
-              <item name="Space" type="462c0819:PsiDirectoryNode" />
-              <item name="FEM" type="462c0819:PsiDirectoryNode" />
-              <item name="Elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="Validations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -624,19 +485,19 @@
     <option name="mySupportGeventDebugging" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Equation" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\NeuroCore\Models" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Approximations\Space\FEM\Integration" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Approximations\Space\FEM\Elements" />
-      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\Plotting" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\Analytics\Solutions" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\Analytics\Solutions\Validations" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\NeuroCore\Models" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Conventions\Plotting" />
       <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitHub\Plotting" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Equation" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\NeuroCore\Models" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Approximations\Space\FEM\Integration" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\NeuroCore\Approximations\Space\FEM\Elements" />
+      <recent name="D:\Projetos\03_Thesis_Programs\PhD_GitKraken\PhD_Programs\Conventions\Plotting" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -651,29 +512,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.transient">
-    <configuration name="Base" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PhD_Programs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeuroCore/Models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeuroCore/Models/Base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.stationaryNoFont">
     <configuration name="WithoutDomainDecomposition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PhD_Programs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -688,6 +527,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/WithoutDomainDecomposition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PhD_Programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -763,19 +624,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.WithoutDomainDecomposition" />
       <item itemvalue="Python.stationaryNoFont" />
       <item itemvalue="Python.stationaryWithFont" />
       <item itemvalue="Python.transient" />
-      <item itemvalue="Python.Base" />
+      <item itemvalue="Python.scratch" />
+      <item itemvalue="Python.WithoutDomainDecomposition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stationaryNoFont" />
+        <item itemvalue="Python.WithoutDomainDecomposition" />
         <item itemvalue="Python.transient" />
         <item itemvalue="Python.stationaryWithFont" />
-        <item itemvalue="Python.stationaryNoFont" />
-        <item itemvalue="Python.Base" />
-        <item itemvalue="Python.WithoutDomainDecomposition" />
+        <item itemvalue="Python.scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -803,25 +664,53 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1738255" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.1590604" />
+      <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.18844984" />
+      <window_info id="Favorites" order="2" sideWeight="0.50121653" side_tool="true" weight="0.18844984" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4986577" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49395972" weight="0.32624114" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597314" visible="true" weight="0.30496454" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4986577" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597314" weight="0.3248227" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597314" weight="0.3035461" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
-      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.49463087" weight="0.32624114" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402683" side_tool="true" weight="0.30496454" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4986577" weight="0.32907802" />
-      <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49597314" weight="0.32765958" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50402683" side_tool="true" weight="0.3248227" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4986577" weight="0.32765958" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="Docker" order="13" sideWeight="0.49463087" weight="0.3262295" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" x="736" y="391" width="63" height="42" id="SciView" order="3" weight="0.3295302" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.60471565" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.3295302" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="8" side_tool="true" weight="0.3295302" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.20268457" />
+      <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.18844984" />
+      <window_info id="Favorites" order="2" sideWeight="0.50121653" side_tool="true" weight="0.18844984" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4986577" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49395972" weight="0.3262295" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597314" weight="0.30491802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4969605" weight="0.32786885" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50303954" side_tool="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.4986577" weight="0.32786885" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="Docker" order="13" sideWeight="0.49463087" weight="0.3262295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -830,7 +719,7 @@
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.60471565" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.3295302" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -847,24 +736,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py</url>
-          <line>81</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="32" />
+          <url>file://$PROJECT_DIR$/Plotting/IDataPlots.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="37" />
+          <url>file://$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/WithoutDomainDecomposition.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -928,386 +812,813 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/Transient.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conventions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding>
-            <element signature="e#83#142#0" expanded="true" />
-            <marker date="1537711322289" expanded="true" signature="1558:1576" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/TransientBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding>
-            <element signature="e#82#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/GalerkinApproximation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Gaussian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Integration/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/IApproximation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/IEquation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Diffusion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Font.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Reaction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Time/BackwardEuler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Time/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conditions/Dirichlets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plotting/IDataPlot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plotting/Simulation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plotting/IPlot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plotting/IDataPlots.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/Handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conditions/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/FEniCS_Ex/Stationary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conditions/BCs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="21" column="85" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Models/Conventions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroSimulator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#292#327#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/CableModel/passiveCableModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2929" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="121" column="28" lean-forward="true" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="442">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/transient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="442">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1705537861/964032970/copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conditions/BCs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
-            <element signature="e#313#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Analytics/Solutions/StationaryBase.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Analytics/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Analytics/Solutions/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Conventions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#96#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#82#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="191" column="26" selection-start-line="191" selection-start-column="26" selection-end-line="191" selection-end-column="26" />
-          <folding>
-            <marker date="1537735659379" expanded="true" signature="416:421" ph="..." />
-            <marker date="1537735659379" expanded="true" signature="3975:4019" ph="..." />
+            <element signature="e#85#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Utilities/DataEntry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="50" />
-          <folding>
-            <element signature="e#86#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/ISolution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-          <folding>
-            <element signature="e#83#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/NeuroCore/Approximations/Space/FEM/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Lagrange.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="136">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Utilities/BaseOption.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="-83">
+          <caret line="130" column="118" selection-start-line="130" selection-start-column="118" selection-end-line="130" selection-end-column="118" />
           <folding>
             <element signature="e#86#96#0" expanded="true" />
-            <marker date="1537731605813" expanded="true" signature="1801:1806" ph="..." />
-            <marker date="1537731605813" expanded="true" signature="3520:3526" ph="..." />
+            <marker date="1541174127667" expanded="true" signature="1962:1967" ph="..." />
+            <marker date="1541174127667" expanded="true" signature="3480:3486" ph="..." />
+            <marker date="1541174127667" expanded="true" signature="5304:5310" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py">
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state relative-caret-position="125">
+          <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/TransientBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1324">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/CableModel/Passive/Transient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1705537861/872697134/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="2164" selection-start-line="2164" selection-end-line="2164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Analytics">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Analytics</OriginalElement>
+          <nodes>
+            <node x="" y="">Analytics.Analyser.Base.AnalyserError</node>
+            <node x="" y="">AttributeError</node>
+            <node x="" y="">Analytics.Protocols.BaseData.IDataAnalysed</node>
+            <node x="" y="">Utilities.BaseOption.ISolvable</node>
+            <node x="" y="">Analytics.Analyser.Base.IAnalyser</node>
+            <node x="" y="">Analytics.Solutions.Validations.YDomain.StationaryBase.YDomainStationaryBase</node>
+            <node x="" y="">Analytics.FEniCS_Ex.Stationary.CableModelWithF</node>
+            <node x="" y="">Analytics.Base.IAnalysis</node>
+            <node x="" y="">Analytics.ErrorNorm.Error_Lifty.Error_Lifty</node>
+            <node x="" y="">Analytics.Solutions.CableModel.passiveCableModel.CableModelWithSoma</node>
+            <node x="" y="">Analytics.Solutions.CableModel.passiveCableModel.CableModelTwoBranches</node>
+            <node x="" y="">Analytics.Solutions.Validations.Transient.ValidationWithF</node>
+            <node x="" y="">Analytics.FEniCS_Ex.IProblem.IProblem</node>
+            <node x="" y="">Analytics.Solutions.TransientBase.TransientBase</node>
+            <node x="" y="">Exception</node>
+            <node x="" y="">Analytics.Solutions.StationaryBase.StationaryBase</node>
+            <node x="" y="">Analytics.Solutions.Validations.YDomain.Base.YDomain</node>
+            <node x="" y="">abc.ABC</node>
+            <node x="" y="">BaseException</node>
+            <node x="" y="">Analytics.Solutions.Validations.Stationary.ValidationWithF</node>
+            <node x="" y="">Analytics.Protocols.Conventions.DataAnalysed</node>
+            <node x="" y="">Analytics.FEniCS_Ex.Transient.CableModelWithF</node>
+            <node x="" y="">Analytics.ErrorNorm.Error_L2.Error_L2</node>
+            <node x="" y="">abc.ABCMeta</node>
+            <node x="" y="">Analytics.Solutions.CableModel.activeCableModel.CableModel</node>
+            <node x="" y="">Analytics.Protocols.Base.TestProtocols</node>
+            <node x="" y="">Analytics.FEniCS_Ex.Stationary.CableModel</node>
+            <node x="" y="">Analytics.Solutions.ISolution.ISolution</node>
+            <node x="" y="">Analytics.Solutions.Validations.YDomain.Transient.JemmyEx1</node>
+            <node x="" y="">Analytics.Solutions.Validations.YDomain.Transient.JemmyEx2</node>
+            <node x="" y="">Analytics.ErrorNorm.Base.IErrorNorm</node>
+            <node x="" y="">Analytics.Solutions.Validations.Stationary.ValidationZeroF</node>
+            <node x="" y="">object</node>
+            <node x="" y="">Utilities.BaseOption.IHaveOption</node>
+            <node x="" y="">Analytics.Solutions.Validations.YDomain.TransientBase.YDomainTransientBase</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8983846542150428" x="2962.0" y="1611.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/Projetos/03_Thesis_Programs/PhD_GitHub</OriginalElement>
+          <nodes>
+            <node x="" y="">io.BufferedIOBase</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Weight_Function.Lagrange.LagrangeParameters</node>
+            <node x="" y="">datetime.tzinfo</node>
+            <node x="" y="">Warning</node>
+            <node x="" y="">Analytics.FEniCS_Ex.IProblem.IProblem</node>
+            <node x="" y="">Analytics.Solutions.ISolution.ISolution</node>
+            <node x="" y="">pip._vendor.progress.bar.ShadyBar</node>
+            <node x="" y="">NeuroCore.Neuron.NetXNeuron.NetXNeuron</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.GalerkinApproximation.GalerkinApproximation</node>
+            <node x="" y="">Analytics.FEniCS_Ex.Stationary.CableModelWithF</node>
+            <node x="" y="">zipfile.ZipExtFile</node>
+            <node x="" y="">ArithmeticError</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Galerkin.Reaction.Reaction</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Neumanns.SealedEnd</node>
+            <node x="" y="">NeuroCore.Approximations.Time.BackwardEuler.BackwardEuler</node>
+            <node x="" y="">NeuroCore.Equations.Coefficient.__init__</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Base.IFEM</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Galerkin.Diffusion.Diffusion</node>
+            <node x="" y="">optparse.OptionContainer</node>
+            <node x="" y="">pip._vendor.progress.bar.ChargingBar</node>
+            <node x="" y="">Utilities.BaseOption.ISolvable</node>
+            <node x="" y="">Conventions.Analytics.Base.BaseParameters</node>
+            <node x="" y="">NeuroCore.Models.HHModel.HHModel.HHModel</node>
+            <node x="" y="">BaseOption</node>
+            <node x="" y="">httplib_IncompleteRead</node>
+            <node x="" y="">logging.Filterer</node>
+            <node x="" y="">Conventions.NeuroCore.Models.Conditions.BCs.BCsParameters</node>
+            <node x="" y="">typing.Sequence</node>
+            <node x="" y="">pip._vendor.progress.bar.Bar</node>
+            <node x="" y="">NeuroCore.Equations.Coefficient.Discrete.HH</node>
+            <node x="" y="">Analytics.Solutions.Validations.YDomain.StationaryBase.YDomainStationaryBase</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Dirichlets.KilledEnd</node>
+            <node x="" y="">NeuroCore.Neuron.NetXNeuron.MeshError</node>
+            <node x="" y="">BaseHTTPSHandler</node>
+            <node x="" y="">Analytics.FEniCS_Ex.Transient.CableModelWithF</node>
+            <node x="" y="">Mashes.neuroML.NeuroML</node>
+            <node x="" y="">Conventions.NeuroCore.Equation.Composite.FEM.FEMParameters</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Galerkin.Previous.Previous</node>
+            <node x="" y="">ValueError</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Elements.IElementsParameters.IElementsParameters</node>
+            <node x="" y="">NeuroCore.Approximations.Time.CoupledHH.CoupledHHApprox</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Galerkin.Discrete.NonLinear</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Weight_Function.Lagrange.Lagrange</node>
+            <node x="" y="">Conventions.Plotting.PlotingParameters.PlotingParameters</node>
+            <node x="" y="">Analytics.Protocols.BaseData.IDataAnalysed</node>
+            <node x="" y="">Conventions.Classes.Components</node>
+            <node x="" y="">logging.Formatter</node>
+            <node x="" y="">NeuroCore.Approximations.Time.Base.IApproximation</node>
+            <node x="" y="">pip._internal.vcs.VersionControl</node>
+            <node x="" y="">NeuroCore.Equations.Coefficient.Base.ICoefficient</node>
+            <node x="" y="">Conventions.Classes.Names</node>
+            <node x="" y="">BaseZipExtFile</node>
+            <node x="" y="">pip._vendor.progress.bar.IncrementalBar</node>
+            <node x="" y="">pip._vendor.progress.bar.FillingCirclesBar</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Weight_Function.LinearLagrange.Linear_Lagrange</node>
+            <node x="" y="">logging.StreamHandler</node>
+            <node x="" y="">Conventions.Variables.Variables</node>
+            <node x="" y="">Conventions.Analytics.FEniCS.Base.FEniCSBaseParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Time.HHParameters.HHParameters</node>
+            <node x="" y="">NeuroCore.Models.CableModel.Passive.Transient.CableModel</node>
+            <node x="" y="">codecs.IncrementalEncoder</node>
+            <node x="" y="">io.TextIOWrapper</node>
+            <node x="" y="">typing.MutableMapping</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Galerkin.Font.Font</node>
+            <node x="" y="">Conventions.NeuroCore.Equation.Components.Base.BaseParameters</node>
+            <node x="" y="">_BaseBar</node>
+            <node x="" y="">NeuroCore.Equations.IEquation.IEquation</node>
+            <node x="" y="">Exception</node>
+            <node x="" y="">ABCTrie</node>
+            <node x="" y="">Analytics.Base.IAnalysis</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.IApproximation.IApproximationParameters</node>
+            <node x="" y="">typing.Iterator</node>
+            <node x="" y="">dict</node>
+            <node x="" y="">http.client.HTTPConnection</node>
+            <node x="" y="">Analytics.Solutions.Validations.YDomain.TransientBase.YDomainTransientBase</node>
+            <node x="" y="">Analytics.Solutions.CableModel.passiveCableModel.CableModelTwoBranches</node>
+            <node x="" y="">Conventions.NeuroCore.Models.Base.BaseParameters</node>
+            <node x="" y="">xmlrpc.client.Transport</node>
+            <node x="" y="">urllib.request.AbstractHTTPHandler</node>
+            <node x="" y="">urllib.request.HTTPHandler</node>
+            <node x="" y="">NeuroCore.Models.Conventions.Steps</node>
+            <node x="" y="">BaseZipFile</node>
+            <node x="" y="">Utilities.BaseOption.IHaveOption</node>
+            <node x="" y="">Conventions.Classes.Descriptions</node>
+            <node x="" y="">TypeError</node>
+            <node x="" y="">NeuroCore.Neuron.Segment.Base.ISegment</node>
+            <node x="" y="">pip._vendor.progress.Progress</node>
+            <node x="" y="">Conventions.Analytics.Solutions.Validations.Transient.TransientParameters</node>
+            <node x="" y="">logging.Filter</node>
+            <node x="" y="">logging.handlers.RotatingFileHandler</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Neumanns.Neumann</node>
+            <node x="" y="">pip._vendor.progress.spinner.Spinner</node>
+            <node x="" y="">BaseHTTPError</node>
+            <node x="" y="">Analytics.FEniCS_Ex.Stationary.CableModel</node>
+            <node x="" y="">pip._vendor.cachecontrol.caches.file_cache.FileCache</node>
+            <node x="" y="">AssertionError</node>
+            <node x="" y="">NeuroCore.Equations.Composite.FEM.IFEM</node>
+            <node x="" y="">logging.config.BaseConfigurator</node>
+            <node x="" y="">pip._vendor.progress.helpers.WriteMixin</node>
+            <node x="" y="">NeuroCore.Neuron.INeuron.INeuron</node>
+            <node x="" y="">io.StringIO</node>
+            <node x="" y="">abc.ABCMeta</node>
+            <node x="" y="">typing.Sized</node>
+            <node x="" y="">NeuroCore.Models.CableModel.Passive.Stationary.CableModel</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Base.BaseParameters</node>
+            <node x="" y="">codecs.BufferedIncrementalDecoder</node>
+            <node x="" y="">RuntimeError</node>
+            <node x="" y="">Conventions.Plotting.BasicPlottingColors.BasicPlottingColors</node>
+            <node x="" y="">typing.ByteString</node>
+            <node x="" y="">Plotting.Simulation.Simulation</node>
+            <node x="" y="">ModuleType</node>
+            <node x="" y="">pip._vendor.requests.auth.AuthBase</node>
+            <node x="" y="">pip._internal.basecommand.Command</node>
+            <node x="" y="">http.cookiejar.CookieJar</node>
+            <node x="" y="">typing.MutableSequence</node>
+            <node x="" y="">codecs.Codec</node>
+            <node x="" y="">pip._vendor.cachecontrol.cache.BaseCache</node>
+            <node x="" y="">Analytics.Solutions.Validations.Stationary.ValidationZeroF</node>
+            <node x="" y="">Conventions.Utilities.UtilitiesParameters.UtilitiesParameters</node>
+            <node x="" y="">NeuroCore.Models.Conditions.BCs.BoundaryConditions</node>
+            <node x="" y="">pip._vendor.progress.Infinite</node>
+            <node x="" y="">Analytics.Analyser.Base.IAnalyser</node>
+            <node x="" y="">NeuroCore.Equations.Component.Base.IComponent</node>
+            <node x="" y="">bytes</node>
+            <node x="" y="">optparse.IndentedHelpFormatter</node>
+            <node x="" y="">Plotting.IDataPlots.IDataPlots</node>
+            <node x="" y="">Mashes.IMashReader.IMashReader</node>
+            <node x="" y="">EnvironmentError</node>
+            <node x="" y="">NeuroCore.Equations.Composite.Base.IComposite</node>
+            <node x="" y="">Conventions.Classes.Sides</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Base.ICondition</node>
+            <node x="" y="">Conventions.NeuroCore.Equation.Composite.Base.BaseParameters</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Integration.Trapezoidal.Trapezoidal</node>
+            <node x="" y="">Analytics.Protocols.Base.TestProtocols</node>
+            <node x="" y="">urllib.request.BaseHandler</node>
+            <node x="" y="">Conventions.Plotting.SimulationPlotingParameters.SimulationPlotingParameters</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Integration.Gaussian.Gaussian</node>
+            <node x="" y="">typing.Mapping</node>
+            <node x="" y="">http.client.HTTPSConnection</node>
+            <node x="" y="">NeuroCore.Models.GeneralModel.GeneralModel</node>
+            <node x="" y="">pip._vendor.requests.sessions.Session</node>
+            <node x="" y="">zipfile.ZipFile</node>
+            <node x="" y="">Plotting.IDataPlot.IDataPlot</node>
+            <node x="" y="">Analytics.Analyser.Base.AnalyserError</node>
+            <node x="" y="">RuntimeWarning</node>
+            <node x="" y="">NeuroCore.Approximations.Space.IApproximation.IApproximation</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Integration.TrapezoidalParameters.TrapezoidalParameters</node>
+            <node x="" y="">xmlrpc.client.SafeTransport</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Elements.IElement.IElement</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Integration.Base.IIntegration</node>
+            <node x="" y="">Mashes.skeleton.Skeleton</node>
+            <node x="" y="">DeprecationWarning</node>
+            <node x="" y="">typing._Collection</node>
+            <node x="" y="">Conventions.NeuroCore.Neuron.Segment.Base.BaseParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Equation.IEquation.IEquationParameters</node>
+            <node x="" y="">IOError</node>
+            <node x="" y="">NeuroCore.Simulation.Data.IData.IData</node>
+            <node x="" y="">NeuroCore.Models.Base.IModel</node>
+            <node x="" y="">Analytics.ErrorNorm.Error_Lifty.Error_Lifty</node>
+            <node x="" y="">Analytics.Solutions.Validations.YDomain.Base.YDomain</node>
+            <node x="" y="">NeuroCore.Simulation.DomainDecomposition.DomainDecomposition</node>
+            <node x="" y="">pip._vendor.progress.helpers.WritelnMixin</node>
+            <node x="" y="">tuple</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Dirichlets.Dirichlet</node>
+            <node x="" y="">_ctypes.Structure</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Elements.IElements.IElements</node>
+            <node x="" y="">pip._vendor.requests.sessions.SessionRedirectMixin</node>
+            <node x="" y="">Conventions.Analytics.Solutions.Base.BaseParameters</node>
+            <node x="" y="">OSError</node>
+            <node x="" y="">Utilities.DataEntry.Options_User</node>
+            <node x="" y="">Conventions.NeuroCore.Models.GeneralModel.GeneralModelParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Time.Base.BaseParameters</node>
+            <node x="" y="">list</node>
+            <node x="" y="">Analytics.ErrorNorm.Error_L2.Error_L2</node>
+            <node x="" y="">BaseException</node>
+            <node x="" y="">pip._vendor.requests.adapters.HTTPAdapter</node>
+            <node x="" y="">Conventions.NeuroCore.Equation.Components.FEM.Base.FEMBaseParameters</node>
+            <node x="" y="">Conventions.Analytics.Solutions.StationaryBase.StationaryBaseParameters</node>
+            <node x="" y="">Analytics.Solutions.TransientBase.TransientBase</node>
+            <node x="" y="">Utilities.DataEntry.Options</node>
+            <node x="" y="">object</node>
+            <node x="" y="">typing.Iterable</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Integration.GaussianParameters.GaussianParameters</node>
+            <node x="" y="">typing.Reversible</node>
+            <node x="" y="">codecs.BufferedIncrementalEncoder</node>
+            <node x="" y="">optparse.OptionParser</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Neumanns.CurrentInjection</node>
+            <node x="" y="">NeuroCore.Equations.Coefficient.Discrete.Discrete</node>
+            <node x="" y="">Analytics.Solutions.StationaryBase.StationaryBase</node>
+            <node x="" y="">Analytics.Solutions.CableModel.activeCableModel.CableModel</node>
+            <node x="" y="">pip._vendor.urllib3.exceptions.HTTPError</node>
+            <node x="" y="">_HTTPConnection</node>
+            <node x="" y="">Conventions.NeuroCore.Models.Conditions.Base.BaseParameters</node>
+            <node x="" y="">codecs.StreamReader</node>
+            <node x="" y="">UserWarning</node>
+            <node x="" y="">NeuroCore.Simulation.ICore.ICore</node>
+            <node x="" y="">Conventions.Plotting.IPlotingParameters.IPlotingParameters</node>
+            <node x="" y="">optparse.HelpFormatter</node>
+            <node x="" y="">abc.ABC</node>
+            <node x="" y="">Utilities.Handler.Function</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Base.FEM_Approximation</node>
+            <node x="" y="">OverflowError</node>
+            <node x="" y="">Plotting.IDataPlots.IDataPlotsError</node>
+            <node x="" y="">logging.FileHandler</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Weight_Function.Base.IWeightFunction</node>
+            <node x="" y="">Analytics.Solutions.Validations.YDomain.Transient.JemmyEx1</node>
+            <node x="" y="">Analytics.Solutions.Validations.YDomain.Transient.JemmyEx2</node>
+            <node x="" y="">UnicodeError</node>
+            <node x="" y="">io.IOBase</node>
+            <node x="" y="">typing.IO</node>
+            <node x="" y="">Analytics.ErrorNorm.Base.IErrorNorm</node>
+            <node x="" y="">NeuroCore.Equations.Coefficient.Conventions.CoeffId</node>
+            <node x="" y="">urllib.request.HTTPSHandler</node>
+            <node x="" y="">NeuroCore.Simulation.Data.FEMData.FEMData</node>
+            <node x="" y="">AttributeError</node>
+            <node x="" y="">Conventions.NeuroCore.Models.Conventions.ConventionsParameters</node>
+            <node x="" y="">Conventions.Parameters.Parameters</node>
+            <node x="" y="">Analytics.Solutions.Validations.Transient.ValidationWithF</node>
+            <node x="" y="">logging.handlers.BaseRotatingHandler</node>
+            <node x="" y="">codecs.IncrementalDecoder</node>
+            <node x="" y="">Conventions.Plotting.IDataPlotsParameters.IDataPlotsParameters</node>
+            <node x="" y="">Analytics.Protocols.Conventions.DataAnalysed</node>
+            <node x="" y="">typing.Container</node>
+            <node x="" y="">Conventions.Analytics.Solutions.Validations.Stationary.StationaryParameters</node>
+            <node x="" y="">Plotting.IDataPlot.IDataPlotError</node>
+            <node x="" y="">codecs.StreamWriter</node>
+            <node x="" y="">Analytics.Solutions.Validations.Stationary.ValidationWithF</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Time.BackwardEulerParameters.BackwardEulerParameters</node>
+            <node x="" y="">NeuroSimulator.NeuroSimulator</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Elements.IElementParameters.IElementParameters</node>
+            <node x="" y="">urllib.request.HTTPRedirectHandler</node>
+            <node x="" y="">pip._vendor.requests.adapters.BaseAdapter</node>
+            <node x="" y="">Conventions.NeuroCore.Models.Conditions.CurrentInjection.CurrentParameters</node>
+            <node x="" y="">Analytics.Solutions.CableModel.passiveCableModel.CableModelWithSoma</node>
+            <node x="" y="">pip._vendor.progress.bar.FillingSquaresBar</node>
+            <node x="" y="">typing.TextIO</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Dirichlets.VoltageClamp</node>
+            <node x="" y="">pip._internal.basecommand.RequirementCommand</node>
+            <node x="" y="">logging.Handler</node>
+            <node x="" y="">xmlrpc.client.ServerProxy</node>
+            <node x="" y="">Plotting.IPlot.IPlot</node>
+            <node x="" y="">BaseRedirectHandler</node>
+            <node x="" y="">NeuroCore.Simulation.SegmentInfo.Segment_Info</node>
+            <node x="" y="">NeuroCore.Models.Conventions.Domains</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.622553802008609" x="97737.0" y="218.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Conventions">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Conventions</OriginalElement>
+          <nodes>
+            <node x="" y="">Conventions.Utilities.UtilitiesParameters.UtilitiesParameters</node>
+            <node x="" y="">Conventions.Plotting.IDataPlotsParameters.IDataPlotsParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Time.Base.BaseParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Equation.Composite.FEM.FEMParameters</node>
+            <node x="" y="">Conventions.Plotting.IPlotingParameters.IPlotingParameters</node>
+            <node x="" y="">Conventions.Variables.Variables</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Integration.TrapezoidalParameters.TrapezoidalParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Models.Base.BaseParameters</node>
+            <node x="" y="">Conventions.Plotting.BasicPlottingColors.BasicPlottingColors</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Base.BaseParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Models.Conventions.ConventionsParameters</node>
+            <node x="" y="">Conventions.Analytics.Solutions.Base.BaseParameters</node>
+            <node x="" y="">Conventions.Analytics.Solutions.StationaryBase.StationaryBaseParameters</node>
+            <node x="" y="">Conventions.Plotting.PlotingParameters.PlotingParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Equation.Components.FEM.Base.FEMBaseParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Equation.Composite.Base.BaseParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Integration.GaussianParameters.GaussianParameters</node>
+            <node x="" y="">Conventions.Plotting.SimulationPlotingParameters.SimulationPlotingParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Time.BackwardEulerParameters.BackwardEulerParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Models.GeneralModel.GeneralModelParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Models.Conditions.Base.BaseParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Weight_Function.Lagrange.LagrangeParameters</node>
+            <node x="" y="">Conventions.Analytics.Solutions.Validations.Transient.TransientParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.IApproximation.IApproximationParameters</node>
+            <node x="" y="">Conventions.Classes.Components</node>
+            <node x="" y="">Conventions.Classes.Names</node>
+            <node x="" y="">Conventions.NeuroCore.Equation.Components.Base.BaseParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Elements.IElementParameters.IElementParameters</node>
+            <node x="" y="">Conventions.Analytics.Base.BaseParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Models.Conditions.BCs.BCsParameters</node>
+            <node x="" y="">Conventions.Classes.Descriptions</node>
+            <node x="" y="">Conventions.NeuroCore.Neuron.Segment.Base.BaseParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Equation.IEquation.IEquationParameters</node>
+            <node x="" y="">Conventions.Analytics.FEniCS.Base.FEniCSBaseParameters</node>
+            <node x="" y="">Conventions.NeuroCore.Models.Conditions.CurrentInjection.CurrentParameters</node>
+            <node x="" y="">Conventions.Classes.Sides</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Space.FEM.Elements.IElementsParameters.IElementsParameters</node>
+            <node x="" y="">object</node>
+            <node x="" y="">Conventions.NeuroCore.Approximations.Time.HHParameters.HHParameters</node>
+            <node x="" y="">Conventions.Analytics.Solutions.Validations.Stationary.StationaryParameters</node>
+            <node x="" y="">Conventions.Parameters.Parameters</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.053116883116883" x="3394.0" y="1777.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/NeuroCore</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="590.0" y="327.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Overview</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore;D:/Projetos/03_Thesis_Programs/PhD_GitHub/Utilities;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/NeuroCore;D:/Projetos/03_Thesis_Programs/PhD_GitHub/Utilities;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Circular" zoom="1.0" x="590.0" y="327.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Overview</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore</OriginalElement>
+          <nodes>
+            <node x="" y="">NeuroCore.Models.Conditions.Base.ICondition</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Galerkin.Reaction.Reaction</node>
+            <node x="" y="">NeuroCore.Models.GeneralModel.GeneralModel</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Galerkin.Previous.Previous</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Neumanns.CurrentInjection</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Integration.Trapezoidal.Trapezoidal</node>
+            <node x="" y="">NeuroCore.Equations.Composite.Base.IComposite</node>
+            <node x="" y="">NeuroCore.Simulation.SegmentInfo.Segment_Info</node>
+            <node x="" y="">object</node>
+            <node x="" y="">NeuroCore.Simulation.DomainDecomposition.DomainDecomposition</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Dirichlets.Dirichlet</node>
+            <node x="" y="">Utilities.BaseOption.ISolvable</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Galerkin.Discrete.NonLinear</node>
+            <node x="" y="">NeuroCore.Models.Base.IModel</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Dirichlets.VoltageClamp</node>
+            <node x="" y="">Utilities.BaseOption.IHaveOption</node>
+            <node x="" y="">Exception</node>
+            <node x="" y="">NeuroCore.Simulation.ICore.ICore</node>
+            <node x="" y="">NeuroCore.Equations.Coefficient.Discrete.Discrete</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Weight_Function.LinearLagrange.Linear_Lagrange</node>
+            <node x="" y="">BaseException</node>
+            <node x="" y="">NeuroCore.Models.CableModel.Passive.Transient.CableModel</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Base.FEM_Approximation</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Weight_Function.Lagrange.Lagrange</node>
+            <node x="" y="">NeuroCore.Approximations.Time.CoupledHH.CoupledHHApprox</node>
+            <node x="" y="">NeuroCore.Neuron.NetXNeuron.MeshError</node>
+            <node x="" y="">NeuroCore.Approximations.Time.BackwardEuler.BackwardEuler</node>
+            <node x="" y="">NeuroCore.Models.Conventions.Domains</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Neumanns.Neumann</node>
+            <node x="" y="">abc.ABC</node>
+            <node x="" y="">NeuroCore.Neuron.Segment.Base.ISegment</node>
+            <node x="" y="">NeuroCore.Models.Conventions.Steps</node>
+            <node x="" y="">NeuroCore.Models.CableModel.Passive.Stationary.CableModel</node>
+            <node x="" y="">NeuroCore.Models.HHModel.HHModel.HHModel</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Neumanns.SealedEnd</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.GalerkinApproximation.GalerkinApproximation</node>
+            <node x="" y="">NeuroCore.Equations.Coefficient.__init__</node>
+            <node x="" y="">NeuroCore.Neuron.NetXNeuron.NetXNeuron</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Base.IFEM</node>
+            <node x="" y="">NeuroCore.Simulation.Data.FEMData.FEMData</node>
+            <node x="" y="">NeuroCore.Equations.Coefficient.Conventions.CoeffId</node>
+            <node x="" y="">NeuroCore.Simulation.Data.IData.IData</node>
+            <node x="" y="">NeuroCore.Equations.Composite.FEM.IFEM</node>
+            <node x="" y="">NeuroCore.Equations.Coefficient.Discrete.HH</node>
+            <node x="" y="">NeuroCore.Approximations.Space.IApproximation.IApproximation</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Elements.IElement.IElement</node>
+            <node x="" y="">NeuroCore.Equations.IEquation.IEquation</node>
+            <node x="" y="">abc.ABCMeta</node>
+            <node x="" y="">AttributeError</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Integration.Gaussian.Gaussian</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Integration.Base.IIntegration</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Galerkin.Font.Font</node>
+            <node x="" y="">NeuroCore.Equations.Component.FEM.Galerkin.Diffusion.Diffusion</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Elements.IElements.IElements</node>
+            <node x="" y="">NeuroCore.Models.Conditions.BCs.BoundaryConditions</node>
+            <node x="" y="">NeuroCore.Neuron.INeuron.INeuron</node>
+            <node x="" y="">NeuroCore.Equations.Coefficient.Base.ICoefficient</node>
+            <node x="" y="">NeuroCore.Models.Conditions.Dirichlets.KilledEnd</node>
+            <node x="" y="">NeuroCore.Equations.Component.Base.IComponent</node>
+            <node x="" y="">NeuroCore.Approximations.Space.FEM.Weight_Function.Base.IWeightFunction</node>
+            <node x="" y="">NeuroCore.Approximations.Time.Base.IApproximation</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Circular" zoom="0.07533694274853127" x="3906.0" y="4331.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Analytics/Testing/Validations/stationaryWithFont.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Analytics/Testing/Validations/stationaryWithFont.py</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Circular" zoom="1.0" x="590.0" y="327.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore/Neuron/Segment/Base.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore/Neuron/Segment/Base.py</OriginalElement>
+          <nodes>
+            <node x="" y="">Utilities.BaseOption.ISolvable</node>
+            <node x="" y="">NeuroCore.Neuron.Segment.Base.ISegment</node>
+            <node x="" y="">object</node>
+            <node x="" y="">Utilities.BaseOption.IHaveOption</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Circular" zoom="1.211320754716981" x="398.0" y="836.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/IEquation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UpgradeLog.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="210" column="16" lean-forward="true" selection-start-line="210" selection-start-column="16" selection-end-line="210" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/GeneralModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mashes/Mashes.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mashes/IMashReader.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mashes/neuroML.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mashes/skeleton.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/WithDomainDecomposition.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plotting/Simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2277">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1705537861/964032970/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/WithoutDomainDecomposition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding>
+            <element signature="e#611#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/ErrorNorm/Error_Lifty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/ErrorNorm/Error_L2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/ErrorNorm/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Analyser/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/FEniCS_Ex/Transient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/FEniCS_Ex/Stationary.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/FEniCS_Ex/IProblem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroSimulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="88" column="50" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Analytics.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Testing/HH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Base.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>

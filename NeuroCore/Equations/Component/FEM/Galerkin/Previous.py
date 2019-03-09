@@ -33,7 +33,6 @@ class Previous(IFEM, ABC):
                                    constants().Previous: None})
 
         # Merge the default options and the user generated options
-
         defaultOptions = inDefaultOptions << defaultOptions
 
         super(Previous, self).__init__(options=options, defaultOptions = defaultOptions, **kw)

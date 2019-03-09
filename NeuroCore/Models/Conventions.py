@@ -57,7 +57,7 @@ class Steps(IHaveOption):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, options=Options(), defaultOptions=Options, **kw):
+    def __init__(self, options=Options(), defaultOptions=Options(), **kw):
         # Define the default options
         inDefaultOptions = Options(**{constants().Name: Names().Steps,
                                       constants().Space: None,

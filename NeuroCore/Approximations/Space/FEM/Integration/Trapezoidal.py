@@ -26,8 +26,7 @@ class Trapezoidal(IIntegration):
                                      constants().NumPoints: 2})
 
         # Merge the default options and the user generated options
-        .
-				 defaultOptions = inDefaultOptions << defaultOptions
+        defaultOptions = inDefaultOptions << defaultOptions
 
         super(Trapezoidal, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 

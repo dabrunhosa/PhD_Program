@@ -21,13 +21,14 @@ class Options(dict):
         """A form to define a new set of parameters based
         in one already defined. Can be 
         overloading operator << """ 
-        s = self.__copy__( ) 
+        s = self.__copy__()
         s.__dict__.update(other.__dict__) 
         
         return s
-    
-    def __iter__(self):
-        return iter(self.__dict__)
+
+    def __copy__(self):
+        """Support for the copy statement"""
+        return self.__class__(**self.__dict__)
 
     def __iter__(self):
         return iter(self.__dict__.items())
@@ -43,10 +44,6 @@ class Options(dict):
             error_message = "The attribute name: "+attributeName+ \
                             " is not an allowed attribute to get."
             raise AttributeError(error_message)
-    
-    def __copy__(self): 
-        """Support for the copy statement"""
-        return self.__class__(**self.__dict__)
     
     def __repr__(self): 
         """Handle the print statement and shows a nicer

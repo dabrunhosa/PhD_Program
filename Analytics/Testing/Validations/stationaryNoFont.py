@@ -4,7 +4,6 @@ Created on Sun Oct 29 17:04:01 2017
 
 @author: Daniel Abrunhosa
 """
-
 '''
 This is the solution for the following problem:
     Problem being solved is: [0,1]
@@ -49,7 +48,7 @@ from Plotting.Simulation import Simulation
 ######################################## 
 
 simDomain = Domains(space=[0,1])
-simSteps = Steps(space=0.1)
+simSteps = Steps(space=0.01)
 
 
 ########################################

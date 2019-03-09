@@ -9,6 +9,9 @@ import sys
 from abc import ABCMeta, abstractmethod
 from Conventions.Variables import Variables
 from Utilities.DataEntry import Options, Options_User
+from Conventions.Parameters import Parameters
+from Conventions.Classes import Names
+from copy import copy
 
 
 class IHaveOption(object):
@@ -37,13 +40,14 @@ class IHaveOption(object):
         self.__dict__[Variables().ExpectedTypes] = self.__createExpectedTypes(defaultOptions)
 
         # All the attributes and default values
-        self.__dict__[Variables().DefaultValues] = self.__createDefaultValues(defaultOptions)
+        self.__dict__[Variables().DefaultValues] = self.__createCopy(defaultOptions)
 
-        # print("\n\nBase Option Kw Options:", kw)
-        # print("Base Option Whole Options:", self.__dict__)
+        # Merge the default options and the user generated options
+        wholeOptions = self.__createCopy(defaultOptions)
+        wholeOptions = wholeOptions << options
 
         # Initialize the options and the extra arguments
-        class_option.init_options(self, options, kw)
+        class_option.init_options(self, wholeOptions, kw)
 
     ########################################
     ###       Class Functions            ###
@@ -87,7 +91,7 @@ class IHaveOption(object):
                     pass
 
         else:
-            if self.__dict__[nameVariablesToCheck] is self.__dict__[Variables().DefaultValues][nameVariablesToCheck]:
+            if self.__dict__[nameVariablesToCheck] == self.__dict__[Variables().DefaultValues][nameVariablesToCheck]:
                 return True
 
         return False
@@ -96,14 +100,6 @@ class IHaveOption(object):
     ###       Private Functions          ###
     ########################################
 
-    def __createDefaultValues(self, wholeOptions):
-        defaultValues = {}
-
-        for attribute, value in wholeOptions:
-            defaultValues[attribute] = value
-
-        return defaultValues
-
     def __createExpectedTypes(self, wholeOptions):
         expectTypeDict = {}
 
@@ -111,6 +107,10 @@ class IHaveOption(object):
             expectTypeDict[attribute] = type(value)
 
         return expectTypeDict
+
+    def __createCopy(self,objectToCopy):
+        newone = copy(objectToCopy)
+        return newone
 
     def __setattr__(self, attributeName, value):
 
@@ -129,7 +129,6 @@ class IHaveOption(object):
     def __getattr__(self, attributeName):
 
         if attributeName is Variables().ExpectedTypes or attributeName in self.__dict__[Variables().Class_Attributes]:
-            value = None
             try:
                 value = self.__dict__[attributeName]
             except KeyError:
@@ -147,11 +146,18 @@ class IHaveOption(object):
             raise AttributeError(error_message)
 
 
+    def __copy__(self):
+        newone = type(self)()
+        newone.__dict__.update(self.__dict__)
+
+        return newone
+
+
 class ISolvable(IHaveOption):
 
     ########################################
     ###       Abstract Functions         ###
-    ######################################## 
+    ########################################
 
     @abstractmethod
     def solve(self, **arguments):

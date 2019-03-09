@@ -27,8 +27,7 @@ class StationaryBase(ISolution, ABC):
                                    constants().Solution: []})
 
         # Merge the default options and the user generated options
-        .
-				 defaultOptions = inDefaultOptions << defaultOptions
+        defaultOptions = inDefaultOptions << defaultOptions
 
         super(StationaryBase, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 

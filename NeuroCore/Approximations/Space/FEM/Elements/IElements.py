@@ -52,7 +52,15 @@ class IElements(ISolvable):
 
     ########################################
     ###       Private Functions         ###
-    ######################################## 
+    ########################################
+
+    def __deepcopy__(self, memodict={}):
+        cls = self.__class__
+        result = cls.__new__(cls)
+        memodict[id(self)] = result
+        for k, v in self.__dict__.items():
+            setattr(result, k, deepcopy(v, memo))
+        return result
 
     def __setattr__(self, attributeName, value):
         super(IElements, self).__setattr__(attributeName, value)
@@ -72,8 +80,8 @@ class IElements(ISolvable):
                     raise Exception(e)
 
             if attributeName == constants().Linear and value is not None:
-                if not self.checkDefaultValues([constants().Elements,constants().Previous]):
-                # if len(self.elements) != 0 and len(self.previous) != 0:
+                # if not self.checkDefaultValues([constants().Elements,constants().Previous]):
+                if len(self.elements) != 0 and len(self.previous) != 0:
                     pos = 0
                     for element in getattr(self, constants().Elements):
                         element.linear = value

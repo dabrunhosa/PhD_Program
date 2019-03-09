@@ -31,7 +31,6 @@ class Linear_Lagrange(Lagrange):
                                      constants().WeightFunction: []})
 
         # Merge the default options and the user generated options
-
         defaultOptions = inDefaultOptions << defaultOptions
 
         super(Linear_Lagrange, self).__init__(options=options, defaultOptions = defaultOptions, **kw)

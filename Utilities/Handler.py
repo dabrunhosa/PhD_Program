@@ -19,7 +19,7 @@ class Function(IHaveOption):
     ###          Constructor             ###
     ######################################## 
 
-    def __init__(self, userFunction, options=Options(), defaultOptions = Options, **kw):
+    def __init__(self, userFunction, options=Options(), defaultOptions = Options(), **kw):
 
         # Define the default options
         inDefaultOptions =Options(**{UtilitiesParameters().Name: Names().Function,

@@ -41,7 +41,7 @@ from Plotting.Simulation import Simulation
 
 ########################################
 ###      Simulation Variable         ###
-######################################## 
+########################################
 
 simDomain = Domains(**{conventionsConstants().Space: [0, 1],
                        conventionsConstants().Time: [0, 10]})

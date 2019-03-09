@@ -43,8 +43,7 @@ class YDomain(ISolution, ABC):
                                   description="This is a base solution for the Y Domain Problem)")
 
         # Merge the default options and the user generated options
-        .
-				 defaultOptions = inDefaultOptions << defaultOptions
+        defaultOptions = inDefaultOptions << defaultOptions
 
         super(YDomain, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 

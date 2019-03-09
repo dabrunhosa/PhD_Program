@@ -28,8 +28,7 @@ class Neumann(ICondition):
                                    constants().BcType: constants().Neumann})
 
         # Merge the default options and the user generated options
-        .
-				 defaultOptions = inDefaultOptions << defaultOptions
+        defaultOptions = inDefaultOptions << defaultOptions
 
         super(Neumann, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
@@ -47,8 +46,7 @@ class SealedEnd(Neumann):
                                    constants().BcValue: 0.0})
 
         # Merge the default options and the user generated options
-        .
-				 defaultOptions = inDefaultOptions << defaultOptions
+        defaultOptions = inDefaultOptions << defaultOptions
 
         super(SealedEnd, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 
@@ -84,8 +82,7 @@ class CurrentInjection(Neumann):
                                    currentConstanst().BcValue: 1.0})
 
         # Merge the default options and the user generated options
-        .
-				 defaultOptions = inDefaultOptions << defaultOptions
+        defaultOptions = inDefaultOptions << defaultOptions
 
         super(CurrentInjection, self).__init__(options=options, defaultOptions = defaultOptions, **kw)
 

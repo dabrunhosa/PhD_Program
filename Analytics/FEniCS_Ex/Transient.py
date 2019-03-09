@@ -87,7 +87,7 @@ class CableModelWithF():
         # solving the variational problem.
         while t <= T:
             b = assemble(L, tensor=b)
-            vo.t = t
+            v0.t = t
             bc.apply(A,b)
             
             solve(A,v.vector(),b)
