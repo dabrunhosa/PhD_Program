@@ -13,7 +13,7 @@ This is the solution for the following problem:
         du/dx(0) = u0
         du/dx(1) = u1
         
-    Solution:
+    Solution: 
         u = alpha*sinh(lambda*x) + beta*cosh(lambda*x)
         alpha = u0/lambda
         beta = u1 - u0*cosh(lambda)/lambda*sinh(lambda)
