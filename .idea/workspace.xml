@@ -8,14 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a54e9792-6185-43ce-9388-5eaf56315bfd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/UI/KivyMenu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/PhD_Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PhD_Programs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/remote-mappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/PyQtMenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conventions/Classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Conventions/Classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,19 +25,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1552942501429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1553939615970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_Programs$stationaryWithFont.coverage" NAME="stationaryWithFont Coverage Results" MODIFIED="1532093065892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_GitHub$WithoutDomainDecomposition.coverage" NAME="WithoutDomainDecomposition Coverage Results" MODIFIED="1550510621441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain" />
     <SUITE FILE_PATH="coverage/PhD_GitHub$Base.coverage" NAME="Base Coverage Results" MODIFIED="1540136863885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuroCore/Models" />
     <SUITE FILE_PATH="coverage/PhD_Programs$WithoutDomainDecomposition.coverage" NAME="WithoutDomainDecomposition Coverage Results" MODIFIED="1531477788840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain" />
     <SUITE FILE_PATH="coverage/PhD_Programs$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1535125011494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$PyQtMenu.coverage" NAME="PyQtMenu Coverage Results" MODIFIED="1553436805493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/PhD_Programs$Base.coverage" NAME="Base Coverage Results" MODIFIED="1532521708858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuroCore/Models" />
-    <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryWithFont.coverage" NAME="stationaryWithFont Coverage Results" MODIFIED="1540155156325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryWithFont.coverage" NAME="stationaryWithFont Coverage Results" MODIFIED="1553437402691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/PhD_GitHub$Menu.coverage" NAME="Menu Coverage Results" MODIFIED="1552942973524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/PhD_Programs$transient.coverage" NAME="transient Coverage Results" MODIFIED="1534019134177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
     <SUITE FILE_PATH="coverage/Phd_Project$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1535834323033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
-    <SUITE FILE_PATH="coverage/PhD_GitHub$transient.coverage" NAME="transient Coverage Results" MODIFIED="1542300952609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
-    <SUITE FILE_PATH="coverage/PhD_GitHub$KivyMenu.coverage" NAME="KivyMenu Coverage Results" MODIFIED="1552944162711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$transient.coverage" NAME="transient Coverage Results" MODIFIED="1553437434858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
+    <SUITE FILE_PATH="coverage/PhD_GitHub$KivyMenu.coverage" NAME="KivyMenu Coverage Results" MODIFIED="1553434917413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="355" />
@@ -113,24 +115,28 @@
     <session id="433858293">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.25" value="4" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="5" />
           <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.31" value="4" />
           <entry key="project.open.time.32" value="3" />
-          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.33" value="3" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="3" />
@@ -139,9 +145,10 @@
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="46" />
+          <entry key="project.opened" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -153,15 +160,15 @@
           <entry key="Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Conventions" value="2" />
           <entry key="Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore" value="2" />
           <entry key="htm" value="1" />
-          <entry key="png" value="20" />
-          <entry key="py" value="470" />
+          <entry key="png" value="26" />
+          <entry key="py" value="504" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Image" value="20" />
-          <entry key="Python" value="467" />
+          <entry key="Image" value="26" />
+          <entry key="Python" value="501" />
           <entry key="Scratch" value="1" />
           <entry key="UML" value="12" />
         </counts>
@@ -169,13 +176,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="py" value="7216" />
+          <entry key="py" value="7300" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="6878" />
+          <entry key="Python" value="6962" />
           <entry key="Scratch" value="338" />
         </counts>
       </usages-collector>
@@ -224,34 +231,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/PyQtMenu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-              <folding>
-                <element signature="e#196#206#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UI/KivyMenu.py">
+        <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/Code Structure/Code Structure/Python Part 1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="289">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#81#102#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -343,8 +329,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py" />
-        <option value="$PROJECT_DIR$/NeuroCore/Equations/IEquation.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Diffusion.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Base.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Equations/Component/Base.py" />
@@ -367,7 +351,6 @@
         <option value="$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py" />
         <option value="$PROJECT_DIR$/Conventions/Analytics/Solutions/Base.py" />
         <option value="$PROJECT_DIR$/Conventions/Analytics/Base.py" />
-        <option value="$PROJECT_DIR$/Conventions/Classes.py" />
         <option value="$PROJECT_DIR$/Analytics/Solutions/ISolution.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/Base.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Weight_Function/LinearLagrange.py" />
@@ -382,7 +365,6 @@
         <option value="$PROJECT_DIR$/Analytics/Solutions/Validations/Stationary.py" />
         <option value="$PROJECT_DIR$/Analytics/Solutions/StationaryBase.py" />
         <option value="$PROJECT_DIR$/NeuroCore/Equations/Composite/FEM.py" />
-        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/Analytics/Testing/Validations/transient.py" />
         <option value="$PROJECT_DIR$/Utilities/BaseOption.py" />
@@ -392,8 +374,12 @@
         <option value="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/WithoutDomainDecomposition.py" />
         <option value="$PROJECT_DIR$/Analytics/FEniCS_Ex/IProblem.py" />
         <option value="$PROJECT_DIR$/Analytics/FEniCS_Ex/Transient.py" />
-        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" />
         <option value="$PROJECT_DIR$/UI/KivyMenu.py" />
+        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" />
+        <option value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" />
+        <option value="$PROJECT_DIR$/Conventions/Classes.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py" />
+        <option value="$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py" />
       </list>
     </option>
   </component>
@@ -410,10 +396,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="x" value="570" />
+    <option name="y" value="-30" />
+    <option name="width" value="1100" />
+    <option name="height" value="625" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -450,7 +436,18 @@
             <path>
               <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Conventions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuroCore" type="462c0819:PsiDirectoryNode" />
+              <item name="Neuron" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -462,7 +459,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/dabrunhosa/anaconda3/envs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -511,7 +508,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.KivyMenu">
+  <component name="RunManager" selected="Python.stationaryNoFont">
     <configuration name="KivyMenu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PhD_Programs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -534,7 +531,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Menu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PyQtMenu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PhD_Programs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -547,29 +544,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Projetos\03_Thesis_Programs\PhD_GitHub\UI\PyQtMenu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WithoutDomainDecomposition" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PhD_Programs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/WithoutDomainDecomposition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/PyQtMenu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -592,6 +567,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stationaryWithFont" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PhD_Programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analytics/Testing/Validations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -624,18 +621,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.stationaryNoFont" />
-      <item itemvalue="Python.transient" />
-      <item itemvalue="Python.WithoutDomainDecomposition" />
-      <item itemvalue="Python.Menu" />
       <item itemvalue="Python.KivyMenu" />
+      <item itemvalue="Python.PyQtMenu" />
+      <item itemvalue="Python.stationaryWithFont" />
+      <item itemvalue="Python.transient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.KivyMenu" />
-        <item itemvalue="Python.Menu" />
         <item itemvalue="Python.stationaryNoFont" />
-        <item itemvalue="Python.WithoutDomainDecomposition" />
         <item itemvalue="Python.transient" />
+        <item itemvalue="Python.stationaryWithFont" />
+        <item itemvalue="Python.PyQtMenu" />
+        <item itemvalue="Python.KivyMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -665,12 +662,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.16308725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.19194631" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.18844984" />
       <window_info id="Favorites" order="2" sideWeight="0.50121653" side_tool="true" weight="0.18844984" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4986577" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49597314" visible="true" weight="0.3248227" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597314" visible="true" weight="0.3248227" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597314" weight="0.3035461" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -812,143 +809,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Utilities/BaseOption.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="130" column="118" selection-start-line="130" selection-start-column="118" selection-end-line="130" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/FEM/Elements/IElements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/TransientBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/Validations/YDomain/Transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1324">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Component/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Equations/Composite/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/CableModel/Passive/Transient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/1705537861/872697134/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="2164" selection-start-line="2164" selection-end-line="2164" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Analytics">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Analytics</OriginalElement>
-          <nodes>
-            <node x="" y="">Analytics.Analyser.Base.AnalyserError</node>
-            <node x="" y="">AttributeError</node>
-            <node x="" y="">Analytics.Protocols.BaseData.IDataAnalysed</node>
-            <node x="" y="">Utilities.BaseOption.ISolvable</node>
-            <node x="" y="">Analytics.Analyser.Base.IAnalyser</node>
-            <node x="" y="">Analytics.Solutions.Validations.YDomain.StationaryBase.YDomainStationaryBase</node>
-            <node x="" y="">Analytics.FEniCS_Ex.Stationary.CableModelWithF</node>
-            <node x="" y="">Analytics.Base.IAnalysis</node>
-            <node x="" y="">Analytics.ErrorNorm.Error_Lifty.Error_Lifty</node>
-            <node x="" y="">Analytics.Solutions.CableModel.passiveCableModel.CableModelWithSoma</node>
-            <node x="" y="">Analytics.Solutions.CableModel.passiveCableModel.CableModelTwoBranches</node>
-            <node x="" y="">Analytics.Solutions.Validations.Transient.ValidationWithF</node>
-            <node x="" y="">Analytics.FEniCS_Ex.IProblem.IProblem</node>
-            <node x="" y="">Analytics.Solutions.TransientBase.TransientBase</node>
-            <node x="" y="">Exception</node>
-            <node x="" y="">Analytics.Solutions.StationaryBase.StationaryBase</node>
-            <node x="" y="">Analytics.Solutions.Validations.YDomain.Base.YDomain</node>
-            <node x="" y="">abc.ABC</node>
-            <node x="" y="">BaseException</node>
-            <node x="" y="">Analytics.Solutions.Validations.Stationary.ValidationWithF</node>
-            <node x="" y="">Analytics.Protocols.Conventions.DataAnalysed</node>
-            <node x="" y="">Analytics.FEniCS_Ex.Transient.CableModelWithF</node>
-            <node x="" y="">Analytics.ErrorNorm.Error_L2.Error_L2</node>
-            <node x="" y="">abc.ABCMeta</node>
-            <node x="" y="">Analytics.Solutions.CableModel.activeCableModel.CableModel</node>
-            <node x="" y="">Analytics.Protocols.Base.TestProtocols</node>
-            <node x="" y="">Analytics.FEniCS_Ex.Stationary.CableModel</node>
-            <node x="" y="">Analytics.Solutions.ISolution.ISolution</node>
-            <node x="" y="">Analytics.Solutions.Validations.YDomain.Transient.JemmyEx1</node>
-            <node x="" y="">Analytics.Solutions.Validations.YDomain.Transient.JemmyEx2</node>
-            <node x="" y="">Analytics.ErrorNorm.Base.IErrorNorm</node>
-            <node x="" y="">Analytics.Solutions.Validations.Stationary.ValidationZeroF</node>
-            <node x="" y="">object</node>
-            <node x="" y="">Utilities.BaseOption.IHaveOption</node>
-            <node x="" y="">Analytics.Solutions.Validations.YDomain.TransientBase.YDomainTransientBase</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8983846542150428" x="2962.0" y="1611.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-            <Category>Inner Classes</Category>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1454,13 +1314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mashes/Mashes.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1561,31 +1414,8 @@
     <entry file="file://$PROJECT_DIR$/Analytics/Base.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="e#591#602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UI/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/PyQtMenu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#196#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Code Structure/Code Structure/windo with kivy.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1595,18 +1425,116 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Code Structure/Code Structure/Python Part 1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Solutions/CableModel/activeCableModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/CableModel/activeCableModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/PyQtMenu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UI/KivyMenu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="136">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Simulation/DomainDecomposition.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Approximations/Space/IApproximation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Models/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1105">
+          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conventions/Classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="195" column="23" selection-start-line="195" selection-start-column="23" selection-end-line="195" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/Segment/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/transient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="33" lean-forward="true" selection-end-line="46" />
+          <folding>
+            <element signature="e#81#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="e#81#102#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

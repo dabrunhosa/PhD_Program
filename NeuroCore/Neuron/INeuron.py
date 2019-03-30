@@ -6,39 +6,41 @@ Created on August 24, 2017
 '''
 
 from abc import abstractmethod
+from Conventions.Classes import Names
+from Conventions.NeuroCore.Neuron.Segment.Base import BaseParameters as constants
+from Utilities.BaseOption import ISolvable
+# -*- coding: utf-8 -*- This program will define a generalized form of segment
+# that can incorporate: Axon, Mylenized Axon, Ranvier Node, Soma and Dendrites
 from Utilities.DataEntry import Options
-from Utilities.BaseOption import IHaveOption
 
-class INeuron(IHaveOption):
-    
+
+class INeuron(ISolvable):
+
     ########################################
-    ###          Constructor             ###
-    ######################################## 
-    
-    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
-        
-         # Define the default options
-        self.inDefaultOptions =Options(name = "Neuron")
-        
+    ###           Constructor            ###
+    ########################################
+
+    def __init__(self, options=Options(), defaultOptions = Options(), **kw):
+        # Define the default options
+        inDefaultOptions =Options(**{constants().Name: Names().INeuron,
+                                     constants().NeuronName: None,
+                                     constants().GlobalConditions: None})
+
         # Merge the default options and the user generated options
-        whole_options = self.default_options << options
-        
-        # Initialize the options and the extra arguments
-        self.class_option.init_options(self,whole_options,kw)
+
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(INeuron, self).__init__(options=options, defaultOptions=defaultOptions, **kw)
     
     ########################################
     ###       Abstract Functions         ###
     ######################################## 
     
     @abstractmethod
-    def insert_segments(self,segment):
+    def insertSegment(self,segment):
         raise NotImplementedError
     
     @abstractmethod    
-    def connect_segments(self,first_segment,second_segment,
+    def connectSegments(self,first_segment,second_segment,
                          first_pos=1,sec_pos=0):
-        raise NotImplementedError 
-        
-    @abstractmethod
-    def solve(self,timeApproximation=None):
         raise NotImplementedError

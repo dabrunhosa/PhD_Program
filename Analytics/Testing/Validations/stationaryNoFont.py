@@ -48,7 +48,7 @@ from Plotting.Simulation import Simulation
 ######################################## 
 
 simDomain = Domains(space=[0,1])
-simSteps = Steps(space=0.01)
+simSteps = Steps(space=0.1)
 
 
 ########################################
@@ -59,8 +59,8 @@ def f(x):
     return 0
 
 
-diffusionValue = 0.1
-reactionValue = 10
+diffusionValue = 0.01
+reactionValue = 1
 
 boundaryConditions = BoundaryConditions(Neumann(bcValue=1), Neumann(bcValue=1))
 

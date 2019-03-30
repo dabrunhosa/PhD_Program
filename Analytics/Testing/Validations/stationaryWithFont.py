@@ -47,7 +47,7 @@ from Plotting.Simulation import Simulation
 ######################################## 
 
 simDomain = Domains(space=[0, 12])
-simSteps = Steps(space=0.1)
+simSteps = Steps(space=0.01)
 
 diffusionValue = 10
 reactionValue = 10

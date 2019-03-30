@@ -191,6 +191,10 @@ class Names(object):
     def ISolution(self):
         return "ISolution"
 
+    @property
+    def INeuron(self):
+        return "INeuron"
+
 class Sides(object):
     @property
     def Left(self):

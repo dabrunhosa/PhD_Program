@@ -7,15 +7,35 @@ Created on August 24, 2017
 
 import networkx as nx
 
-from Utilities.DataEntry import Options
 from NeuroCore.Models.Conditions.Dirichlets import Dirichlet
 from NeuroCore.Neuron.INeuron import INeuron
+from Conventions.Classes import Names
+from Conventions.NeuroCore.Neuron.Segment.Base import BaseParameters as constants
+# -*- coding: utf-8 -*- This program will define a generalized form of segment
+# that can incorporate: Axon, Mylenized Axon, Ranvier Node, Soma and Dendrites
+from Utilities.DataEntry import Options
 
 class MeshError(AttributeError): 
     pass
 
 class NetXNeuron(INeuron):
-    
+
+    ########################################
+    ###           Constructor            ###
+    ########################################
+
+    def __init__(self, options=Options(), defaultOptions=Options(), **kw):
+        # Define the default options
+        inDefaultOptions = Options(**{constants().Name: Names().INeuron,
+                                      constants().NeuronName: None,
+                                      constants().GlobalConditions: None})
+
+        # Merge the default options and the user generated options
+
+        defaultOptions = inDefaultOptions << defaultOptions
+
+        super(INeuron, self).__init__(options=options, defaultOptions=defaultOptions, **kw)
+
     ########################################
     ###          Constructor             ###
     ######################################## 
