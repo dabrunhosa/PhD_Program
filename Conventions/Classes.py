@@ -195,6 +195,10 @@ class Names(object):
     def INeuron(self):
         return "INeuron"
 
+    @property
+    def NetXNeuron(self):
+        return "NetX_Neuron"
+
 class Sides(object):
     @property
     def Left(self):

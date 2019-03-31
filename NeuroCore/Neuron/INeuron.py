@@ -37,10 +37,14 @@ class INeuron(ISolvable):
     ######################################## 
     
     @abstractmethod
-    def insertSegment(self,segment):
+    def insertSegment(self,segments):
         raise NotImplementedError
     
     @abstractmethod    
     def connectSegments(self,first_segment,second_segment,
                          first_pos=1,sec_pos=0):
+        raise NotImplementedError
+
+    @abstractmethod
+    def connectSegments(self,segments):
         raise NotImplementedError

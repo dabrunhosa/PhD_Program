@@ -26,34 +26,15 @@ class NetXNeuron(INeuron):
 
     def __init__(self, options=Options(), defaultOptions=Options(), **kw):
         # Define the default options
-        inDefaultOptions = Options(**{constants().Name: Names().INeuron,
+        inDefaultOptions = Options(**{constants().Name: Names().NetXNeuron,
+                                      constants().Structure: nx.DiGraph(),
                                       constants().NeuronName: None,
                                       constants().GlobalConditions: None})
 
         # Merge the default options and the user generated options
-
         defaultOptions = inDefaultOptions << defaultOptions
 
-        super(INeuron, self).__init__(options=options, defaultOptions=defaultOptions, **kw)
-
-    ########################################
-    ###          Constructor             ###
-    ######################################## 
-    
-    def __init__(self,options=Options(), defaultOptions = Options(), **kw):
-        
-         # Define the default options
-        self.inDefaultOptions =Options(name = "NetX_Neuron",
-                                       mesh = nx.DiGraph(),
-                                       node_count = 0,
-                                       segment_nodes = {},
-                                       regions = list())
-        
-        # Merge the default options and the user generated options
-        whole_options = self.default_options << options
-        
-        # Initialize the options and the extra arguments
-        self.class_option.init_options(self,whole_options,kw)
+        super(NetXNeuron, self).__init__(options=options, defaultOptions=defaultOptions, **kw)
         
         
     ########################################
