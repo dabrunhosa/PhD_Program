@@ -9,9 +9,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a54e9792-6185-43ce-9388-5eaf56315bfd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conventions/Classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Conventions/Classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytics/Testing/Validations/transientResult.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuroCore/NeuroCore.pyproj" beforeDir="false" afterPath="$PROJECT_DIR$/NeuroCore/NeuroCore.pyproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,211 +53,19 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="314737742">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.201" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.28" value="2" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.31" value="2" />
-          <entry key="project.open.time.33" value="3" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.51" value="1" />
-          <entry key="project.open.time.55" value="1" />
-          <entry key="project.open.time.61" value="1" />
-          <entry key="project.open.time.68" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="htm" value="1" />
-          <entry key="py" value="482" />
-          <entry key="pyproj" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="9329" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="482" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="15" />
-          <entry key="py" value="9329" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="433858293">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="29" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.22" value="3" />
-          <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="5" />
-          <entry key="project.open.time.26" value="4" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.28" value="2" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.30" value="2" />
-          <entry key="project.open.time.31" value="4" />
-          <entry key="project.open.time.32" value="3" />
-          <entry key="project.open.time.33" value="3" />
-          <entry key="project.open.time.34" value="2" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.48" value="1" />
-          <entry key="project.open.time.49" value="1" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.50" value="1" />
-          <entry key="project.open.time.51" value="1" />
-          <entry key="project.open.time.53" value="1" />
-          <entry key="project.open.time.56" value="1" />
-          <entry key="project.open.time.58" value="1" />
-          <entry key="project.open.time.59" value="1" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="59" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="JavaScript-modules-diagram/D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore" value="1" />
-          <entry key="JavaScript-modules-diagram/D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore;D:/Projetos/03_Thesis_Programs/PhD_GitHub/Utilities;" value="2" />
-          <entry key="Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub" value="2" />
-          <entry key="Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Analytics" value="1" />
-          <entry key="Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/Conventions" value="2" />
-          <entry key="Python/#D:/Projetos/03_Thesis_Programs/PhD_GitHub/NeuroCore" value="2" />
-          <entry key="htm" value="1" />
-          <entry key="png" value="26" />
-          <entry key="py" value="513" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="Image" value="26" />
-          <entry key="Python" value="510" />
-          <entry key="Scratch" value="1" />
-          <entry key="UML" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="4" />
-          <entry key="py" value="7351" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="7013" />
-          <entry key="Scratch" value="338" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-    <session id="-941384386">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="454" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Image" value="1" />
-          <entry key="Python" value="30" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="454" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="png" value="1" />
-          <entry key="py" value="30" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="PhD_GitHub" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py">
+        <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="252">
+              <caret line="64" column="79" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
               <folding>
-                <element signature="e#81#102#0" expanded="true" />
-                <marker date="1554045475560" expanded="true" signature="1564:1582" ph="..." />
+                <element signature="e#592#603#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-              <folding>
-                <element signature="e#81#111#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conventions/Classes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3298">
-              <caret line="194" column="22" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -401,17 +210,11 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="570" />
@@ -444,7 +247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -455,26 +257,30 @@
             <path>
               <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="Conventions" type="462c0819:PsiDirectoryNode" />
+              <item name="Analytics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="Conventions" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="Analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhD_GitHub" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhD_GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="Validations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/dabrunhosa/anaconda3/envs" />
@@ -526,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PyQtMenu">
+  <component name="RunManager" selected="Python.stationaryNoFont">
     <configuration name="KivyMenu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PhD_Programs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -646,8 +452,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PyQtMenu" />
         <item itemvalue="Python.stationaryNoFont" />
+        <item itemvalue="Python.PyQtMenu" />
         <item itemvalue="Python.transient" />
         <item itemvalue="Python.stationaryWithFont" />
         <item itemvalue="Python.KivyMenu" />
@@ -664,8 +470,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524748424692</updated>
+      <workItem from="1555272269698" duration="542000" />
+      <workItem from="1555668491706" duration="472000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,12 +490,12 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.19463088" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.1997319" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.18844984" />
       <window_info id="Favorites" order="2" sideWeight="0.50121653" side_tool="true" weight="0.18844984" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4986577" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597314" visible="true" weight="0.3248227" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597314" weight="0.3248227" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597314" weight="0.3035461" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -738,9 +549,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/sphinxdocker" />
@@ -751,17 +559,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/NeuroCore/Equations/Component/FEM/Galerkin/Previous.py</url>
-          <line>46</line>
+          <line>42</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Plotting/IDataPlots.py</url>
-          <line>44</line>
+          <line>40</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Analytics/Testing/Validations/YDomain/WithoutDomainDecomposition.py</url>
-          <line>49</line>
+          <line>48</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
       </breakpoints>
@@ -778,6 +586,9 @@
         <watch expression="self.__dict__[&quot;default_values&quot;][&quot;domain&quot;]" language="Python" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PhD_GitHub$stationaryNoFont.coverage" NAME="stationaryNoFont Coverage Results" MODIFIED="1555272798104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analytics/Testing/Validations" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -1110,19 +921,9 @@
     <entry file="file://$PROJECT_DIR$/UI/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Code Structure/Code Structure/windo with kivy.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Code Structure/Code Structure/kivy Code Part 1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Code Structure/Code Structure/Python Part 1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Code Structure/Code Structure/windo with kivy.py" />
+    <entry file="file://$USER_HOME$/Downloads/Code Structure/Code Structure/kivy Code Part 1.py" />
+    <entry file="file://$USER_HOME$/Downloads/Code Structure/Code Structure/Python Part 1.py" />
     <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1177,12 +978,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryWithFont.png" />
+    <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.png" />
     <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/transient.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1197,13 +994,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/destexhe_benchmarks/destexhe_benchmarks/Brian/COBA.py" />
+    <entry file="file://$PROJECT_DIR$/Conventions/Utilities/UtilitiesParameters.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/INeuron.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding>
-            <element signature="e#81#111#0" expanded="true" />
-          </folding>
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -1214,36 +1019,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/destexhe_benchmarks/destexhe_benchmarks/Brian/COBA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
-          <folding>
-            <element signature="e#878#897#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conventions/Utilities/UtilitiesParameters.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Analytics/Testing/Validations/stationaryNoFont.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        <state relative-caret-position="252">
+          <caret line="64" column="79" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
           <folding>
             <element signature="e#592#603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuroCore/Neuron/NetXNeuron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="e#81#102#0" expanded="true" />
-            <marker date="1554045475560" expanded="true" signature="1564:1582" ph="..." />
           </folding>
         </state>
       </provider>

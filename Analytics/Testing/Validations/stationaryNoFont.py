@@ -28,7 +28,7 @@ import time
 
 import numpy
 
-from Analytics.Solutions.Validations.Stationary import ValidationZeroF
+from Analytics.Solutions.Validations.Stationary import ValidatonZeroF
 from Conventions.Analytics.Solutions.Validations.Stationary import StationaryParameters as analyticConstants
 from Conventions.NeuroCore.Models.GeneralModel import GeneralModelParameters as modelConstants
 from Conventions.Plotting.BasicPlottingColors import BasicPlottingColors as colorConstants

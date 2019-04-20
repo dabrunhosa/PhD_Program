@@ -52,8 +52,7 @@ class NeuroSimulator(BaseOption):
                                   neuron = NetX_Neuron())
         
         # Merge the default options and the user generated options
-        .
-				 defaultOptions = inDefaultOptions << defaultOptions
+        defaultOptions = inDefaultOptions << defaultOptions
         
         # Initialize the options and the extra arguments
         self.class_option.init_options(self,whole_options,kw)

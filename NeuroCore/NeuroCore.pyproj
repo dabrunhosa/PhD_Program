@@ -5,7 +5,8 @@
     <ProjectGuid>133287ca-22c7-414c-a999-c328c0e9702b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>Testing\HH.py</StartupFile>
-    <SearchPath>..\Utilities;..\Plotting;..\..\PhD_Programs;..\Analytics</SearchPath>
+    <SearchPath>
+    </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>NeuroCore</Name>
